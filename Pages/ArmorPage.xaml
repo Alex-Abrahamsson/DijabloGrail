@@ -10,11 +10,11 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/klipp.png"/>
+            <ImageBrush ImageSource="/Images/klipp.png"/>
         </Grid.Background>
         <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
             <Button.Background>
-                <ImageBrush ImageSource="/MenuBtn.png"/>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">

@@ -22,7 +22,6 @@
     <None Remove="Pages\Angelic_Wings.png" />
     <None Remove="Pages\Angelic_Wings_Stats.png" />
     <None Remove="Pages\Anglelic_Sickle_Stats.png" />
-    <None Remove="Pages\ss01.jpg" />
     <None Remove="Properties\Act 1 - Town1.wav" />
     <None Remove="Properties\Act 1 - Tristram.wav" />
     <None Remove="Properties\Act 2 - Town2.wav" />
@@ -31,17 +30,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="53956.jpg" />
-    <Resource Include="klipp.png" />
-    <Resource Include="MenuBtn.png" />
-    <Resource Include="MenuBtnSmall.png" />
-    <Content Include="Act 1 - Town1.wav">
+    <Resource Include="Images\53956.jpg" />
+    <Resource Include="Images\klipp.png" />
+    <Resource Include="Images\MenuBtn.png" />
+    <Resource Include="Images\MenuBtnSmall.png" />
+    <Content Include="Music\Act 1 - Town1.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Act 1 - Tristram.wav">
+    <Content Include="Music\Act 1 - Tristram.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Act 5 - Xtown.wav">
+    <Content Include="Music\Act 5 - Xtown.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="Images\Agelic_raiment.png" />
@@ -49,14 +48,13 @@
     <Resource Include="Images\Angelic_Mantle.png" />
     <Resource Include="Images\Angelic_Sabre.png" />
     <Resource Include="Images\Angelic_Wings.png" />
-    <Resource Include="Pages\AngelicRaiment_Fullset.png" />
-    <Resource Include="Pages\Angelic_Halo_Stats.png" />
-    <Resource Include="Pages\Angelic_Mantel_Stats.png" />
-    <Resource Include="Pages\Angelic_Wings_Stats.png" />
-    <Resource Include="Pages\Anglelic_Sickle_Stats.png" />
-    <Resource Include="Pages\ss01.jpg" />
-    <Resource Include="Tristram.jpg" />
-    <Content Include="Act 2 - Town2.wav">
+    <Resource Include="Images\AngelicRaiment_Fullset.png" />
+    <Resource Include="Images\Angelic_Halo_Stats.png" />
+    <Resource Include="Images\Angelic_Mantel_Stats.png" />
+    <Resource Include="Images\Angelic_Wings_Stats.png" />
+    <Resource Include="Images\Anglelic_Sickle_Stats.png" />
+    <Resource Include="Images\Tristram.jpg" />
+    <Content Include="Music\Act 2 - Town2.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

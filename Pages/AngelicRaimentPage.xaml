@@ -13,7 +13,7 @@
                    Margin="219,65,770,418"
                    Visibility="Hidden">
             <WrapPanel.Background>
-                <ImageBrush ImageSource="/Pages/Angelic_Mantel_Stats.png"/>
+                <ImageBrush ImageSource="/Images/Angelic_Mantel_Stats.png"/>
             </WrapPanel.Background>
         </WrapPanel>
         <TextBlock HorizontalAlignment="Center" 
@@ -29,22 +29,22 @@
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Angelic Raiment"/></TextBlock>
         <WrapPanel x:Name="Angelic_Sickle_Stats" Margin="219,180,722,296" Visibility="Hidden">
             <WrapPanel.Background>
-                <ImageBrush ImageSource="/Pages/Anglelic_Sickle_Stats.png"/>
+                <ImageBrush ImageSource="/Images/Anglelic_Sickle_Stats.png"/>
             </WrapPanel.Background>
         </WrapPanel>
         <WrapPanel x:Name="Angelic_Halo_Stats" Margin="219,454,332,136" Visibility="Hidden">
             <WrapPanel.Background>
-                <ImageBrush ImageSource="/Pages/Angelic_Halo_Stats.png"/>
+                <ImageBrush ImageSource="/Images/Angelic_Halo_Stats.png"/>
             </WrapPanel.Background>
         </WrapPanel>
         <WrapPanel x:Name="Angelic_Wings_Stats" Margin="219,524,770,75" Visibility="Hidden">
             <WrapPanel.Background>
-                <ImageBrush ImageSource="/Pages/Angelic_Wings_Stats.png"/>
+                <ImageBrush ImageSource="/Images/Angelic_Wings_Stats.png"/>
             </WrapPanel.Background>
         </WrapPanel>
         <WrapPanel Margin="824,197,42,197">
             <WrapPanel.Background>
-                <ImageBrush ImageSource="/Pages/AngelicRaiment_Fullset.png"/>
+                <ImageBrush ImageSource="/Images/AngelicRaiment_Fullset.png"/>
             </WrapPanel.Background>
         </WrapPanel>
         <WrapPanel Margin="10,10,1066,10" Background="Black">
@@ -75,7 +75,7 @@
         </WrapPanel>
         <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
             <Button.Background>
-                <ImageBrush ImageSource="/MenuBtn.png"/>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
     </Grid>

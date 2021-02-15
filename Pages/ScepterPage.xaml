@@ -10,7 +10,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/klipp.png"/>
+            <ImageBrush ImageSource="/Images/klipp.png"/>
         </Grid.Background>
         <ListBox HorizontalAlignment="Left" Height="450" Margin="101,158,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
             <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
@@ -36,7 +36,7 @@
             </TextBlock.TextDecorations><Run Text="Scepter"/><Run Language="sv-se" Text="s"/></TextBlock>
         <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
             <Button.Background>
-                <ImageBrush ImageSource="/MenuBtn.png"/>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
 

@@ -30,19 +30,19 @@ namespace DijabloGrail
             switch (randomNumber)
             {
                 case 1:
-                    sp.SoundLocation = @".\Act 1 - Town1.wav";
+                    sp.SoundLocation = @".\Music\Act 1 - Town1.wav";
                     sp.Play();
                     break;
                 case 2:
-                    sp.SoundLocation = @".\Act 1 - Tristram.wav";
+                    sp.SoundLocation = @".\Music\Act 1 - Tristram.wav";
                     sp.Play();
                     break;
                 case 3:
-                    sp.SoundLocation = @".\Act 2 - Town2.wav";
+                    sp.SoundLocation = @".\Music\Act 2 - Town2.wav";
                     sp.Play();
                     break;
                 case 4:
-                    sp.SoundLocation = @".\Act 5 - Xtown.wav";
+                    sp.SoundLocation = @".\Music\Act 5 - Xtown.wav";
                     sp.Play();
                     break;
             }
