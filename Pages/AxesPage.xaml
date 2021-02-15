@@ -1,0 +1,63 @@
+﻿<Page x:Class="DijabloGrail.AxesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="AxesPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Axes"/></TextBlock>
+        <ListBox Margin="101,140,899,130" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="The_Gnasher" Content="The Gnasher" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1030" Checked="The_Gnasher_Checked" Unchecked="The_Gnasher_Unchecked"/>
+            <CheckBox x:Name="Deathspade" Content="Deathspade" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:110" Checked="Deathspade_Checked" Unchecked="Deathspade_Unchecked"/>
+            <CheckBox x:Name="Bladebone" Content="Bladebone" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:126" Checked="Bladebone_Checked" Unchecked="Bladebone_Unchecked"/>
+            <CheckBox x:Name="Skull_Splitter" Content="Skull splitter" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:141" Checked="Skull_Splitter_Checked" Unchecked="Skull_Splitter_Unchecked"/>
+            <CheckBox x:Name="Rakescare" Content="Rakescare" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:195" Margin="0,0,0,40" Checked="Rakescare_Checked" Unchecked="Rakescare_Unchecked"/>
+            <CheckBox x:Name="Axe_of_Fechmar" Content="Axe of Fechmar" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:237" Checked="Axe_of_Fechmar_Checked" Unchecked="Axe_of_Fechmar_Unchecked"/>
+            <CheckBox x:Name="Goreshovel" Content="Goreshovel" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:155" Checked="Goreshovel_Checked" Unchecked="Goreshovel_Unchecked"/>
+            <CheckBox x:Name="The_Chieftain" Content="The Chieftain" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:132" Checked="The_Chieftain_Checked" Unchecked="The_Chieftain_Unchecked"/>
+            <CheckBox x:Name="Brainhew" Content="Brainhew" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:187" Checked="Brainhew_Checked" Unchecked="Brainhew_Unchecked"/>
+            <CheckBox x:Name="Humongous" Content="Humongous" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:196" Checked="Humongous_Checked" Unchecked="Humongous_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="500,140,500,130" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="245" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Coldkill" Content="Coldkill" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:337" Checked="Coldkill_Checked" Unchecked="Coldkill_Unchecked"/>
+            <CheckBox x:Name="Butchers_Pupil" Content="Butcher's Pupil" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:358" Checked="Butchers_Pupil_Checked" Unchecked="Butchers_Pupil_Unchecked"/>
+            <CheckBox x:Name="Islestrike" Content="Islestrike" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:531" Checked="Islestrike_Checked" Unchecked="Islestrike_Unchecked"/>
+            <CheckBox x:Name="Pompeiis_wrath" Content="Pompeii's Wrath" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:581" Checked="Pompeiis_wrath_Checked" Unchecked="Pompeiis_wrath_Unchecked"/>
+            <CheckBox x:Name="Guardian_Naga" Content="Guardian Naga" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:606" Margin="0,0,0,40" Checked="Guardian_Naga_Checked" Unchecked="Guardian_Naga_Unchecked"/>
+            <CheckBox x:Name="Warlords_Trust" Content="Warlord's Trust" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:358" Checked="Warlords_Trust_Checked" Unchecked="Warlords_Trust_Unchecked"/>
+            <CheckBox x:Name="Spellsteel" Content="Spellsteel" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:530" Checked="Spellsteel_Checked" Unchecked="Spellsteel_Unchecked"/>
+            <CheckBox x:Name="Stormrider" Content="Stormrider" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:683" Checked="Stormrider_Checked" Unchecked="Stormrider_Unchecked"/>
+            <CheckBox x:Name="Boneslayer_Blade" Content="Boneslayer Blade" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:595" Checked="Boneslayer_Blade_Checked" Unchecked="Boneslayer_Blade_Unchecked"/>
+            <CheckBox x:Name="The_Minotaur" Content="The Minotaur" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:601" Checked="The_Minotaur_Checked" Unchecked="The_Minotaur_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="908,140,92,130" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Razors_Edge" Content="Razor's Edge" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:549" Checked="Razors_Edge_Checked" Unchecked="Razors_Edge_Unchecked"/>
+            <CheckBox x:Name="Rune_Master" Content="Rune Master" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:581" Checked="Rune_Master_Checked" Unchecked="Rune_Master_Unchecked"/>
+            <CheckBox x:Name="Cranebeak" Content="Cranebeak" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:850" Checked="Cranebeak_Checked" Unchecked="Cranebeak_Unchecked"/>
+            <CheckBox x:Name="Death_Cleaver" Content="Death Cleaver" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:14565" Margin="0,0,0,60" Checked="Death_Cleaver_Checked" Unchecked="Death_Cleaver_Unchecked"/>
+            <CheckBox x:Name="Ethereal_Edge" Content="Ethereal Edge" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:538" Checked="Ethereal_Edge_Checked" Unchecked="Ethereal_Edge_Unchecked"/>
+            <CheckBox x:Name="Hellslayer" Content="Hellslayer" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:466" Checked="Hellslayer_Checked" Unchecked="Hellslayer_Unchecked"/>
+            <CheckBox x:Name="Messerschmidts__Reaver" Content="Messerschmidt's Reaver" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:1158" Checked="Messerschmidts__Reaver_Checked" Unchecked="Messerschmidts__Reaver_Unchecked"/>
+            <CheckBox x:Name="Executioners_Justice" Content="Executioner's Justice" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:14565" Checked="Executioners_Justice_Checked" Unchecked="Executioners_Justice_Unchecked"/>
+        </ListBox>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

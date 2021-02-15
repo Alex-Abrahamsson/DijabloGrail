@@ -1,0 +1,54 @@
+﻿<Page x:Class="DijabloGrail.BowPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="BowPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Bows"/></TextBlock>
+        <ListBox Margin="103,106,897,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Pluckeye" Content="Pluckeye" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050" Checked="Pluckeye_Checked" Unchecked="Pluckeye_Unchecked"/>
+            <CheckBox x:Name="Witherstring" Content="Witherstring" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:501" Checked="Witherstring_Checked" Unchecked="Witherstring_Unchecked"/>
+            <CheckBox x:Name="Raven_Claw" Content="Raven Claw" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:208" Checked="Raven_Claw_Checked" Unchecked="Raven_Claw_Unchecked"/>
+            <CheckBox x:Name="Rogue_s_Bow" Content="Rogue's Bow" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:170" Checked="Rogue_s_Bow_Checked" Unchecked="Rogue_s_Bow_Unchecked"/>
+            <CheckBox x:Name="Stormstrike" Content="Stormstrike" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:145" Margin="0,0,0,0" Checked="Stormstrike_Checked" Unchecked="Stormstrike_Unchecked"/>
+            <CheckBox x:Name="Wizendraw" Content="Wizendraw" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:187" Checked="Wizendraw_Checked" Unchecked="Wizendraw_Unchecked"/>
+            <CheckBox x:Name="Hellclap" Content="Hellclap" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:196" Checked="Hellclap_Checked" Unchecked="Hellclap_Unchecked"/>
+            <CheckBox x:Name="Blastbark" Content="Blastbark" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:337" Checked="Blastbark_Checked" Unchecked="Blastbark_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="500,106,500,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="247" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Skystrike" Content="Skystrike" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:238" Checked="Skystrike_Checked" Unchecked="Skystrike_Unchecked"/>
+            <CheckBox x:Name="Riphook" Content="Riphook" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="Riphook_Checked" Unchecked="Riphook_Unchecked"/>
+            <CheckBox x:Name="Kuko_Shakaku" Content="Kuko Shakaku" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:359" Checked="Kuko_Shakaku_Checked" Unchecked="Kuko_Shakaku_Unchecked"/>
+            <CheckBox x:Name="Endlesshail" Content="Endlesshail" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:531" Checked="Endlesshail_Checked" Unchecked="Endlesshail_Unchecked"/>
+            <CheckBox x:Name="Witchwild_String" Content="Witchwild String" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Margin="0,0,0,0" Checked="Witchwild_String_Checked" Unchecked="Witchwild_String_Unchecked"/>
+            <CheckBox x:Name="Cliffkiller" Content="Cliffkiller" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:595" Checked="Cliffkiller_Checked" Unchecked="Cliffkiller_Unchecked"/>
+            <CheckBox x:Name="Magewrath" Content="Magewrath" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:598" Checked="Magewrath_Checked" Unchecked="Magewrath_Unchecked"/>
+            <CheckBox x:Name="Goldstrike_Arch" Content="Goldstrike Arch" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:546" Checked="Goldstrike_Arch_Checked" Unchecked="Goldstrike_Arch_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="908,106,92,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Eaglehorn" Content="Eaglehorn" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:1029" Checked="Eaglehorn_Checked" Unchecked="Eaglehorn_Unchecked"/>
+            <CheckBox x:Name="Widowmaker" Content="Widowmaker" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:852" Checked="Widowmaker_Checked" Unchecked="Widowmaker_Unchecked"/>
+            <CheckBox x:Name="Windforce" Content="Windforce" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:14565" Checked="Windforce_Checked" Unchecked="Windforce_Unchecked"/>
+        </ListBox>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

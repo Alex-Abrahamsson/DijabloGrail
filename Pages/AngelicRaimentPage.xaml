@@ -1,0 +1,82 @@
+﻿<Page x:Class="DijabloGrail.Pages.AngelicRaimentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720"
+      Title="AngelicRaimentPage" Width="1280">
+
+    <Grid Background="Black">
+        <WrapPanel x:Name="Angelic_Mantel_stats"
+                   Margin="219,65,770,418"
+                   Visibility="Hidden">
+            <WrapPanel.Background>
+                <ImageBrush ImageSource="/Pages/Angelic_Mantel_Stats.png"/>
+            </WrapPanel.Background>
+        </WrapPanel>
+        <TextBlock HorizontalAlignment="Center" 
+                   Margin="0,10,0,0" 
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   FontFamily="Monotype Corsiva"
+                   FontSize="42"
+                   Foreground="#FF09C700"
+                   FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Angelic Raiment"/></TextBlock>
+        <WrapPanel x:Name="Angelic_Sickle_Stats" Margin="219,180,722,296" Visibility="Hidden">
+            <WrapPanel.Background>
+                <ImageBrush ImageSource="/Pages/Anglelic_Sickle_Stats.png"/>
+            </WrapPanel.Background>
+        </WrapPanel>
+        <WrapPanel x:Name="Angelic_Halo_Stats" Margin="219,454,332,136" Visibility="Hidden">
+            <WrapPanel.Background>
+                <ImageBrush ImageSource="/Pages/Angelic_Halo_Stats.png"/>
+            </WrapPanel.Background>
+        </WrapPanel>
+        <WrapPanel x:Name="Angelic_Wings_Stats" Margin="219,524,770,75" Visibility="Hidden">
+            <WrapPanel.Background>
+                <ImageBrush ImageSource="/Pages/Angelic_Wings_Stats.png"/>
+            </WrapPanel.Background>
+        </WrapPanel>
+        <WrapPanel Margin="824,197,42,197">
+            <WrapPanel.Background>
+                <ImageBrush ImageSource="/Pages/AngelicRaiment_Fullset.png"/>
+            </WrapPanel.Background>
+        </WrapPanel>
+        <WrapPanel Margin="10,10,1066,10" Background="Black">
+            <WrapPanel x:Name="Angelic_Mantle_Pic" Opacity="0.5" Height="128" MouseEnter="Angelic_Mantle_Pic_MouseEnter" MouseLeave="Angelic_Mantle_Pic_MouseLeave" Width="128" Margin="40,80,0,0">
+                <WrapPanel.Background>
+                    <ImageBrush ImageSource="/Images/Angelic_Mantle.png" TileMode="None" Stretch="Fill"/>
+                </WrapPanel.Background>
+                <CheckBox x:Name="Angelic_Mantle" Content="" FontSize="12" Foreground="#FF17F900" Checked="Angelic_Mantle_Checked" Unchecked="Angelic_Mantle_Unchecked" ToolTip="Mephisto (Normal) 1:100"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Angelic_Sickle_Pic" Opacity="0.5" Height="155" MouseEnter="Angelic_Sickle_Pic_MouseEnter" MouseLeave="Angelic_Sickle_Pic_MouseLeave" Width="128" Margin="40,20,0,0">
+                <WrapPanel.Background>
+                    <ImageBrush ImageSource="/Images/Angelic_Sabre.png" TileMode="None" Stretch="Fill"/>
+                </WrapPanel.Background>
+                <CheckBox x:Name="Angelic_Sickle" Content="" FontSize="12" Foreground="#FF17F900" Checked="Angelic_Sickle_Checked" Unchecked="Angelic_Sickle_Unchecked" ToolTip="Mephisto (Normal) 1:90"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Angelic_Halo_Pic" Opacity="0.5" Height="100" MouseEnter="Angelic_Halo_Pic_MouseEnter" MouseLeave="Angelic_Halo_Pic_MouseLeave" Width="100" Margin="55,40,0,0">
+                <WrapPanel.Background>
+                    <ImageBrush ImageSource="/Images/Angelic_Halo.png" TileMode="None" Stretch="Fill"/>
+                </WrapPanel.Background>
+                <CheckBox x:Name="Angelic_Halo" Content="" FontSize="12" Foreground="#FF17F900" Checked="Angelic_Halo_Checked" Unchecked="Angelic_Halo_Unchecked" ToolTip="Duriel (Hell) 1:161"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Angelic_Wings_Pic" Opacity="0.5" Height="100" MouseEnter="Angelic_Wings_Pic_MouseEnter" MouseLeave="Angelic_Wings_Pic_MouseLeave" Width="100" Margin="55,30,0,0">
+                <WrapPanel.Background>
+                    <ImageBrush ImageSource="/Images/Angelic_Wings.png" TileMode="None" Stretch="Fill"/>
+                </WrapPanel.Background>
+                <CheckBox x:Name="Angelic_Wings" Content="" FontSize="12" Checked="Angelic_Wings_Checked" Unchecked="Angelic_Wings_Unchecked" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" ToolTip="Duriel (Normal) 1:580 "/>
+            </WrapPanel>
+        </WrapPanel>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>

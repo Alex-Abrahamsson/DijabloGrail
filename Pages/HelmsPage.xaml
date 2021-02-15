@@ -1,0 +1,61 @@
+﻿<Page x:Class="DijabloGrail.HelmsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="HelmsPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Helms"/></TextBlock>
+        <ListBox Margin="104,140,896,130" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="BigginsBonnet" Content="Biggin's Bonnet" FontSize="16" Tag="" Foreground="#FFC77600" Checked="BigginsBonnet_Checked" Unchecked="BigginsBonnet_Unchecked" ToolTip="Blood Raven (Normal) 1:816"/>
+            <CheckBox x:Name="Tarnhelm" Content="Tarnhelm" FontSize="16" Foreground="#FFC77600" Checked="Tarnhelm_Checked" Unchecked="Tarnhelm_Unchecked" ToolTip="Mephisto (Normal) 1:543"/>
+            <CheckBox x:Name="Coif_of_Glory" Content="Coif of Glory" FontSize="16" Foreground="#FFC77600" Checked="Coif_of_Glory_Checked" Unchecked="Coif_of_Glory_Unchecked" ToolTip="Mephisto (Normal) 1:250"/>
+            <CheckBox x:Name="Duskdeep" Content="Duskdeep" FontSize="16" Foreground="#FFC77600" Checked="Duskdeep_Checked" Unchecked="Duskdeep_Unchecked" ToolTip="Mephisto (Normal) 1:127"/>
+            <CheckBox x:Name="Howltusk" Content="Howltusk" FontSize="16" Foreground="#FFC77600" Checked="Howltusk_Checked" Unchecked="Howltusk_Unchecked" ToolTip="Diablo (Normal) 1:274"/>
+            <CheckBox x:Name="The_Face_of_Horror" Content="The Face of Horror" FontSize="16" Foreground="#FFC77600" Checked="The_Face_of_Horror_Checked" Unchecked="The_Face_of_Horror_Unchecked" ToolTip="Diablo (Normal) 1:229"/>
+            <CheckBox x:Name="Undead_Crown" Content="Undead Crown" FontSize="16" Foreground="#FFC77600" Checked="Undead_Crown_Checked" Unchecked="Undead_Crown_Unchecked" ToolTip="Baal (Normal) 1:224"/>
+            <CheckBox x:Name="Wormskull" Content="Wormskull" FontSize="16" Foreground="#FFC77600" Checked="Wormskull_Checked" Unchecked="Wormskull_Unchecked" ToolTip="Diablo (Normal) 1:273"/>
+        </ListBox>
+        <ListBox Margin="500,140,500,130" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="246" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Peasant_Crown" Content="Peasant Corwn" FontSize="16" Foreground="#FFC77600" Checked="Peasant_Crown_Checked" Unchecked="Peasant_Crown_Unchecked" ToolTip="Baal (Normal) 1:413"/>
+            <CheckBox x:Name="Rockstopper" Content="Rockstopper" FontSize="16" Foreground="#FFC77600" Checked="Rockstopper_Checked" Unchecked="Rockstopper_Unchecked" ToolTip="Mephisto (Nightmare) 1:715"/>
+            <CheckBox x:Name="Stealskull" Content="Stealskull" FontSize="16" Foreground="#FFC77600" Checked="Stealskull_Checked" Unchecked="Stealskull_Unchecked" ToolTip="Mephisto (Nightmare) 1:854"/>
+            <CheckBox x:Name="Darksight_Helm" Content="Darksight Helm" FontSize="16" Foreground="#FFC77600" Checked="Darksight_Helm_Checked" Unchecked="Darksight_Helm_Unchecked" ToolTip="Mephisto (Nightmare) 1:926"/>
+            <CheckBox x:Name="Valkyrie_Wing" Content="Valkyrie Wing" FontSize="16" Foreground="#FFC77600" Checked="Valkyrie_Wing_Checked" Unchecked="Valkyrie_Wing_Unchecked" ToolTip="Baal (Nightmare) 1:1307"/>
+            <CheckBox x:Name="Blackhorn_s_Face" Content="Blackhorn's Face" FontSize="16" Foreground="#FFC77600" Checked="Blackhorn_s_Face_Checked" Unchecked="Blackhorn_s_Face_Unchecked" ToolTip="Diablo (Nightmare) 1:438"/>
+            <CheckBox x:Name="Crown_of_Thieves" Content="Crown of Thieves" FontSize="16" Foreground="#FFC77600" Checked="Crown_of_Thieves_Checked" Unchecked="Crown_of_Thieves_Unchecked" ToolTip="Baal (Nightmare) 1:569"/>
+            <CheckBox x:Name="Vampire_Gaze" Content="Vampire Gaze" FontSize="16" Foreground="#FFC77600" Checked="Vampire_Gaze_Checked" Unchecked="Vampire_Gaze_Unchecked" ToolTip="Baal (Nightmare) 1:1302"/>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Margin="0,50,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Unique " TextDecorations="Underline"/><Run FontWeight="Bold" FontStyle="Italic" Text="Circlets" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Kira_s_Guardian" Content="Kira's Guardian" FontSize="16" Checked="Kira_s_Guardian_Checked" Unchecked="Kira_s_Guardian_Unchecked" Foreground="#FFE28909" ToolTip="Diablo (Hell) 1:885"/>
+            <CheckBox x:Name="Griffon_s_Eye" Content="Griffon's Eye" FontSize="16" Checked="Griffon_s_Eye_Checked" Unchecked="Griffon_s_Eye_Unchecked" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:17802"/>
+        </ListBox>
+        <ListBox Margin="908,140,92,130" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Harlequin_Crest" Content="Harlequin Crest" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Harlequin_Crest_Checked" Unchecked="Harlequin_Crest_Unchecked" ToolTip="Mephisto (Hell) 1:711"/>
+            <CheckBox x:Name="Steel_Shade" Content="Steel Shade" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Steel_Shade_Checked" Unchecked="Steel_Shade_Unchecked" ToolTip="Diablo (Hell) 1:1187"/>
+            <CheckBox x:Name="Veil_of_Steel" Content="Veil of Steel" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Veil_of_Steel_Checked" Unchecked="Veil_of_Steel_Unchecked" ToolTip="Baal (Hell) 1:2266"/>
+            <CheckBox x:Name="Nightwing_s_Veil" Content="Nightwing's Veil" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Nightwing_s_Veil_Checked" Unchecked="Nightwing_s_Veil_Unchecked" ToolTip="Baal (Hell) 1:2266"/>
+            <CheckBox x:Name="Andariel_s_Visage" Content="Andariel's Visage" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Andariel_s_Visage_Checked" Unchecked="Andariel_s_Visage_Unchecked" ToolTip="Diablo (Hell) 1:770"/>
+            <CheckBox x:Name="Crown_of_Ages" Content="Crown of Ages" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Crown_of_Ages_Checked" Unchecked="Crown_of_Ages_Unchecked" ToolTip="Baal (Hell) 1:17802"/>
+            <CheckBox x:Name="Giant_Skull" Content="Giant Skull" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Giant_Skull_Checked" Unchecked="Giant_Skull_Unchecked" ToolTip="Baal (Hell) 1:2024"/>
+        </ListBox>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

@@ -1,0 +1,46 @@
+﻿<Page x:Class="DijabloGrail.DaggerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="DaggerPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <ListBox Margin="101,162,899,108" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Gull" Content="Gull" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1055" Checked="Gull_Checked" Unchecked="Gull_Unchecked"/>
+            <CheckBox x:Name="The_Diggler" Content="The Diggler" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:208" Checked="The_Diggler_Checked" Unchecked="The_Diggler_Unchecked"/>
+            <CheckBox x:Name="The_Jade_Tan_Do" Content="The Jade Tan Do" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:132" Checked="The_Jade_Tan_Do_Checked" Unchecked="The_Jade_Tan_Do_Unchecked"/>
+            <CheckBox x:Name="Spectral_Shard" Content="Spectral Shard" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:187" Checked="Spectral_Shard_Checked" Unchecked="Spectral_Shard_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="500,162,500,108" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="246" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Spineripper" Content="Spineripper" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:337" Checked="Spineripper_Checked" Unchecked="Spineripper_Unchecked"/>
+            <CheckBox x:Name="Heart_Carver" Content="Heart Carver" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:360" Checked="Heart_Carver_Checked" Unchecked="Heart_Carver_Unchecked"/>
+            <CheckBox x:Name="Blackbog_s_Sharp" Content="Blackbog's Sharp" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:683" Checked="Blackbog_s_Sharp_Checked" Unchecked="Blackbog_s_Sharp_Unchecked"/>
+            <CheckBox x:Name="Stormspike" Content="Stormspike" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:595" Checked="Stormspike_Checked" Unchecked="Stormspike_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="908,162,92,108" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Wizardspike" Content="Wizardspike" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:398" Checked="Wizardspike_Checked" Unchecked="Wizardspike_Unchecked"/>
+            <CheckBox x:Name="Fleshripper" Content="Fleshripper" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:1160" Checked="Fleshripper_Checked" Unchecked="Fleshripper_Unchecked"/>
+            <CheckBox x:Name="Ghostflame" Content="Ghostflame" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:14565" Checked="Ghostflame_Checked" Unchecked="Ghostflame_Unchecked"/>
+        </ListBox>
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Daggers"/></TextBlock>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

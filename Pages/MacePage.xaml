@@ -1,0 +1,61 @@
+﻿<Page x:Class="DijabloGrail.MacePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="MacePage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png" Stretch="Fill" Opacity="1"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold" Text="Maces">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations></TextBlock>
+        <ListBox Margin="105,161,895,109" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Felloak" Content="Felloak" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050" Checked="Felloak_Checked" Unchecked="Felloak_Unchecked"/>
+            <CheckBox x:Name="Stoutnail" Content="Stoutnail" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:236" Checked="Stoutnail_Checked" Unchecked="Stoutnail_Unchecked"/>
+            <CheckBox x:Name="Crushflange" Content="Crushflange" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:110" Checked="Crushflange_Checked" Unchecked="Crushflange_Unchecked"/>
+            <CheckBox x:Name="Bloodrise" Content="Bloodrise" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:126" Checked="Bloodrise_Checked" Unchecked="Bloodrise_Unchecked"/>
+            <CheckBox x:Name="The_General_s_Tan_Do_Li_Ga" Content="The General's Tan Do Li Ga" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:141" Checked="The_General_s_Tan_Do_Li_Ga_Checked" Unchecked="The_General_s_Tan_Do_Li_Ga_Unchecked"/>
+            <CheckBox x:Name="Ironstone" Content="Ironstone" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:195" Checked="Ironstone_Checked" Unchecked="Ironstone_Unchecked" Margin="0,0,0,50"/>
+            <CheckBox x:Name="Bonesnap" Content="Bonesnap" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:142" Checked="Bonesnap_Checked" Unchecked="Bonesnap_Unchecked"/>
+            <CheckBox x:Name="Steeldriver" Content="Steeldriver" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="Steeldriver_Checked" Unchecked="Steeldriver_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="500,161,500,109" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="247" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Dark_Clan_Crusher" Content="Dark Clan Crusher" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:238" Checked="Dark_Clan_Crusher_Checked" Unchecked="Dark_Clan_Crusher_Unchecked"/>
+            <CheckBox x:Name="Fleshrender" Content="Fleshrender" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="Fleshrender_Checked" Unchecked="Fleshrender_Unchecked"/>
+            <CheckBox x:Name="Sureshrill_Frost" Content="Sureshrill Frost" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:359" Checked="Sureshrill_Frost_Checked" Unchecked="Sureshrill_Frost_Unchecked"/>
+            <CheckBox x:Name="Moonfall" Content="Moonfall" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:531" Checked="Moonfall_Checked" Unchecked="Moonfall_Unchecked"/>
+            <CheckBox x:Name="Baezil_s_Vortex" Content="Baezil's Vortex" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:581" Checked="Baezil_s_Vortex_Checked" Unchecked="Baezil_s_Vortex_Unchecked"/>
+            <CheckBox x:Name="Earthshaker" Content="Earthshaker" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:598" Checked="Earthshaker_Checked" Unchecked="Earthshaker_Unchecked" Margin="0,0,0,50"/>
+            <CheckBox x:Name="Bloodtree_Stump" Content="Bloodtree Stump" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:584" Checked="Bloodtree_Stump_Checked" Unchecked="Bloodtree_Stump_Unchecked"/>
+            <CheckBox x:Name="The_Gavel_Of_Pain" Content="The Gavel Of Pain" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:548" Checked="The_Gavel_Of_Pain_Checked" Unchecked="The_Gavel_Of_Pain_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="908,161,92,109" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Nord_s_Tenderizer" Content="Nord's Tenderizer" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:618" Checked="Nord_s_Tenderizer_Checked" Unchecked="Nord_s_Tenderizer_Unchecked"/>
+            <CheckBox x:Name="Demon_Limb" Content="Demon Limb" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:450" Checked="Demon_Limb_Checked" Unchecked="Demon_Limb_Unchecked"/>
+            <CheckBox x:Name="Baranar_s_Star" Content="Baranar's Star" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:581" Checked="Baranar_s_Star_Checked" Unchecked="Baranar_s_Star_Unchecked"/>
+            <CheckBox x:Name="Horizon_s_Tornado" Content="Horizon's Tornado" FontSize="16" Foreground="#FFC77600" ToolTip="Ball (Hell) 1:1231" Checked="Horizon_s_Tornado_Checked" Unchecked="Horizon_s_Tornado_Unchecked"/>
+            <CheckBox x:Name="Stormlash" Content="Stormlash" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:6155" Checked="Stormlash_Checked" Unchecked="Stormlash_Unchecked"/>
+            <CheckBox x:Name="Stone_Crusher" Content="Stone Crusher" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:1447" Checked="Stone_Crusher_Checked" Unchecked="Stone_Crusher_Unchecked"/>
+            <CheckBox x:Name="Schaefer_s_Hammer" Content="Schaefer's Hammer" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:5789" Checked="Schaefer_s_Hammer_Checked" Unchecked="Schaefer_s_Hammer_Unchecked" Margin="0,0,0,30"/>
+            <CheckBox x:Name="Windhammer" Content="Windhammer" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:446" Checked="Windhammer_Checked" Unchecked="Windhammer_Unchecked"/>
+            <CheckBox x:Name="Earth_Shifter" Content="Earth Shifter" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:29131" Checked="Earth_Shifter_Checked" Unchecked="Earth_Shifter_Unchecked"/>
+            <CheckBox x:Name="The_Cranium_Basher" Content="The Cranium Basher" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:29131" Checked="The_Cranium_Basher_Checked" Unchecked="The_Cranium_Basher_Unchecked"/>
+        </ListBox>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

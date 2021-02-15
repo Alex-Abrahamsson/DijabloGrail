@@ -1,0 +1,44 @@
+﻿<Page x:Class="DijabloGrail.Pages.ScepterPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="ScepterPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="101,158,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Knell_Striker" Content="Knell Striker" FontSize="16" Foreground="#FFE28909" ToolTip="Blood Raven (Normal) 1:3165" Checked="Knell_Striker_Checked" Unchecked="Knell_Striker_Unchecked"/>
+            <CheckBox x:Name="Rusthandle" Content="Rusthandle" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Normal) 1:380" Checked="Rusthandle_Checked" Unchecked="Rusthandle_Unchecked"/>
+            <CheckBox x:Name="Stormeye" Content="Stormeye" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Normal) 1:425" Checked="Stormeye_Checked" Unchecked="Stormeye_Unchecked"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Center" Height="450" Margin="0,158,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="239" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Zakarum_s_Hand" Content="Zakarum's Hand" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Normal) 1:1011" Checked="Zakarum_s_Hand_Checked" Unchecked="Zakarum_s_Hand_Unchecked"/>
+            <CheckBox x:Name="The_Fetid_Sprinkler" Content="The Fetid Sprinkler" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:2040" Checked="The_Fetid_Sprinkler_Checked" Unchecked="The_Fetid_Sprinkler_Unchecked"/>
+            <CheckBox x:Name="Hand_of_Blessed_Light" Content="Hand of Blessed Light" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:1752" Checked="Hand_of_Blessed_Light_Checked" Unchecked="Hand_of_Blessed_Light_Unchecked"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="908,158,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Heaven_s_Light" Content="Heaven's Light" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Hell) 1:3397" Checked="Heaven_s_Light_Checked" Unchecked="Heaven_s_Light_Unchecked"/>
+            <CheckBox x:Name="The_Redeemer" Content="The Redeemer" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Hell) 1:3397" Checked="The_Redeemer_Checked" Unchecked="The_Redeemer_Unchecked"/>
+            <CheckBox x:Name="Astreon_s_Iron_Ward" Content="Astreon's Iron Ward" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:43696" Checked="Astreon_s_Iron_Ward_Checked" Unchecked="Astreon_s_Iron_Ward_Unchecked"/>
+        </ListBox>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Text="Scepter"/><Run Language="sv-se" Text="s"/></TextBlock>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

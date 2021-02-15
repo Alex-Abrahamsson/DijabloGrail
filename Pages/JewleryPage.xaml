@@ -1,0 +1,75 @@
+﻿<Page x:Class="DijabloGrail.JewleryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="JewleryPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Jewlery"/><LineBreak/><Run Language="sv-se"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="103,118,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run Language="sv-se" Text="Unique Rings">
+                    <Run.TextDecorations>
+                        <TextDecoration/>
+                    </Run.TextDecorations>
+                </Run></TextBlock>
+            <CheckBox x:Name="Nagelring" Content="Nagelring" FontSize="16" Background="White" Checked="Nagelring_Checked" Unchecked="Nagelring_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Normal) 1:144"/>
+            <CheckBox x:Name="Manald_Heal" Content="Manald Heal" FontSize="16" Checked="Manald_Heal_Checked" Unchecked="Manald_Heal_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Nightmare) 1:278"/>
+            <CheckBox x:Name="Stone_of_Jordan" Content="Stone of Jordan" FontSize="16" Checked="Stone_of_Jordan_Checked" Unchecked="Stone_of_Jordan_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Nightmare) 1:4175"/>
+            <CheckBox x:Name="Dwarf_Star" Content="Dwarf Star" FontSize="16" Checked="Dwarf_Star_Checked" Unchecked="Dwarf_Star_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Nightmare) 1:676"/>
+            <CheckBox x:Name="Raven_Frost" Content="Raven Frost" FontSize="16" Checked="Raven_Frost_Checked" Unchecked="Raven_Frost_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Nightmare) 1:676"/>
+            <CheckBox x:Name="Bul_Kathos__Wedding_Band" Content="Bul-Katho's Wedding Band" FontSize="16" Checked="Bul_Kathos__Wedding_Band_Checked" Unchecked="Bul_Kathos__Wedding_Band_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Hell) 1:6964"/>
+            <CheckBox x:Name="Carrion_Wind" Content="Carrion Wind" FontSize="16" Checked="Carrion_Wind_Checked" Unchecked="Carrion_Wind_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Hell) 1:2321"/>
+            <CheckBox x:Name="Nature_s_Peace" Content="Nature's Peace" FontSize="16" Checked="Nature_s_Peace_Checked" Unchecked="Nature_s_Peace_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:2428"/>
+            <CheckBox x:Name="Wisp_Projector" Content="Wisp Projector" FontSize="16" Checked="Wisp_Projector_Checked" Unchecked="Wisp_Projector_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:7289"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Center" Height="450" Margin="0,118,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run Language="sv-se" Text="Unique Amulets">
+                    <Run.TextDecorations>
+                        <TextDecoration/>
+                    </Run.TextDecorations>
+                </Run></TextBlock>
+            <CheckBox x:Name="Nokozan_Relic" Content="Nokozan Relic" FontSize="16" Checked="Nokozan_Relic_Checked" Unchecked="Nokozan_Relic_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Normal) 1:351"/>
+            <CheckBox x:Name="The_Eye_of_Etlich" Content="The Eye of Etlich" FontSize="16" Checked="The_Eye_of_Etlich_Checked" Unchecked="The_Eye_of_Etlich_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Normal) 1:1406"/>
+            <CheckBox x:Name="The_Mahim_Oak_Curio" Content="The Mahim-Oak Curio" FontSize="16" Checked="The_Mahim_Oak_Curio_Checked" Unchecked="The_Mahim_Oak_Curio_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Nightmare) 1:943"/>
+            <CheckBox x:Name="Saracen_s_Chance" Content="Saracen's Chance" FontSize="16" Checked="Saracen_s_Chance_Checked" Unchecked="Saracen_s_Chance_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Nightmare) 1:2119"/>
+            <CheckBox x:Name="The_Cat_s_Eye" Content="The Cat's Eye" FontSize="16" Checked="The_Cat_s_Eye_Checked" Unchecked="The_Cat_s_Eye_Unchecked" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:3126"/>
+            <CheckBox x:Name="Crescent_Moon" Content="Cresent Moon" FontSize="16" Checked="Crescent_Moon_Checked" Unchecked="Crescent_Moon_Unchecked" Foreground="#FFE28909" ToolTip="Mephisto(Nightmare) 1:3126"/>
+            <CheckBox x:Name="Atma_s_Scarab" Content="Atma's Scarab" FontSize="16" Checked="Atma_s_Scarab_Checked" Unchecked="Atma_s_Scarab_Unchecked" Foreground="#FFE28909" ToolTip="Diablo (Nightmare) 1:3409"/>
+            <CheckBox x:Name="The_Rising_Sun" Content="The Rising Sun" FontSize="16" Checked="The_Rising_Sun_Checked" Unchecked="The_Rising_Sun_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Hell) 1:3444"/>
+            <CheckBox x:Name="Highlord_s_Wrath" Content="Highlord's Wrath" FontSize="16" Checked="Highlord_s_Wrath_Checked" Unchecked="Highlord_s_Wrath_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Hell) 1:3444"/>
+            <CheckBox x:Name="Mara_s_Kaleidoscope" Content="Mara's Kaleidoscope" FontSize="16" Checked="Mara_s_Kaleidoscope_Checked" Unchecked="Mara_s_Kaleidoscope_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:3703"/>
+            <CheckBox x:Name="Seraph_s_Hymn_" Content="Seraph's Hymn" FontSize="16" Checked="Seraph_s_Hymn__Checked" Unchecked="Seraph_s_Hymn__Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Hell) 1:5740"/>
+            <CheckBox x:Name="Metalgrid" Content="Metalgrid" FontSize="16" Checked="Metalgrid_Checked" Unchecked="Metalgrid_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:9259"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="908,118,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run Language="sv-se" Text="Unique Charms">
+                    <Run.TextDecorations>
+                        <TextDecoration/>
+                    </Run.TextDecorations>
+                </Run><LineBreak/><Run Language="sv-se">
+                    <Run.TextDecorations>
+                        <TextDecoration/>
+                    </Run.TextDecorations>
+                </Run></TextBlock>
+            <CheckBox x:Name="Annihilus" Content="Annihilus" FontSize="16" Checked="Annihilus_Checked" Unchecked="Annihilus_Unchecked" Foreground="#FFE28909" ToolTip="Uber Tristram 1:1"/>
+            <CheckBox x:Name="Gheed_s_Fortune" Content="Gheed's Fortune" FontSize="16" Checked="Gheed_s_Fortune_Checked" Unchecked="Gheed_s_Fortune_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:494"/>
+            <CheckBox x:Name="Hellfire_Torch" Content="Hellfire Torch" FontSize="16" Checked="Hellfire_Torch_Checked" Unchecked="Hellfire_Torch_Unchecked" Foreground="#FFE28909" ToolTip="Diablo Clone 1:1"/>
+        </ListBox>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

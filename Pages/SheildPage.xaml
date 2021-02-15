@@ -1,0 +1,70 @@
+﻿<Page x:Class="DijabloGrail.SheildPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="SheildPage">
+
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Shields"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="895,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run Text="Elite Unique">
+                    <Run.TextDecorations>
+                        <TextDecoration/>
+                    </Run.TextDecorations>
+                </Run></TextBlock>
+            <CheckBox x:Name="Blackoak_Shield" Content="Blackoak Shield" FontSize="16" Foreground="#FFE28909" Checked="Blackoak_Shield_Checked" Unchecked="Blackoak_Shield_Unchecked" ToolTip="Mephisto (Hell) 1:1027"/>
+            <CheckBox x:Name="Stormshield" Content="Stormshield" FontSize="16" Foreground="#FFE28909" Checked="Stormshield_Checked" Unchecked="Stormshield_Unchecked" ToolTip="Diablo (Hell) 1:890"/>
+            <CheckBox x:Name="Spike_Thorn" Content="Spike Thorn" FontSize="16" Foreground="#FFE28909" Checked="Spike_Thorn_Checked" Unchecked="Spike_Thorn_Unchecked" ToolTip="Diablo (Hell) 1:1187"/>
+            <CheckBox x:Name="Medusas_Gaze" Content="Medusa's Gaze" FontSize="16" Foreground="#FFE28909" Checked="Medusas_Gaze_Checked" Unchecked="Medusas_Gaze_Unchecked" ToolTip="Baal (Hell) 1:1133"/>
+            <CheckBox x:Name="Head_Hunters_Glory" Content="Head Hunter's Glory" FontSize="16" Foreground="#FFE28909" Checked="Head_Hunters_Glory_Checked" Unchecked="Head_Hunters_Glory_Unchecked" ToolTip="Baal (Hell) 1:1404"/>
+            <CheckBox x:Name="Spirit_Ward" Content="Spirit Ward" FontSize="16" Foreground="#FFE28909" Checked="Spirit_Ward_Checked" Unchecked="Spirit_Ward_Unchecked" ToolTip="Baal (Hell) 1:2024"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Center" Height="450" Margin="0,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="226" FontFamily="Monotype Corsiva" FontSize="26"><Run Text="Exceptional Unique">
+                    <Run.TextDecorations>
+                        <TextDecoration/>
+                    </Run.TextDecorations>
+                </Run></TextBlock>
+            <CheckBox x:Name="Visceratuant" Content="Visceratuant" FontSize="16" Foreground="#FFE28909" Checked="Visceratuant_Checked" Unchecked="Visceratuant_Unchecked" ToolTip="Baal (Normal) 1:413"/>
+            <CheckBox x:Name="Mosers_Blessed_Circle" Content="Moser's Blessed Circle" FontSize="16" Foreground="#FFE28909" Checked="Mosers_Blessed_Circle_Checked" Unchecked="Mosers_Blessed_Circle_Unchecked" ToolTip="Mephisto (Nightmare) 1:715"/>
+            <CheckBox x:Name="Stormchaser" Content="Stormchaser" FontSize="16" Foreground="#FFE28909" Checked="Stormchaser_Checked" Unchecked="Stormchaser_Unchecked" ToolTip="Mephisto (Nightmare) 1:854"/>
+            <CheckBox x:Name="Tiamatas_Rebuke" Content="Tiamat's Rebuke" FontSize="16" Foreground="#FFE28909" Checked="Tiamatas_Rebuke_Checked" Unchecked="Tiamatas_Rebuke_Unchecked" ToolTip="Mephisto (Nightmare) 1:926"/>
+            <CheckBox x:Name="Lance_Guard" Content="Lance Guard" FontSize="16" Foreground="#FFE28909" Checked="Lance_Guard_Checked" Unchecked="Lance_Guard_Unchecked" ToolTip="Mephisto (Nightmare) 1:854"/>
+            <CheckBox x:Name="Gerkes_Sanctuary" Content="Gerke's Sanctuary" FontSize="16" Foreground="#FFE28909" Checked="Gerkes_Sanctuary_Checked" Unchecked="Gerkes_Sanctuary_Unchecked" ToolTip="Baal (Nightmare) 1:1302"/>
+            <CheckBox x:Name="Lidless_Wall" Content="Lidless Wall" FontSize="16" Foreground="#FFE28909" Checked="Lidless_Wall_Checked" Unchecked="Lidless_Wall_Unchecked" ToolTip="Diablo (Nightmare) 1:438"/>
+            <CheckBox x:Name="Radaments_Sphere" Content="Radament's Sphere" FontSize="16" Foreground="#FFE28909" Checked="Radaments_Sphere_Checked" Unchecked="Radaments_Sphere_Unchecked" ToolTip="Baal (Nightmare) 1:571"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="99,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run Text="Normal Unique">
+                    <Run.TextDecorations>
+                        <TextDecoration/>
+                    </Run.TextDecorations>
+                </Run></TextBlock>
+            <CheckBox x:Name="Pelta_Lunata" Content="Pelta Lunata" FontSize="16" Foreground="#FFE28909" Checked="Pelta_Lunata_Checked" Unchecked="Pelta_Lunata_Unchecked" ToolTip="Blood Raven (Normal) 1:816"/>
+            <CheckBox x:Name="Umbral_Disk" Content=" Umbral Disk" FontSize="16" Foreground="#FFE28909" Checked="Umbral_Disk_Checked" Unchecked="Umbral_Disk_Unchecked" ToolTip="Andariel (Normal) 1:257"/>
+            <CheckBox x:Name="Stormguild" Content="Stormguild" FontSize="16" Foreground="#FFE28909" Checked="Stormguild_Checked" Unchecked="Stormguild_Unchecked" ToolTip="Mephisto (Normal) 1:250"/>
+            <CheckBox x:Name="Steelclash" Content="Steelclash" FontSize="16" Foreground="#FFE28909" Checked="Steelclash_Checked" Unchecked="Steelclash_Unchecked" ToolTip="Mephisto (Normal) 1:127"/>
+            <CheckBox x:Name="Swordback_Hold" Content="Swordback Hold" FontSize="16" Foreground="#FFE28909" Checked="Swordback_Hold_Checked" Unchecked="Swordback_Hold_Unchecked" ToolTip="Mephisto (Normal) 1:250"/>
+            <CheckBox x:Name="Bverrit_Keep" Content="Bverrit Keep" FontSize="16" Foreground="#FFE28909" Checked="Bverrit_Keep_Checked" Unchecked="Bverrit_Keep_Unchecked" ToolTip="Mephisto (Normal) 1:250"/>
+            <CheckBox x:Name="Wall_of_the_Eyeless" Content="Wall of the Eyeless" FontSize="16" Foreground="#FFE28909" Checked="Wall_of_the_Eyeless_Checked" Unchecked="Wall_of_the_Eyeless_Unchecked" ToolTip="Diablo (Normal) 1:229"/>
+            <CheckBox x:Name="The_Ward" Content="The Ward" FontSize="16" Foreground="#FFE28909" Checked="The_Ward_Checked" Unchecked="The_Ward_Unchecked" ToolTip="Baal (Normal) 1:224"/>
+        </ListBox>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

@@ -1,0 +1,72 @@
+﻿<Page x:Class="DijabloGrail.ArmorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="ArmorPage" >
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/klipp.png"/>
+        </Grid.Background>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Armors"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="160,94,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Greyform" Content="Greyform" FontSize="16" Foreground="#FFE28909" Checked="Greyform_Checked" Unchecked="Greyform_Unchecked" ToolTip="Blood Raven (Normal) 1:816"/>
+            <CheckBox x:Name="Blinkbat_s_Form" Content="Blinkbat's Form" FontSize="16" Foreground="#FFE28909" Checked="Blinkbat_s_Form_Checked" Unchecked="Blinkbat_s_Form_Unchecked" ToolTip="Mephisto (Normal) 1:3664"/>
+            <CheckBox x:Name="The_Centurion" Content="The Centurion" FontSize="16" Foreground="#FFE28909" Checked="The_Centurion_Checked" Unchecked="The_Centurion_Unchecked" ToolTip="Mephisto (Normal) 1:543"/>
+            <CheckBox x:Name="Twitchthroe" Content="Twitchthroe" FontSize="16" Foreground="#FFE28909" Checked="Twitchthroe_Checked" Unchecked="Twitchthroe_Unchecked" ToolTip="Mephisto (Normal) 1:237"/>
+            <CheckBox x:Name="Darkglow" Content="Darkglow" FontSize="16" Foreground="#FFE28909" Checked="Darkglow_Checked" Unchecked="Darkglow_Unchecked" ToolTip="Mephist (Normal) 1:250"/>
+            <CheckBox x:Name="Hawkmail" Content="Hawkmail" FontSize="16" Foreground="#FFE28909" Checked="Hawkmail_Checked" Unchecked="Hawkmail_Unchecked" ToolTip="Mephisto (Normal) 1:126"/>
+            <CheckBox x:Name="Venom_Ward" Content="Venom Ward" FontSize="16" Foreground="#FFE28909" Checked="Venom_Ward_Checked" Unchecked="Venom_Ward_Unchecked" ToolTip="Diablo (Normal) 1:72"/>
+            <CheckBox x:Name="Iceblink" Content="Iceblink" FontSize="16" Foreground="#FFE28909" Checked="Iceblink_Checked" Unchecked="Iceblink_Unchecked" ToolTip="Diablo (Normal) 1:230"/>
+            <CheckBox x:Name="Heavenly_Garb" Content="Heavenly Garb" FontSize="16" Foreground="#FFE28909" Checked="Heavenly_Garb_Checked" Unchecked="Heavenly_Garb_Unchecked" ToolTip="Baal (Normal) 1:414"/>
+            <CheckBox x:Name="Rockfleece" Content="Rockfleece" FontSize="16" Foreground="#FFE28909" Checked="Rockfleece_Checked" Unchecked="Rockfleece_Unchecked" ToolTip="Baal (Normal) 1:223"/>
+            <CheckBox x:Name="Boneflesh" Content="Boneflesh" FontSize="16" Foreground="#FFE28909" Checked="Boneflesh_Checked" Unchecked="Boneflesh_Unchecked" ToolTip="Diablo (Normal) 1:274"/>
+            <CheckBox x:Name="Rattlecage" Content="Rattlecage" FontSize="16" Foreground="#FFE28909" Checked="Rattlecage_Checked" Unchecked="Rattlecage_Unchecked" ToolTip="Baal (Normal) 1:246"/>
+            <CheckBox x:Name="Goldskin" Content="Goldskin" FontSize="16" Foreground="#FFE28909" Checked="Goldskin_Checked" Unchecked="Goldskin_Unchecked" ToolTip="Mephisto (Nightmare) 1:715"/>
+            <CheckBox x:Name="Silks_of_the_Victor" Content="Silks of the Victor" FontSize="16" Foreground="#FFE28909" Checked="Silks_of_the_Victor_Checked" Unchecked="Silks_of_the_Victor_Unchecked" ToolTip="Mephisto (Nightmare) 1:850"/>
+            <CheckBox x:Name="Sparkling_Mail" Content="Sparkling Mail" FontSize="16" Foreground="#FFE28909" Checked="Sparkling_Mail_Checked" Unchecked="Sparkling_Mail_Unchecked" ToolTip="Mephisto (Normal) 1:127"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Center" Height="450" Margin="0,94,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="252" FontFamily="Monotype Corsiva" FontSize="26" FontWeight="Bold"><Run Text="Exceptiona"/><Run Text="l U"/><Run Language="sv-se" Text="n"/><Run Text="ique"/></TextBlock>
+            <CheckBox x:Name="The_Spirit_Shroud" Content="The Spirit Shroud" FontSize="16" Foreground="#FFE28909" Checked="The_Spirit_Shroud_Checked" Unchecked="The_Spirit_Shroud_Unchecked" ToolTip="Baal (Normal) 1:413"/>
+            <CheckBox x:Name="Skin_of_the_Vipermagi" Content="Skin of the Vipermagi" FontSize="16" Foreground="#FFE28909" Checked="Skin_of_the_Vipermagi_Checked" Unchecked="Skin_of_the_Vipermagi_Unchecked" ToolTip="Baal (Normal) 1:416"/>
+            <CheckBox x:Name="Skin_of_the_Flayed_One" Content="Skin of the Flayed One" FontSize="16" Foreground="#FFE28909" Checked="Skin_of_the_Flayed_One_Checked" Unchecked="Skin_of_the_Flayed_One_Unchecked" ToolTip="Mephisto (Nightmare) 1:715"/>
+            <CheckBox x:Name="Iron_Pelt" Content="Iron Pelt" FontSize="16" Foreground="#FFE28909" Checked="Iron_Pelt_Checked" Unchecked="Iron_Pelt_Unchecked" ToolTip="Mephisto (Nightmare) 1:850"/>
+            <CheckBox x:Name="Crow_Caw" Content="Crow Caw" FontSize="16" Foreground="#FFE28909" Checked="Crow_Caw_Checked" Unchecked="Crow_Caw_Unchecked" ToolTip="Mephisto (Nightmare) 1:921"/>
+            <CheckBox x:Name="Spirit_Forge" Content="Spirit Forge" FontSize="16" Foreground="#FFE28909" Checked="Spirit_Forge_Checked" Unchecked="Spirit_Forge_Unchecked" ToolTip="Mephisto (Nightmare) 1:854"/>
+            <CheckBox x:Name="Duriel_s_Shell" Content="Duriel's Shell" FontSize="16" Foreground="#FFE28909" Checked="Duriel_s_Shell_Checked" Unchecked="Duriel_s_Shell_Unchecked" ToolTip="Diablo (Nightmare) 1:437"/>
+            <CheckBox x:Name="Shaftstop" Content="Shaftstop" FontSize="16" Foreground="#FFE28909" Checked="Shaftstop_Checked" Unchecked="Shaftstop_Unchecked" ToolTip="Mephisto (Nightmare) 1:926"/>
+            <CheckBox x:Name="Skullder_s_Ire" Content="Skullder's Ire" FontSize="16" Foreground="#FFE28909" Checked="Skullder_s_Ire_Checked" Unchecked="Skullder_s_Ire_Unchecked" ToolTip="Baal (Nightmare) 1:1300"/>
+            <CheckBox x:Name="Que_Hegan_s_Wisdom" Content="Que-Hegan's Wisdom" FontSize="16" Foreground="#FFE28909" Unchecked="Que_Hegan_s_Wisdom_Unchecked" Checked="Que_Hegan_s_Wisdom_Checked" ToolTip="Mephisto (Hell) 1:715"/>
+            <CheckBox x:Name="Toothrow" Content="Toothrow" FontSize="16" Foreground="#FFE28909" Checked="Toothrow_Checked" Unchecked="Toothrow_Unchecked" ToolTip="Baal (Nightmare) 1:569"/>
+            <CheckBox x:Name="Guardian_Angel" Content="Guardian Angel" FontSize="16" Foreground="#FFE28909" Checked="Guardian_Angel_Checked" Unchecked="Guardian_Angel_Unchecked" ToolTip="Baal (Nightmare) 1:911"/>
+            <CheckBox x:Name="Atma_s_Wail" Content="Atma's Wail" FontSize="16" Foreground="#FFE28909" Checked="Atma_s_Wail_Checked" Unchecked="Atma_s_Wail_Unchecked" ToolTip="Mephisto (Hell) 1:711"/>
+            <CheckBox x:Name="Black_Hades" Content="Black Hades" FontSize="16" Foreground="#FFE28909" Checked="Black_Hades_Checked" Unchecked="Black_Hades_Unchecked" ToolTip="Mephisto (Hell) 1:1027"/>
+            <CheckBox x:Name="Corpsemourn" Content="Corpsemourn" FontSize="16" Foreground="#FFE28909" Checked="Corpsemourn_Checked" Unchecked="Corpsemourn_Unchecked" ToolTip="Mephisto (Hell) 1:679"/>
+        </ListBox>
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="900,94,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Ormus__Robes" Content="Ormus'Robes" FontSize="16" Foreground="#FFE28909" Checked="Ormus__Robes_Checked" Unchecked="Ormus__Robes_Unchecked" ToolTip="Mephisto (Hell) 1:681"/>
+            <CheckBox x:Name="The_Gladiator_s_Bane" Content="The Gladiator's Bane" FontSize="16" Foreground="#FFE28909" Checked="The_Gladiator_s_Bane_Checked" Unchecked="The_Gladiator_s_Bane_Unchecked" ToolTip="Diablo (Hell) 1:885"/>
+            <CheckBox x:Name="Arkaine_s_Valor" Content="Arkaine's Valor" FontSize="16" Foreground="#FFE28909" Checked="Arkaine_s_Valor_Checked" Unchecked="Arkaine_s_Valor_Unchecked" ToolTip="Baal (Hell) 1:1404"/>
+            <CheckBox x:Name="Leviathan" Content="Leviathan" FontSize="16" Foreground="#FFE28909" Checked="Leviathan_Checked" Unchecked="Leviathan_Unchecked" ToolTip="Baal (Hell) 1:1139"/>
+            <CheckBox x:Name="Steel_Carapace" Content="Steel Carapace" FontSize="16" Foreground="#FFE28909" Checked="Steel_Carapace_Checked" Unchecked="Steel_Carapace_Unchecked" ToolTip="Baal (Hell) 1:2018"/>
+            <CheckBox x:Name="Templar_s_Might" Content="Templar's Might" FontSize="16" Foreground="#FFE28909" Checked="Templar_s_Might_Checked" Unchecked="Templar_s_Might_Unchecked" ToolTip="Baal (Hell) 1:20027"/>
+            <CheckBox x:Name="Tyrael_s_Might" Content="Tyrael's Might" FontSize="16" Foreground="#FFE28909" Checked="Tyrael_s_Might_Checked" Unchecked="Tyrael_s_Might_Unchecked" ToolTip="Baal (Hell) 1:160220"/>
+        </ListBox>
+
+    </Grid>
+</Page>
