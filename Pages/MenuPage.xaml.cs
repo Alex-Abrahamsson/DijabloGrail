@@ -207,12 +207,6 @@ namespace DijabloGrail
             this.NavigationService.Navigate(scepterPage);
         }
 
-        private void StaveBtn_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            AngelicRaimentPage angelicRaimentPage = new AngelicRaimentPage();
-            this.NavigationService.Navigate(angelicRaimentPage);
-        }
-
         private void MuteCheckBox_Checked(object sender, RoutedEventArgs e)
         {
             Properties.Settings.Default.IsMuted = true;
@@ -221,6 +215,12 @@ namespace DijabloGrail
         private void MuteCheckBox_Unchecked(object sender, RoutedEventArgs e)
         {
             Properties.Settings.Default.IsMuted = false;
+        }
+
+        private void Angelic_RaimentBtn_Click(object sender, RoutedEventArgs e)
+        {
+            AngelicRaimentPage angelicRaimentPage = new AngelicRaimentPage();
+            this.NavigationService.Navigate(angelicRaimentPage);
         }
     }
 }

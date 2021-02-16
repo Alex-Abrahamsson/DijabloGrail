@@ -22,12 +22,12 @@
                 <ImageBrush ImageSource="/Images/MenuBtnSmall.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="StaveBtn_Copy" Content="Angelic Raiment" HorizontalAlignment="Left" Margin="863,148,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="19" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="StaveBtn_Copy_Click">
+        <Button x:Name="Angelic_RaimentBtn" Content="Angelic Raiment" HorizontalAlignment="Left" Margin="863,148,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="19" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="Angelic_RaimentBtn_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="StaveBtn_Copy1" Content="Save seson score" HorizontalAlignment="Left" Margin="1058,647,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="19" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="StaveBtn_Copy_Click">
+        <Button x:Name="SaveSeasonScoreBtn" Content="Save seson score" HorizontalAlignment="Left" Margin="1058,647,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="19" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
