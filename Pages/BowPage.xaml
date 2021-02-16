@@ -12,12 +12,12 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/klipp.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Bows"/></TextBlock>
-        <ListBox Margin="103,106,897,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox Margin="103,106,897,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Pluckeye" Content="Pluckeye" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050" Checked="Pluckeye_Checked" Unchecked="Pluckeye_Unchecked"/>
             <CheckBox x:Name="Witherstring" Content="Witherstring" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:501" Checked="Witherstring_Checked" Unchecked="Witherstring_Unchecked"/>
             <CheckBox x:Name="Raven_Claw" Content="Raven Claw" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:208" Checked="Raven_Claw_Checked" Unchecked="Raven_Claw_Unchecked"/>
@@ -27,8 +27,8 @@
             <CheckBox x:Name="Hellclap" Content="Hellclap" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:196" Checked="Hellclap_Checked" Unchecked="Hellclap_Unchecked"/>
             <CheckBox x:Name="Blastbark" Content="Blastbark" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:337" Checked="Blastbark_Checked" Unchecked="Blastbark_Unchecked"/>
         </ListBox>
-        <ListBox Margin="500,106,500,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="247" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox Margin="500,106,500,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="247" FontFamily="" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Skystrike" Content="Skystrike" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:238" Checked="Skystrike_Checked" Unchecked="Skystrike_Unchecked"/>
             <CheckBox x:Name="Riphook" Content="Riphook" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="Riphook_Checked" Unchecked="Riphook_Unchecked"/>
             <CheckBox x:Name="Kuko_Shakaku" Content="Kuko Shakaku" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:359" Checked="Kuko_Shakaku_Checked" Unchecked="Kuko_Shakaku_Unchecked"/>
@@ -38,13 +38,13 @@
             <CheckBox x:Name="Magewrath" Content="Magewrath" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:598" Checked="Magewrath_Checked" Unchecked="Magewrath_Unchecked"/>
             <CheckBox x:Name="Goldstrike_Arch" Content="Goldstrike Arch" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:546" Checked="Goldstrike_Arch_Checked" Unchecked="Goldstrike_Arch_Unchecked"/>
         </ListBox>
-        <ListBox Margin="908,106,92,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox Margin="908,106,92,164" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Eaglehorn" Content="Eaglehorn" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:1029" Checked="Eaglehorn_Checked" Unchecked="Eaglehorn_Unchecked"/>
             <CheckBox x:Name="Widowmaker" Content="Widowmaker" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:852" Checked="Widowmaker_Checked" Unchecked="Widowmaker_Unchecked"/>
             <CheckBox x:Name="Windforce" Content="Windforce" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:14565" Checked="Windforce_Checked" Unchecked="Windforce_Unchecked"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

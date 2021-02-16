@@ -12,12 +12,12 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/klipp.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Swords"/></TextBlock>
-        <ListBox HorizontalAlignment="Left" Height="450" Margin="99,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="500" Margin="99,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Rixot_s_Keen" Content="Rixot's Keen" FontSize="16" Foreground="#FFE28909" ToolTip="Blood Raven (Normal) 1:1050" Checked="Rixot_s_Keen_Checked" Unchecked="Rixot_s_Keen_Unchecked"/>
             <CheckBox x:Name="Blood_Crescent" Content="Blood Crescent" FontSize="16" Foreground="#FFE28909" ToolTip="Andariel (Normal) 1:237" Checked="Blood_Crescent_Checked" Unchecked="Blood_Crescent_Unchecked"/>
             <CheckBox x:Name="Skewer_of_Krintiz" Content="Skewer of Krintiz" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Normal) 1:208" Checked="Skewer_of_Krintiz_Checked" Unchecked="Skewer_of_Krintiz_Unchecked"/>
@@ -32,8 +32,8 @@
             <CheckBox x:Name="Ripsaw" Content="Ripsaw" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Normal) 1:196" Checked="Ripsaw_Checked" Unchecked="Ripsaw_Unchecked"/>
             <CheckBox x:Name="The_Patriarch" Content="The Patriarch" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Normal) 1:338" Checked="The_Patriarch_Checked" Unchecked="The_Patriarch_Unchecked"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Center" Height="450" Margin="0,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="250" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox HorizontalAlignment="Center" Height="500" Margin="0,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="250" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Bloodletter" Content="Bloodletter" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Normal) 1:238" Checked="Bloodletter_Checked" Unchecked="Bloodletter_Unchecked"/>
             <CheckBox x:Name="Coldsteel_Eye" Content="Coldsteel Eye" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:581" Checked="Coldsteel_Eye_Checked" Unchecked="Coldsteel_Eye_Unchecked"/>
             <CheckBox x:Name="Hexfire" Content="Hexfire" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Normal) 1:359" Checked="Hexfire_Checked" Unchecked="Hexfire_Unchecked"/>
@@ -49,8 +49,8 @@
             <CheckBox x:Name="Todesfaelle_Flamme" Content="Todesfaelle Flamme" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Nightmare) 1:598" Checked="Todesfaelle_Flamme_Checked" Unchecked="Todesfaelle_Flamme_Unchecked"/>
             <CheckBox x:Name="Swordguard" Content="Swordguard" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Nightmare) 1:549" Checked="Swordguard_Checked" Unchecked="Swordguard_Unchecked"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Left" Height="450" Margin="908,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="500" Margin="908,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Djinn_Slayer" Content="Djinn Slayer" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Hell) 1:565" Checked="Djinn_Slayer_Checked" Unchecked="Djinn_Slayer_Unchecked"/>
             <CheckBox x:Name="Bloodmoon" Content="Bloodmoon" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Hell) 1:568" Checked="Bloodmoon_Checked" Unchecked="Bloodmoon_Unchecked"/>
             <CheckBox x:Name="Lightsabre" Content="Lightsabre" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Hell) 1:560" Checked="Lightsabre_Checked" Unchecked="Lightsabre_Unchecked"/>
@@ -60,7 +60,7 @@
             <CheckBox x:Name="Doombringer" Content="Doombringer" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:1029" Checked="Doombringer_Checked" Unchecked="Doombringer_Unchecked"/>
             <CheckBox x:Name="The_Grandfather" Content="The Grandfather" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:14565" Checked="The_Grandfather_Checked" Unchecked="The_Grandfather_Unchecked"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

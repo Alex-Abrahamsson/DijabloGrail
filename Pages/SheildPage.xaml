@@ -13,12 +13,12 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/klipp.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Shields"/></TextBlock>
-        <ListBox HorizontalAlignment="Left" Height="450" Margin="895,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run Text="Elite Unique">
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="895,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontWeight="Bold" TextBlock.FontFamily="MV Boli" FontWeight="Normal">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold"><Run Text="Elite Unique">
                     <Run.TextDecorations>
                         <TextDecoration/>
                     </Run.TextDecorations>
@@ -30,8 +30,8 @@
             <CheckBox x:Name="Head_Hunters_Glory" Content="Head Hunter's Glory" FontSize="16" Foreground="#FFE28909" Checked="Head_Hunters_Glory_Checked" Unchecked="Head_Hunters_Glory_Unchecked" ToolTip="Baal (Hell) 1:1404"/>
             <CheckBox x:Name="Spirit_Ward" Content="Spirit Ward" FontSize="16" Foreground="#FFE28909" Checked="Spirit_Ward_Checked" Unchecked="Spirit_Ward_Unchecked" ToolTip="Baal (Hell) 1:2024"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Center" Height="450" Margin="0,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="226" FontFamily="Monotype Corsiva" FontSize="26"><Run Text="Exceptional Unique">
+        <ListBox HorizontalAlignment="Center" Height="450" Margin="0,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontWeight="Bold" TextBlock.FontFamily="MV Boli" FontWeight="Normal">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="255" FontFamily="MV Boli" FontSize="26" FontWeight="Bold"><Run Text="Exceptional Unique">
                     <Run.TextDecorations>
                         <TextDecoration/>
                     </Run.TextDecorations>
@@ -45,8 +45,8 @@
             <CheckBox x:Name="Lidless_Wall" Content="Lidless Wall" FontSize="16" Foreground="#FFE28909" Checked="Lidless_Wall_Checked" Unchecked="Lidless_Wall_Unchecked" ToolTip="Diablo (Nightmare) 1:438"/>
             <CheckBox x:Name="Radaments_Sphere" Content="Radament's Sphere" FontSize="16" Foreground="#FFE28909" Checked="Radaments_Sphere_Checked" Unchecked="Radaments_Sphere_Unchecked" ToolTip="Baal (Nightmare) 1:571"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Left" Height="450" Margin="99,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run Text="Normal Unique">
+        <ListBox HorizontalAlignment="Left" Height="450" Margin="99,121,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontWeight="Bold" TextBlock.FontFamily="MV Boli" FontWeight="Normal">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold"><Run Text="Normal Unique">
                     <Run.TextDecorations>
                         <TextDecoration/>
                     </Run.TextDecorations>
@@ -60,7 +60,7 @@
             <CheckBox x:Name="Wall_of_the_Eyeless" Content="Wall of the Eyeless" FontSize="16" Foreground="#FFE28909" Checked="Wall_of_the_Eyeless_Checked" Unchecked="Wall_of_the_Eyeless_Unchecked" ToolTip="Diablo (Normal) 1:229"/>
             <CheckBox x:Name="The_Ward" Content="The Ward" FontSize="16" Foreground="#FFE28909" Checked="The_Ward_Checked" Unchecked="The_Ward_Unchecked" ToolTip="Baal (Normal) 1:224"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

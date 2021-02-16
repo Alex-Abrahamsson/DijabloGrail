@@ -12,33 +12,33 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/klipp.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Belts"/></TextBlock>
-        <ListBox Margin="101,118,899,152" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" Height="450">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox Margin="101,118,899,152" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Lenymo" Content="Lenymo" FontSize="16" Foreground="#FFC77600" Checked="Lenymo_Checked" Unchecked="Lenymo_Unchecked" ToolTip="Blood Raven (Normal) 1:820"/>
             <CheckBox x:Name="Snakecord" Content="Snakecord" FontSize="16" Foreground="#FFC77600" Checked="Snakecord_Checked" Unchecked="Snakecord_Unchecked" ToolTip="Mephisto (Normal) 1:237"/>
             <CheckBox x:Name="Nightsmoke" Content="Nightsmoke" FontSize="16" Foreground="#FFC77600" Checked="Nightsmoke_Checked" Unchecked="Nightsmoke_Unchecked" ToolTip="Diablo (Normal) 1:274"/>
             <CheckBox x:Name="Goldwrap" Content="Goldwrap" FontSize="16" Foreground="#FFC77600" Checked="Goldwrap_Checked" Unchecked="Goldwrap_Unchecked" ToolTip="Diablo (Normal) 1:230"/>
             <CheckBox x:Name="Bladebuckle" Content="Bladebuckle" FontSize="16" Foreground="#FFC77600" Checked="Bladebuckle_Checked" Unchecked="Bladebuckle_Unchecked" ToolTip="Diablo (Normal) 1:168"/>
         </ListBox>
-        <ListBox Margin="500,118,500,152" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" Height="450">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="243" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox Margin="500,118,500,152" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="243" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="String_of_Ears" Content="String of Ears" FontSize="16" Foreground="#FFC77600" Checked="String_of_Ears_Checked" Unchecked="String_of_Ears_Unchecked" ToolTip="Baal (Normal) 1:416"/>
             <CheckBox x:Name="Razortail" Content="Razortail" FontSize="16" Foreground="#FFC77600" Checked="Razortail_Checked" Unchecked="Razortail_Unchecked" ToolTip="Mephisto (Nightmare) 1:718"/>
             <CheckBox x:Name="Glooms_Trap" Content="Gloom's Trap" FontSize="16" Foreground="#FFC77600" Checked="Glooms_Trap_Checked" Unchecked="Glooms_Trap_Unchecked" ToolTip="Mephisto (Nightmare) 1:921"/>
             <CheckBox x:Name="Snowclash" Content="Snowclash" FontSize="16" Foreground="#FFC77600" Checked="Snowclash_Checked" Unchecked="Snowclash_Unchecked" ToolTip="Baal (Nightmare) 1:1300"/>
             <CheckBox x:Name="Thundergods_Vigor" Content="Thundergod's Vigor" FontSize="16" Foreground="#FFC77600" Checked="Thundergods_Vigor_Checked" Unchecked="Thundergods_Vigor_Unchecked" ToolTip="Baal (Nightmare) 1:916"/>
         </ListBox>
-        <ListBox Margin="900,118,100,152" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" Height="450">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="Monotype Corsiva" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox Margin="900,118,100,152" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Arachnid_Mesh" Content="Arachnid Mesh" FontSize="16" Foreground="#FFC77600" Checked="Arachnid_Mesh_Checked" Unchecked="Arachnid_Mesh_Unchecked" ToolTip="Mephisto (Hell) 1:1027"/>
             <CheckBox x:Name="Nosferatu_Coil" Content="Nosferatu's Coil" FontSize="16" Foreground="#FFC77600" Checked="Nosferatu_Coil_Checked" Unchecked="Nosferatu_Coil_Unchecked" ToolTip="Diablo (Hell) 1:1187"/>
             <CheckBox x:Name="Verdungos_Hearty_Cord" Content="Verdungo's Hearty Cord" FontSize="16" Foreground="#FFC77600" Checked="Verdungos_Hearty_Cord_Checked" Unchecked="Verdungos_Hearty_Cord_Unchecked" ToolTip="Diablo (Hell) 1:772"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
