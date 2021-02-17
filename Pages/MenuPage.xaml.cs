@@ -93,6 +93,7 @@ namespace DijabloGrail
             allScore[15] = Properties.Settings.Default.JavelinScore;
 
             allScore[16] = Properties.Settings.Default.AngelicScore;
+            allScore[17] = Properties.Settings.Default.ArcannasScore;
 
 
 
@@ -225,8 +226,9 @@ namespace DijabloGrail
 
         private void Arcannas_Btn_Click(object sender, RoutedEventArgs e)
         {
-            ArcannasTrickPage arcannasTrickPage = new ArcannasTrickPage();
-            this.NavigationService.Navigate(arcannasTrickPage);
+            ArcannasTrickPage1 arcannasTrickPage1 = new ArcannasTrickPage1();
+            this.NavigationService.Navigate(arcannasTrickPage1);
         }
+
     }
 }

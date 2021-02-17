@@ -14,19 +14,13 @@ using System.Windows.Shapes;
 namespace DijabloGrail.Pages
 {
     /// <summary>
-    /// Interaction logic for ArcannasTrickPage.xaml
+    /// Interaction logic for Artic_Gear_Page.xaml
     /// </summary>
-    public partial class ArcannasTrickPage : Page
+    public partial class Artic_Gear_Page : Page
     {
-        public ArcannasTrickPage()
+        public Artic_Gear_Page()
         {
             InitializeComponent();
-        }
-
-        private void MenuBtn_Click(object sender, RoutedEventArgs e)
-        {
-            MenuPage menuPage = new MenuPage();
-            this.NavigationService.Navigate(menuPage);
         }
     }
 }

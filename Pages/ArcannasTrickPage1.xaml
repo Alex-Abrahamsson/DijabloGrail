@@ -1,0 +1,77 @@
+﻿<Page x:Class="DijabloGrail.Pages.ArcannasTrickPage1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="ArcannasTrickPage1">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Arcannas_Tricks.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" 
+            Margin="820,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se"
+                Text="Arcanna's Tricks"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Click="MenuBtn_Click"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,389,0">
+            <WrapPanel x:Name="Arcannas_Head_Pic" 
+                Background="#99000000" Width="890" Height="191">
+                <CheckBox x:Name="Arcanna_s_head" 
+                    Margin="30,20,0,0"
+                    Content=""
+                    ToolTip="Mephisto (Normal) 1:218"
+                    Checked="Arcanna_s_head_Checked" 
+                    Unchecked="Arcanna_s_head_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Arcannas_Flesh_Pic" 
+                Background="#99000000" Height="191" Width="891">
+                <CheckBox x:Name="Arcanna_s_flesh"
+                    Margin="30,10,0,0"
+                    Content=""
+                    ToolTip="Baal (Normal) 1:166"
+                    Checked="Arcanna_s_flesh_Checked" 
+                    Unchecked="Arcanna_s_flesh_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Arcannas_Staff_Pic"
+                Background="#99000000" Height="190" Width="891">
+                <CheckBox x:Name="Arcanna_s_Deathwand"
+                    Margin="30,10,0,0" ToolTip="Mephisto (Normal) 1:207" 
+                    Content="" Checked="Arcanna_s_Deathwand_Checked" Unchecked="Arcanna_s_Deathwand_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Arcannas_Amulett_Pic"
+                Background="#99000000" Height="145" Width="891">
+                <CheckBox x:Name="Arcanna_s_Sign"
+                    Margin="20,10,0,0" ToolTip="Duriel (Normal) 1:4060"
+                    Content="" Checked="Arcanna_s_Sign_Checked" Unchecked="Arcanna_s_Sign_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

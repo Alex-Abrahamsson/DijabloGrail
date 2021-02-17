@@ -3838,5 +3838,65 @@ namespace DijabloGrail.Properties {
                 this["AngelicScore"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arcanna_s_head {
+            get {
+                return ((bool)(this["Arcanna_s_head"]));
+            }
+            set {
+                this["Arcanna_s_head"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arcanna_s_flesh {
+            get {
+                return ((bool)(this["Arcanna_s_flesh"]));
+            }
+            set {
+                this["Arcanna_s_flesh"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arcanna_s_Deathwand {
+            get {
+                return ((bool)(this["Arcanna_s_Deathwand"]));
+            }
+            set {
+                this["Arcanna_s_Deathwand"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arcanna_s_Sign {
+            get {
+                return ((bool)(this["Arcanna_s_Sign"]));
+            }
+            set {
+                this["Arcanna_s_Sign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double ArcannasScore {
+            get {
+                return ((double)(this["ArcannasScore"]));
+            }
+            set {
+                this["ArcannasScore"] = value;
+            }
+        }
     }
 }
