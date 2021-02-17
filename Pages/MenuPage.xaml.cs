@@ -222,5 +222,11 @@ namespace DijabloGrail
             AngelicRaimentPage angelicRaimentPage = new AngelicRaimentPage();
             this.NavigationService.Navigate(angelicRaimentPage);
         }
+
+        private void Arcannas_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            ArcannasTrickPage arcannasTrickPage = new ArcannasTrickPage();
+            this.NavigationService.Navigate(arcannasTrickPage);
+        }
     }
 }

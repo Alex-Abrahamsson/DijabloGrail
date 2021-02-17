@@ -145,6 +145,11 @@
                 </Button.Background>
             </Button>
         </WrapPanel>
+        <Button x:Name="Arcannas_Btn" Content="Arcanna's Tricks" HorizontalAlignment="Left" Margin="863,188,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="19" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="Arcannas_Btn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>
