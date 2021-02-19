@@ -3898,5 +3898,53 @@ namespace DijabloGrail.Properties {
                 this["ArcannasScore"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double BerserkersScore {
+            get {
+                return ((double)(this["BerserkersScore"]));
+            }
+            set {
+                this["BerserkersScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Berserk_s_Headgear {
+            get {
+                return ((bool)(this["Berserk_s_Headgear"]));
+            }
+            set {
+                this["Berserk_s_Headgear"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Berserk_s_Haubark {
+            get {
+                return ((bool)(this["Berserk_s_Haubark"]));
+            }
+            set {
+                this["Berserk_s_Haubark"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Berserk_s_Hatchet {
+            get {
+                return ((bool)(this["Berserk_s_Hatchet"]));
+            }
+            set {
+                this["Berserk_s_Hatchet"] = value;
+            }
+        }
     }
 }

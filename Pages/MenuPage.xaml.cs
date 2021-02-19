@@ -94,6 +94,7 @@ namespace DijabloGrail
 
             allScore[16] = Properties.Settings.Default.AngelicScore;
             allScore[17] = Properties.Settings.Default.ArcannasScore;
+            allScore[18] = Properties.Settings.Default.BerserkersScore;
 
 
 
@@ -230,5 +231,10 @@ namespace DijabloGrail
             this.NavigationService.Navigate(arcannasTrickPage1);
         }
 
+        private void BerserkBtn_Click(object sender, RoutedEventArgs e)
+        {
+            BerserkersPage berserkersPage = new BerserkersPage();
+            this.NavigationService.Navigate(berserkersPage);
+        }
     }
 }

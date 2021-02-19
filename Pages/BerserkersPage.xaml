@@ -1,0 +1,62 @@
+﻿<Page x:Class="DijabloGrail.Pages.BerserkersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="BerserkersPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Berserkers_Arsenal.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="864,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Berserker's Arsenal"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,421,0">
+            <WrapPanel x:Name="BerserkHead_Pic" 
+                Background="#99000000" Width="890" Height="230">
+                <CheckBox x:Name="Berserk_s_Headgear" 
+                    Margin="40,100,0,0"
+                    Content="CheckBox" Checked="Berserk_s_Headgear_Checked" Unchecked="Berserk_s_Headgear_Unchecked" ToolTip="Andariel (Normal) 1:76"/>
+            </WrapPanel>
+            <WrapPanel x:Name="BerserkArmor_Pic" 
+                Background="#99000000" Height="170" Width="891">
+                <CheckBox x:Name="Berserk_s_Haubark"
+                    Margin="40,20,0,0"
+                    Content="CheckBox" Checked="Berserk_s_Haubark_Checked" Unchecked="Berserk_s_Haubark_Unchecked" ToolTip="Mephisto (Normal) 1:84"/>
+            </WrapPanel>
+            <WrapPanel x:Name="BerserkAxe_Pic"
+                Background="#99000000" Height="200" Width="891">
+                <CheckBox x:Name="Berserk_s_Hatchet"
+                    Margin="40,30,0,0" 
+                    Content="CheckBox" Checked="Berserk_s_Hatchet_Checked" Unchecked="Berserk_s_Hatchet_Unchecked" ToolTip="Mephisto (Normal) 1:51"/>
+            </WrapPanel>
+        </WrapPanel>
+    </Grid>
+</Page>

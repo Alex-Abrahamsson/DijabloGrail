@@ -150,6 +150,11 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
+        <Button x:Name="BerserkBtn" Content="Berserker's Arsenal" HorizontalAlignment="Left" Margin="863,228,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="19" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="BerserkBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>
