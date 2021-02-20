@@ -43,19 +43,19 @@
                 Background="#99000000" Width="890" Height="230">
                 <CheckBox x:Name="Berserk_s_Headgear" 
                     Margin="40,100,0,0"
-                    Content="CheckBox" Checked="Berserk_s_Headgear_Checked" Unchecked="Berserk_s_Headgear_Unchecked" ToolTip="Andariel (Normal) 1:76"/>
+                    Content="" Checked="Berserk_s_Headgear_Checked" Unchecked="Berserk_s_Headgear_Unchecked" ToolTip="Andariel (Normal) 1:76"/>
             </WrapPanel>
             <WrapPanel x:Name="BerserkArmor_Pic" 
                 Background="#99000000" Height="170" Width="891">
                 <CheckBox x:Name="Berserk_s_Haubark"
                     Margin="40,20,0,0"
-                    Content="CheckBox" Checked="Berserk_s_Haubark_Checked" Unchecked="Berserk_s_Haubark_Unchecked" ToolTip="Mephisto (Normal) 1:84"/>
+                    Content="" Checked="Berserk_s_Haubark_Checked" Unchecked="Berserk_s_Haubark_Unchecked" ToolTip="Mephisto (Normal) 1:84"/>
             </WrapPanel>
             <WrapPanel x:Name="BerserkAxe_Pic"
                 Background="#99000000" Height="200" Width="891">
                 <CheckBox x:Name="Berserk_s_Hatchet"
                     Margin="40,30,0,0" 
-                    Content="CheckBox" Checked="Berserk_s_Hatchet_Checked" Unchecked="Berserk_s_Hatchet_Unchecked" ToolTip="Mephisto (Normal) 1:51"/>
+                    Content="" Checked="Berserk_s_Hatchet_Checked" Unchecked="Berserk_s_Hatchet_Unchecked" ToolTip="Mephisto (Normal) 1:51"/>
             </WrapPanel>
         </WrapPanel>
     </Grid>

@@ -41,7 +41,7 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,389,0">
+        <WrapPanel Margin="0,0,358,0">
             <WrapPanel 
                 Background="#99000000" Width="890" Height="191">
                 <CheckBox 

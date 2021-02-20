@@ -1,0 +1,75 @@
+﻿<Page x:Class="DijabloGrail.Pages.CathansPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="CathansPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Cathans_Traps.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Cathan's Traps"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,384,10">
+            <WrapPanel x:Name="CathansHead_pic" 
+                Background="#99000000" Width="860" Height="170">
+                <CheckBox x:Name="Cathan_s_Visage" 
+                    Margin="30,20,0,0"
+                    Content="" Checked="Cathan_s_Visage_Checked" Unchecked="Cathan_s_Visage_Unchecked" ToolTip="Mephisto (Normal) 1:84"/>
+            </WrapPanel>
+            <WrapPanel x:Name="CathansMesh_Pic" 
+                Background="#99000000" Width="860" Height="140">
+                <CheckBox x:Name="Cathan_s_Mesh"
+                    Margin="30,10,0,0"
+                    Content="" Checked="Cathan_s_Mesh_Checked" Unchecked="Cathan_s_Mesh_Unchecked" ToolTip="Mephisto (Normal) 1:51"/>
+            </WrapPanel>
+            <WrapPanel x:Name="CathansRule_Pic"
+                Background="#99000000" Width="860" Height="150">
+                <CheckBox x:Name="Cathan_s_Rule"
+                    Margin="30,10,0,0" 
+                    Content="" Checked="Cathan_s_Rule_Checked" Unchecked="Cathan_s_Rule_Unchecked" ToolTip="Mephisto (Normal) 1:160"/>
+            </WrapPanel>
+            <WrapPanel x:Name="CathansSigil_Pic"
+                Background="#99000000" Width="860" Height="95">
+                <CheckBox x:Name="Cathan_s_Sigil"
+                    Margin="20,10,0,0"
+                    Content="" Checked="Cathan_s_Sigil_Checked" Unchecked="Cathan_s_Sigil_Unchecked" ToolTip="Duriel (Normal) 1:580"/>
+            </WrapPanel>
+            <WrapPanel x:Name="CathansSeal_Pic"
+                Background="#99000000" Width="860" Height="100">
+                <CheckBox x:Name="Cathan_s_Seal"
+                    Margin="20,10,0,0"
+                    Content="" Checked="Cathan_s_Seal_Checked" Unchecked="Cathan_s_Seal_Unchecked" ToolTip="Duriel (Hell) 1:69"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

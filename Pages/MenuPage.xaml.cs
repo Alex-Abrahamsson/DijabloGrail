@@ -18,7 +18,7 @@ namespace DijabloGrail
 
     public partial class MenuPage : Page
     {
-        public double[] allScore = new double[40];
+        public double[] allScore = new double[50];
         public double grailScore;
         public SoundPlayer sp = new SoundPlayer();
 
@@ -74,7 +74,16 @@ namespace DijabloGrail
         {
             //---------------------------------MAIN CODE-----------------------------
             InitializeComponent();
+            SetAllScoreVariables();
 
+            CalculateScore();
+            SetScore();
+
+            //--------------------------------MAIN CODE END--------------------------
+        }
+
+        private void SetAllScoreVariables()
+        {
             allScore[0] = Properties.Settings.Default.ArmorScore;
             allScore[1] = Properties.Settings.Default.HelmScore;
             allScore[2] = Properties.Settings.Default.GloveScore;
@@ -95,15 +104,37 @@ namespace DijabloGrail
             allScore[16] = Properties.Settings.Default.AngelicScore;
             allScore[17] = Properties.Settings.Default.ArcannasScore;
             allScore[18] = Properties.Settings.Default.BerserkersScore;
-
-
-
-
-            CalculateScore();
-            SetScore();
-            
-            //--------------------------------MAIN CODE END--------------------------
+            allScore[19] = Properties.Settings.Default.CatansScore;
+            allScore[20] = Properties.Settings.Default.CiverbScore;
+            allScore[21] = Properties.Settings.Default.CleglawScore;
+            allScore[22] = Properties.Settings.Default.DeathsScore;
+            allScore[23] = Properties.Settings.Default.HsarusScore;
+            allScore[24] = Properties.Settings.Default.InfernalsScore;
+            allScore[25] = Properties.Settings.Default.IrathasScore;
+            allScore[26] = Properties.Settings.Default.IsenheartScore;
+            allScore[27] = Properties.Settings.Default.MilabregasScore;
+            allScore[28] = Properties.Settings.Default.SigonsScore;
+            allScore[29] = Properties.Settings.Default.TancredsScore;
+            allScore[30] = Properties.Settings.Default.VidalasScore;
+            allScore[31] = Properties.Settings.Default.AldursScore;
+            allScore[32] = Properties.Settings.Default.BulKatosScore;
+            allScore[33] = Properties.Settings.Default.CowKingsScore;
+            allScore[34] = Properties.Settings.Default.TheDiscipleScore;
+            allScore[35] = Properties.Settings.Default.GrisworldScore;
+            allScore[36] = Properties.Settings.Default.HeavensScore;
+            allScore[37] = Properties.Settings.Default.HwaninsScore;
+            allScore[38] = Properties.Settings.Default.ImmortalsScore;
+            allScore[39] = Properties.Settings.Default.MavinasScore;
+            allScore[40] = Properties.Settings.Default.NatalyasScore;
+            allScore[41] = Properties.Settings.Default.NajsScore;
+            allScore[42] = Properties.Settings.Default.OrphansScore;
+            allScore[43] = Properties.Settings.Default.SandersScore;
+            allScore[44] = Properties.Settings.Default.SazabisScore;
+            allScore[45] = Properties.Settings.Default.TalRashasScore;
+            allScore[46] = Properties.Settings.Default.TrangoulsScore;
+            allScore[47] = Properties.Settings.Default.ArticScore;
         }
+
         private void HelmsBtn_Click(object sender, RoutedEventArgs e)
         {
             HelmsPage helmsPage = new HelmsPage();
@@ -235,6 +266,12 @@ namespace DijabloGrail
         {
             BerserkersPage berserkersPage = new BerserkersPage();
             this.NavigationService.Navigate(berserkersPage);
+        }
+
+        private void CathansBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CathansPage cathansPage = new CathansPage();
+            this.NavigationService.Navigate(cathansPage);
         }
     }
 }

@@ -3946,5 +3946,425 @@ namespace DijabloGrail.Properties {
                 this["Berserk_s_Hatchet"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double CatansScore {
+            get {
+                return ((double)(this["CatansScore"]));
+            }
+            set {
+                this["CatansScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double CiverbScore {
+            get {
+                return ((double)(this["CiverbScore"]));
+            }
+            set {
+                this["CiverbScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double CleglawScore {
+            get {
+                return ((double)(this["CleglawScore"]));
+            }
+            set {
+                this["CleglawScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double DeathsScore {
+            get {
+                return ((double)(this["DeathsScore"]));
+            }
+            set {
+                this["DeathsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double HsarusScore {
+            get {
+                return ((double)(this["HsarusScore"]));
+            }
+            set {
+                this["HsarusScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double InfernalsScore {
+            get {
+                return ((double)(this["InfernalsScore"]));
+            }
+            set {
+                this["InfernalsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double IrathasScore {
+            get {
+                return ((double)(this["IrathasScore"]));
+            }
+            set {
+                this["IrathasScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double IsenheartScore {
+            get {
+                return ((double)(this["IsenheartScore"]));
+            }
+            set {
+                this["IsenheartScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MilabregasScore {
+            get {
+                return ((double)(this["MilabregasScore"]));
+            }
+            set {
+                this["MilabregasScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double SigonsScore {
+            get {
+                return ((double)(this["SigonsScore"]));
+            }
+            set {
+                this["SigonsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double TancredsScore {
+            get {
+                return ((double)(this["TancredsScore"]));
+            }
+            set {
+                this["TancredsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double VidalasScore {
+            get {
+                return ((double)(this["VidalasScore"]));
+            }
+            set {
+                this["VidalasScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double AldursScore {
+            get {
+                return ((double)(this["AldursScore"]));
+            }
+            set {
+                this["AldursScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double BulKatosScore {
+            get {
+                return ((double)(this["BulKatosScore"]));
+            }
+            set {
+                this["BulKatosScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double CowKingsScore {
+            get {
+                return ((double)(this["CowKingsScore"]));
+            }
+            set {
+                this["CowKingsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double TheDiscipleScore {
+            get {
+                return ((double)(this["TheDiscipleScore"]));
+            }
+            set {
+                this["TheDiscipleScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double GrisworldScore {
+            get {
+                return ((double)(this["GrisworldScore"]));
+            }
+            set {
+                this["GrisworldScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double HeavensScore {
+            get {
+                return ((double)(this["HeavensScore"]));
+            }
+            set {
+                this["HeavensScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double HwaninsScore {
+            get {
+                return ((double)(this["HwaninsScore"]));
+            }
+            set {
+                this["HwaninsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double ImmortalsScore {
+            get {
+                return ((double)(this["ImmortalsScore"]));
+            }
+            set {
+                this["ImmortalsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MavinasScore {
+            get {
+                return ((double)(this["MavinasScore"]));
+            }
+            set {
+                this["MavinasScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double NatalyasScore {
+            get {
+                return ((double)(this["NatalyasScore"]));
+            }
+            set {
+                this["NatalyasScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double NajsScore {
+            get {
+                return ((double)(this["NajsScore"]));
+            }
+            set {
+                this["NajsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double OrphansScore {
+            get {
+                return ((double)(this["OrphansScore"]));
+            }
+            set {
+                this["OrphansScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double SandersScore {
+            get {
+                return ((double)(this["SandersScore"]));
+            }
+            set {
+                this["SandersScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double SazabisScore {
+            get {
+                return ((double)(this["SazabisScore"]));
+            }
+            set {
+                this["SazabisScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double TalRashasScore {
+            get {
+                return ((double)(this["TalRashasScore"]));
+            }
+            set {
+                this["TalRashasScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double TrangoulsScore {
+            get {
+                return ((double)(this["TrangoulsScore"]));
+            }
+            set {
+                this["TrangoulsScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double ArticScore {
+            get {
+                return ((double)(this["ArticScore"]));
+            }
+            set {
+                this["ArticScore"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cathans_Visage {
+            get {
+                return ((bool)(this["Cathans_Visage"]));
+            }
+            set {
+                this["Cathans_Visage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cathans_Mesh {
+            get {
+                return ((bool)(this["Cathans_Mesh"]));
+            }
+            set {
+                this["Cathans_Mesh"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cathans_Rule {
+            get {
+                return ((bool)(this["Cathans_Rule"]));
+            }
+            set {
+                this["Cathans_Rule"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cathans_Sigil {
+            get {
+                return ((bool)(this["Cathans_Sigil"]));
+            }
+            set {
+                this["Cathans_Sigil"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cathans_Seal {
+            get {
+                return ((bool)(this["Cathans_Seal"]));
+            }
+            set {
+                this["Cathans_Seal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Setting {
+            get {
+                return ((bool)(this["Setting"]));
+            }
+            set {
+                this["Setting"] = value;
+            }
+        }
     }
 }
