@@ -52,7 +52,7 @@ namespace DijabloGrail
         {
             if (grailScore < 1)
             {
-                ScoreBox.Text = "   Hej Pigge <3  ";
+                ScoreBox.Text = "   Dijablo <3  ";
             }
             else ScoreBox.Text = "  Score: " + grailScore;
         }
@@ -272,6 +272,30 @@ namespace DijabloGrail
         {
             CathansPage cathansPage = new CathansPage();
             this.NavigationService.Navigate(cathansPage);
+        }
+
+        private void CleglawsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CleglawPage cleglawPage = new CleglawPage();
+            this.NavigationService.Navigate(cleglawPage);
+        }
+
+        private void CiverbsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Civerbs_Page civerbs_Page = new Civerbs_Page();
+            this.NavigationService.Navigate(civerbs_Page);
+        }
+
+        private void DeathsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            DeathsPage deathsPage = new DeathsPage();
+            this.NavigationService.Navigate(deathsPage);
+        }
+
+        private void HsarusBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Hsarus_Page hsarus_Page = new Hsarus_Page();
+            this.NavigationService.Navigate(hsarus_Page);
         }
     }
 }

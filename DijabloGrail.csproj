@@ -11,6 +11,10 @@
     <None Remove="Images\Arcannas_Tricks.png" />
     <None Remove="Images\Berserkers_Arsenal.png" />
     <None Remove="Images\Cathans_Traps.png" />
+    <None Remove="Images\Civerb%27s_Vestments.png" />
+    <None Remove="Images\Cleglaws_Brace.png" />
+    <None Remove="Images\Deaths_Disguise.png" />
+    <None Remove="Images\Hsarus_Defense.png" />
     <None Remove="klipp.png" />
     <None Remove="MenuBtn.png" />
     <None Remove="MenuBtnSmall.png" />
@@ -37,6 +41,10 @@
     <Resource Include="Images\Arcannas_Tricks.png" />
     <Resource Include="Images\Berserkers_Arsenal.png" />
     <Resource Include="Images\Cathans_Traps.png" />
+    <Resource Include="Images\Civerb's_Vestments.png" />
+    <Resource Include="Images\Cleglaws_Brace.png" />
+    <Resource Include="Images\Deaths_Disguise.png" />
+    <Resource Include="Images\Hsarus_Defense.png" />
     <Resource Include="Images\klipp.png" />
     <Resource Include="Images\MenuBtn.png" />
     <Resource Include="Images\MenuBtnSmall.png" />

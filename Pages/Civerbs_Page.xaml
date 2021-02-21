@@ -1,0 +1,63 @@
+﻿<Page x:Class="DijabloGrail.Pages.Civerbs_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="Civerbs_Page">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Civerb's_Vestments.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="839,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Civerb's Vestments"/></TextBlock>
+        <WrapPanel Margin="0,0,446,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="820" Height="310">
+                <CheckBox x:Name="Civerbs_Cudgel" 
+                    Margin="40,170,0,0"
+                    Content="" ToolTip="Mephisto (Normal) 1:153" Checked="Civerbs_Cudgel_Checked" Unchecked="Civerbs_Cudgel_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="85" Width="820">
+                <CheckBox x:Name="Civerbs_Icon"
+                    Margin="40,15,0,0"
+                    Content="" ToolTip="Duriel (Normal) 1:580" Checked="Civerbs_Icon_Checked" Unchecked="Civerbs_Icon_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="196" Width="820">
+                <CheckBox x:Name="Civerbs_Ward"
+                    Margin="40,20,0,0" 
+                    Content="" ToolTip="Mephisto (Normal) 1:100" Checked="Civerbs_Ward_Checked" Unchecked="Civerbs_Ward_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

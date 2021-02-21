@@ -4358,12 +4358,144 @@ namespace DijabloGrail.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool Setting {
+        public bool Cleglaws_Tooth {
             get {
-                return ((bool)(this["Setting"]));
+                return ((bool)(this["Cleglaws_Tooth"]));
             }
             set {
-                this["Setting"] = value;
+                this["Cleglaws_Tooth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cleglaws_Pinchers {
+            get {
+                return ((bool)(this["Cleglaws_Pinchers"]));
+            }
+            set {
+                this["Cleglaws_Pinchers"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cleglaws_Claw {
+            get {
+                return ((bool)(this["Cleglaws_Claw"]));
+            }
+            set {
+                this["Cleglaws_Claw"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Civerbs_Gudgel {
+            get {
+                return ((bool)(this["Civerbs_Gudgel"]));
+            }
+            set {
+                this["Civerbs_Gudgel"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Civerbs_Icon {
+            get {
+                return ((bool)(this["Civerbs_Icon"]));
+            }
+            set {
+                this["Civerbs_Icon"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Civerbs_Ward {
+            get {
+                return ((bool)(this["Civerbs_Ward"]));
+            }
+            set {
+                this["Civerbs_Ward"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Deaths_Guard {
+            get {
+                return ((bool)(this["Deaths_Guard"]));
+            }
+            set {
+                this["Deaths_Guard"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Deaths_Touch {
+            get {
+                return ((bool)(this["Deaths_Touch"]));
+            }
+            set {
+                this["Deaths_Touch"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Deaths_Hand {
+            get {
+                return ((bool)(this["Deaths_Hand"]));
+            }
+            set {
+                this["Deaths_Hand"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hsarus_IronFist {
+            get {
+                return ((bool)(this["Hsarus_IronFist"]));
+            }
+            set {
+                this["Hsarus_IronFist"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hsarus_IronStay {
+            get {
+                return ((bool)(this["Hsarus_IronStay"]));
+            }
+            set {
+                this["Hsarus_IronStay"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hsarus_IronHeel {
+            get {
+                return ((bool)(this["Hsarus_IronHeel"]));
+            }
+            set {
+                this["Hsarus_IronHeel"] = value;
             }
         }
     }
