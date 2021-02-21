@@ -4534,5 +4534,101 @@ namespace DijabloGrail.Properties {
                 this["Infernal_Torch"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Iratha_s_Coil {
+            get {
+                return ((bool)(this["Iratha_s_Coil"]));
+            }
+            set {
+                this["Iratha_s_Coil"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Iratha_s_Collar {
+            get {
+                return ((bool)(this["Iratha_s_Collar"]));
+            }
+            set {
+                this["Iratha_s_Collar"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Iratha_s_Cord {
+            get {
+                return ((bool)(this["Iratha_s_Cord"]));
+            }
+            set {
+                this["Iratha_s_Cord"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Iratha_s_Cuff {
+            get {
+                return ((bool)(this["Iratha_s_Cuff"]));
+            }
+            set {
+                this["Iratha_s_Cuff"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Isenhart_s_Lightbrand {
+            get {
+                return ((bool)(this["Isenhart_s_Lightbrand"]));
+            }
+            set {
+                this["Isenhart_s_Lightbrand"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Isenhart_s_Horns {
+            get {
+                return ((bool)(this["Isenhart_s_Horns"]));
+            }
+            set {
+                this["Isenhart_s_Horns"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Isenhart_s_Case {
+            get {
+                return ((bool)(this["Isenhart_s_Case"]));
+            }
+            set {
+                this["Isenhart_s_Case"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Isenhart_s_Parry {
+            get {
+                return ((bool)(this["Isenhart_s_Parry"]));
+            }
+            set {
+                this["Isenhart_s_Parry"] = value;
+            }
+        }
     }
 }

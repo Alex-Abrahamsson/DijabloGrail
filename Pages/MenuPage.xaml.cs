@@ -303,5 +303,17 @@ namespace DijabloGrail
             InfernalPage infernalPage = new InfernalPage();
             this.NavigationService.Navigate(infernalPage);
         }
+
+        private void IrathasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Iratha_s_Page iratha_S_Page = new Iratha_s_Page();
+            this.NavigationService.Navigate(iratha_S_Page);
+        }
+
+        private void IsenhartBtn_Click(object sender, RoutedEventArgs e)
+        {
+            IsenhartPage isenhartPage = new IsenhartPage();
+            this.NavigationService.Navigate(isenhartPage);
+        }
     }
 }

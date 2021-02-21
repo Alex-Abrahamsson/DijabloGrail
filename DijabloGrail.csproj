@@ -16,6 +16,8 @@
     <None Remove="Images\Deaths_Disguise.png" />
     <None Remove="Images\Hsarus_Defense.png" />
     <None Remove="Images\Infernal_Tools.png" />
+    <None Remove="Images\Iratha%27s_Finery.png" />
+    <None Remove="Images\Isenhart_Armory.png" />
     <None Remove="klipp.png" />
     <None Remove="MenuBtn.png" />
     <None Remove="MenuBtnSmall.png" />
@@ -47,6 +49,8 @@
     <Resource Include="Images\Deaths_Disguise.png" />
     <Resource Include="Images\Hsarus_Defense.png" />
     <Resource Include="Images\Infernal_Tools.png" />
+    <Resource Include="Images\Iratha's_Finery.png" />
+    <Resource Include="Images\Isenhart_Armory.png" />
     <Resource Include="Images\klipp.png" />
     <Resource Include="Images\MenuBtn.png" />
     <Resource Include="Images\MenuBtnSmall.png" />
