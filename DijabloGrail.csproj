@@ -15,6 +15,7 @@
     <None Remove="Images\Cleglaws_Brace.png" />
     <None Remove="Images\Deaths_Disguise.png" />
     <None Remove="Images\Hsarus_Defense.png" />
+    <None Remove="Images\Infernal_Tools.png" />
     <None Remove="klipp.png" />
     <None Remove="MenuBtn.png" />
     <None Remove="MenuBtnSmall.png" />
@@ -45,6 +46,7 @@
     <Resource Include="Images\Cleglaws_Brace.png" />
     <Resource Include="Images\Deaths_Disguise.png" />
     <Resource Include="Images\Hsarus_Defense.png" />
+    <Resource Include="Images\Infernal_Tools.png" />
     <Resource Include="Images\klipp.png" />
     <Resource Include="Images\MenuBtn.png" />
     <Resource Include="Images\MenuBtnSmall.png" />

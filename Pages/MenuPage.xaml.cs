@@ -297,5 +297,11 @@ namespace DijabloGrail
             Hsarus_Page hsarus_Page = new Hsarus_Page();
             this.NavigationService.Navigate(hsarus_Page);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            InfernalPage infernalPage = new InfernalPage();
+            this.NavigationService.Navigate(infernalPage);
+        }
     }
 }

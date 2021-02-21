@@ -190,7 +190,7 @@
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Infernal Tools" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="MV Boli" FontSize="14" Width="200" FontWeight="Bold" FontStyle="Normal" Height="30" BorderBrush="#00707070" Margin="5,3,0,0">
+            <Button Content="Infernal Tools" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="MV Boli" FontSize="14" Width="200" FontWeight="Bold" FontStyle="Normal" Height="30" BorderBrush="#00707070" Margin="5,3,0,0" Click="Button_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>

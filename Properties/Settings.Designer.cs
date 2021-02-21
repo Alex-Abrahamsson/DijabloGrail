@@ -4498,5 +4498,41 @@ namespace DijabloGrail.Properties {
                 this["Hsarus_IronHeel"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Infernal_Cranium {
+            get {
+                return ((bool)(this["Infernal_Cranium"]));
+            }
+            set {
+                this["Infernal_Cranium"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Infernal_Sign {
+            get {
+                return ((bool)(this["Infernal_Sign"]));
+            }
+            set {
+                this["Infernal_Sign"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Infernal_Torch {
+            get {
+                return ((bool)(this["Infernal_Torch"]));
+            }
+            set {
+                this["Infernal_Torch"] = value;
+            }
+        }
     }
 }
