@@ -1,0 +1,69 @@
+﻿<Page x:Class="DijabloGrail.Pages.MilabregasPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="MilabregasPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Milabregas_Regalia.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="830,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Milabrega's Regalia"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,10,572,-10">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="650" Height="140">
+                <CheckBox x:Name="Milabrega_s_Diadem" 
+                    Margin="30,40,0,0"
+                    Content="" ToolTip="Baal (Normal) 1:179" Checked="Milabrega_s_Diadem_Checked" Unchecked="Milabrega_s_Diadem_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="140" Width="650">
+                <CheckBox x:Name="Milabrega_s_Robe"
+                    Margin="30,30,0,0"
+                    Content="" ToolTip="Mephisto (Nightmare) 1:341" Checked="Milabrega_s_Robe_Checked" Unchecked="Milabrega_s_Robe_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="200" Width="650">
+                <CheckBox x:Name="Milabrega_s_Orb"
+                    Margin="30,40,0,0" 
+                    Content="" ToolTip="Mephisto (Normal) 1:51" Checked="Milabrega_s_Orb_Checked" Unchecked="Milabrega_s_Orb_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="200" Width="650">
+                <CheckBox x:Name="Milabrega_s_Rod"
+                    Margin="20,30,0,0"
+                    Content="" ToolTip="Mephisto (Normal) 1:156" Checked="Milabrega_s_Rod_Checked" Unchecked="Milabrega_s_Rod_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

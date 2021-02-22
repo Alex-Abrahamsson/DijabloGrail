@@ -18,6 +18,7 @@ namespace DijabloGrail
 
     public partial class MenuPage : Page
     {
+
         public double[] allScore = new double[50];
         public double grailScore;
         public SoundPlayer sp = new SoundPlayer();
@@ -314,6 +315,12 @@ namespace DijabloGrail
         {
             IsenhartPage isenhartPage = new IsenhartPage();
             this.NavigationService.Navigate(isenhartPage);
+        }
+
+        private void MilabregasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MilabregasPage milabregasPage = new MilabregasPage();
+            this.NavigationService.Navigate(milabregasPage);
         }
     }
 }

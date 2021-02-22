@@ -4630,5 +4630,53 @@ namespace DijabloGrail.Properties {
                 this["Isenhart_s_Parry"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Milabrega_s_Rod {
+            get {
+                return ((bool)(this["Milabrega_s_Rod"]));
+            }
+            set {
+                this["Milabrega_s_Rod"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Milabrega_s_Orb {
+            get {
+                return ((bool)(this["Milabrega_s_Orb"]));
+            }
+            set {
+                this["Milabrega_s_Orb"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Milabrega_s_Robe {
+            get {
+                return ((bool)(this["Milabrega_s_Robe"]));
+            }
+            set {
+                this["Milabrega_s_Robe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Milabrega_s_Diadem {
+            get {
+                return ((bool)(this["Milabrega_s_Diadem"]));
+            }
+            set {
+                this["Milabrega_s_Diadem"] = value;
+            }
+        }
     }
 }

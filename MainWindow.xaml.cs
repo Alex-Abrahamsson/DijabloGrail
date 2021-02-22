@@ -29,6 +29,7 @@ namespace DijabloGrail
             InitializeComponent();
             this.Title = "Diablo Holy Grail Game!";
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            
 
             
             mainPage.NavigationService.Navigate(menuPage);
