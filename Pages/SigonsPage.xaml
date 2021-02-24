@@ -1,0 +1,81 @@
+﻿<Page x:Class="DijabloGrail.Pages.SigonsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="SigonsPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Sigons_Complete_steel.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="786,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="36"
+            Foreground="#FF09C700"
+            FontWeight="Bold" Width="452">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Sigon's Complete Steel"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,494,10">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="740" Height="115">
+                <CheckBox x:Name="Sigon_s_Visor" 
+                    Margin="30,20,0,0"
+                    Content="" Checked="Sigon_s_Visor_Checked" Unchecked="Sigon_s_Visor_Unchecked" ToolTip="Mephisto (Normal) 1:101"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="110" Width="740">
+                <CheckBox x:Name="Sigon_s_Shelter"
+                    Margin="30,10,0,0"
+                    Content="" Checked="Sigon_s_Shelter_Checked" Unchecked="Sigon_s_Shelter_Unchecked" ToolTip="Baal (Normal) 1:98"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="115" Width="740">
+                <CheckBox x:Name="Sigon_s_Sabot"
+                    Margin="30,10,0,0" 
+                    Content="" Checked="Sigon_s_Sabot_Checked" Unchecked="Sigon_s_Sabot_Unchecked" ToolTip="Diablo (Normal) 1:67"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="120" Width="740">
+                <CheckBox x:Name="Sigon_s_Guard"
+                    Margin="20,10,0,0"
+                    Content="" Checked="Sigon_s_Guard_Checked" Unchecked="Sigon_s_Guard_Unchecked" ToolTip="Mephisto (Normal) 1:100"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic5"
+                Background="#99000000" Height="120" Width="740">
+                <CheckBox x:Name="Sigon_s_Wrap"
+                    Margin="20,10,0,0"
+                    Content="" Checked="Sigon_s_Wrap_Checked" Unchecked="Sigon_s_Wrap_Unchecked" ToolTip="Diablo (Normal) 1:67"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic6"
+                Background="#99000000" Height="120" Width="740">
+                <CheckBox x:Name="Sigon_s_Gage"
+                    Margin="20,10,0,0"
+                    Content="" Checked="Sigon_s_Gage_Checked" Unchecked="Sigon_s_Gage_Unchecked" ToolTip="Diablo (Normal) 1:67"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

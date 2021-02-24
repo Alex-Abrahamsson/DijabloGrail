@@ -322,5 +322,11 @@ namespace DijabloGrail
             MilabregasPage milabregasPage = new MilabregasPage();
             this.NavigationService.Navigate(milabregasPage);
         }
+
+        private void SigonsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SigonsPage sigonsPage = new SigonsPage();
+            this.NavigationService.Navigate(sigonsPage);
+        }
     }
 }

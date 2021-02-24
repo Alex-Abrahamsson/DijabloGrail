@@ -19,6 +19,7 @@
     <None Remove="Images\Iratha%27s_Finery.png" />
     <None Remove="Images\Isenhart_Armory.png" />
     <None Remove="Images\Milabregas_Regalia.png" />
+    <None Remove="Images\Sigons_Complete_steel.png" />
     <None Remove="klipp.png" />
     <None Remove="MenuBtn.png" />
     <None Remove="MenuBtnSmall.png" />
@@ -75,6 +76,7 @@
     <Resource Include="Images\Angelic_Wings_Stats.png" />
     <Resource Include="Images\Anglelic_Sickle_Stats.png" />
     <Resource Include="Images\Milabregas_Regalia.png" />
+    <Resource Include="Images\Sigons_Complete_steel.png" />
     <Resource Include="Images\Tristram.jpg" />
     <Content Include="Music\Act 2 - Town2.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

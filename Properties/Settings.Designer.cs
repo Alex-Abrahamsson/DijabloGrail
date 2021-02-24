@@ -4678,5 +4678,77 @@ namespace DijabloGrail.Properties {
                 this["Milabrega_s_Diadem"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sigon_s_Visor {
+            get {
+                return ((bool)(this["Sigon_s_Visor"]));
+            }
+            set {
+                this["Sigon_s_Visor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sigon_s_Shelter {
+            get {
+                return ((bool)(this["Sigon_s_Shelter"]));
+            }
+            set {
+                this["Sigon_s_Shelter"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sigon_s_Sabot {
+            get {
+                return ((bool)(this["Sigon_s_Sabot"]));
+            }
+            set {
+                this["Sigon_s_Sabot"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sigon_s_Guard {
+            get {
+                return ((bool)(this["Sigon_s_Guard"]));
+            }
+            set {
+                this["Sigon_s_Guard"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sigon_s_Wrap {
+            get {
+                return ((bool)(this["Sigon_s_Wrap"]));
+            }
+            set {
+                this["Sigon_s_Wrap"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sigon_s_Gage {
+            get {
+                return ((bool)(this["Sigon_s_Gage"]));
+            }
+            set {
+                this["Sigon_s_Gage"] = value;
+            }
+        }
     }
 }
