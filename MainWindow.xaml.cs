@@ -33,7 +33,7 @@ namespace DijabloGrail
 
             
             mainPage.NavigationService.Navigate(menuPage);
-
+            Properties.Settings.Default.IsMuted = false;
             CheckIfMusicIsMuted(menuPage);
         }
 

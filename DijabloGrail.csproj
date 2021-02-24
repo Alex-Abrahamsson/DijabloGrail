@@ -20,6 +20,8 @@
     <None Remove="Images\Isenhart_Armory.png" />
     <None Remove="Images\Milabregas_Regalia.png" />
     <None Remove="Images\Sigons_Complete_steel.png" />
+    <None Remove="Images\Tancreds_Battlegear.png" />
+    <None Remove="Images\Vidalas_Rig.png" />
     <None Remove="klipp.png" />
     <None Remove="MenuBtn.png" />
     <None Remove="MenuBtnSmall.png" />
@@ -77,7 +79,9 @@
     <Resource Include="Images\Anglelic_Sickle_Stats.png" />
     <Resource Include="Images\Milabregas_Regalia.png" />
     <Resource Include="Images\Sigons_Complete_steel.png" />
+    <Resource Include="Images\Tancreds_Battlegear.png" />
     <Resource Include="Images\Tristram.jpg" />
+    <Resource Include="Images\Vidalas_Rig.png" />
     <Content Include="Music\Act 2 - Town2.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

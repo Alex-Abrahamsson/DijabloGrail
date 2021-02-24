@@ -22,6 +22,7 @@ namespace DijabloGrail
         public double[] allScore = new double[50];
         public double grailScore;
         public SoundPlayer sp = new SoundPlayer();
+        public bool firstStart = true;
 
         public void PlaySong()
         {
@@ -80,8 +81,26 @@ namespace DijabloGrail
             CalculateScore();
             SetScore();
 
+            if (firstStart)
+            {
+                PlaySong();
+                firstStart = false;
+            }
+
             //--------------------------------MAIN CODE END--------------------------
         }
+
+        //========================================== MUTE CHECKBOX ====================================
+        private void MuteCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.IsMuted = true;
+        }
+
+        private void MuteCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.IsMuted = false;
+        }
+        //=============================================================================================
 
         private void SetAllScoreVariables()
         {
@@ -241,15 +260,7 @@ namespace DijabloGrail
             this.NavigationService.Navigate(scepterPage);
         }
 
-        private void MuteCheckBox_Checked(object sender, RoutedEventArgs e)
-        {
-            Properties.Settings.Default.IsMuted = true;
-        }
 
-        private void MuteCheckBox_Unchecked(object sender, RoutedEventArgs e)
-        {
-            Properties.Settings.Default.IsMuted = false;
-        }
 
         private void Angelic_RaimentBtn_Click(object sender, RoutedEventArgs e)
         {

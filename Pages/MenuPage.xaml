@@ -27,7 +27,7 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <CheckBox x:Name="MuteCheckBox" Content="Muted" HorizontalAlignment="Left" Margin="1130,30,0,0" VerticalAlignment="Top" Checked="MuteCheckBox_Checked" Unchecked="MuteCheckBox_Unchecked" IsChecked="True" FontFamily="MV Boli" FontSize="24" Foreground="White" FontWeight="Bold"/>
+        <CheckBox x:Name="MuteCheckBox" Content="Muted" HorizontalAlignment="Left" Margin="1130,30,0,0" VerticalAlignment="Top" Checked="MuteCheckBox_Checked" Unchecked="MuteCheckBox_Unchecked" IsChecked="False" FontFamily="MV Boli" FontSize="24" Foreground="White" FontWeight="Bold"/>
         <WrapPanel Margin="252,78,664,78">
             <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="MV Boli" FontSize="32" Foreground="#FFC77600" FontWeight="Bold" Margin="120,0,0,0">
                 <TextBlock.TextDecorations>
