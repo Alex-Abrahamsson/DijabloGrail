@@ -1,0 +1,69 @@
+﻿<Page x:Class="DijabloGrail.Pages.VidalasPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="VidalasPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Vidalas_Rig.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Vidala's Rig"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,452,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="820" Height="230">
+                <CheckBox x:Name="Vidala_s_Barb" 
+                    Margin="20,80,0,0"
+                    Content="CheckBox" ToolTip="Mephisto (Normal) 1:69" Checked="Vidala_s_Barb_Checked" Unchecked="Vidala_s_Barb_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="160" Width="820">
+                <CheckBox x:Name="Vidala_s_Ambush"
+                    Margin="20,30,0,0"
+                    Content="CheckBox" ToolTip="Diablo (Normal) 1:1469" Checked="Vidala_s_Ambush_Checked" Unchecked="Vidala_s_Ambush_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="130" Width="820">
+                <CheckBox x:Name="Vidala_s_Fetlock"
+                    Margin="30,10,0,0" 
+                    Content="CheckBox" ToolTip="Diablo (Normal) 1:84" Checked="Vidala_s_Fetlock_Checked" Unchecked="Vidala_s_Fetlock_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="150" Width="820">
+                <CheckBox x:Name="Vidala_s_Snare"
+                    Margin="20,10,0,0"
+                    Content="CheckBox" ToolTip="Duriel (Normal) 1:580" Checked="Vidala_s_Snare_Checked" Unchecked="Vidala_s_Snare_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

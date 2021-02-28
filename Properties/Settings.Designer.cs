@@ -4750,5 +4750,113 @@ namespace DijabloGrail.Properties {
                 this["Sigon_s_Gage"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tancred_s_Skull {
+            get {
+                return ((bool)(this["Tancred_s_Skull"]));
+            }
+            set {
+                this["Tancred_s_Skull"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tancred_s_Spine {
+            get {
+                return ((bool)(this["Tancred_s_Spine"]));
+            }
+            set {
+                this["Tancred_s_Spine"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tancred_s_Hobnails {
+            get {
+                return ((bool)(this["Tancred_s_Hobnails"]));
+            }
+            set {
+                this["Tancred_s_Hobnails"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tancred_s_Crowbill {
+            get {
+                return ((bool)(this["Tancred_s_Crowbill"]));
+            }
+            set {
+                this["Tancred_s_Crowbill"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tancred_s_Weird {
+            get {
+                return ((bool)(this["Tancred_s_Weird"]));
+            }
+            set {
+                this["Tancred_s_Weird"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Vidala_s_Barb {
+            get {
+                return ((bool)(this["Vidala_s_Barb"]));
+            }
+            set {
+                this["Vidala_s_Barb"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Vidala_s_Ambush {
+            get {
+                return ((bool)(this["Vidala_s_Ambush"]));
+            }
+            set {
+                this["Vidala_s_Ambush"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Vidala_s_Fetlock {
+            get {
+                return ((bool)(this["Vidala_s_Fetlock"]));
+            }
+            set {
+                this["Vidala_s_Fetlock"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Vidala_s_Snare {
+            get {
+                return ((bool)(this["Vidala_s_Snare"]));
+            }
+            set {
+                this["Vidala_s_Snare"] = value;
+            }
+        }
     }
 }

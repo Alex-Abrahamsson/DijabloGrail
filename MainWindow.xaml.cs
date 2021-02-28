@@ -29,53 +29,9 @@ namespace DijabloGrail
             InitializeComponent();
             this.Title = "Diablo Holy Grail Game!";
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            
-
-            
+              
             mainPage.NavigationService.Navigate(menuPage);
-            Properties.Settings.Default.IsMuted = false;
-            CheckIfMusicIsMuted(menuPage);
         }
 
-        private void CheckIfMusicIsMuted(MenuPage mPage)
-        {
-            switch (Properties.Settings.Default.IsMuted)
-            {
-                case false:
-                    menuPage.sp.Play();
-                    menuPage.PlaySong();
-                    break;
-                case true:
-                    menuPage.sp.Stop();
-                    break;
-            }
-        }
-
-
-        //public void PlaySong()
-        //{
-        //    Random numberGenerator = new Random();
-        //    int randomNumber = numberGenerator.Next(1, 5);
-
-        //    switch (randomNumber)
-        //    {
-        //        case 1:
-        //            sp.SoundLocation = @".\Act 1 - Town1.wav";
-        //            sp.Play();
-        //            break;
-        //        case 2:
-        //            sp.SoundLocation = @".\Act 1 - Tristram.wav";
-        //            sp.Play();
-        //            break;
-        //        case 3:
-        //            sp.SoundLocation = @".\Act 2 - Town2.wav";
-        //            sp.Play();
-        //            break;
-        //        case 4:
-        //            sp.SoundLocation = @".\Act 5 - Xtown.wav";
-        //            sp.Play();
-        //            break;
-        //    }
-        //}
     }
 }

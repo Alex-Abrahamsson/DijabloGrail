@@ -1,0 +1,75 @@
+﻿<Page x:Class="DijabloGrail.Pages.TancredsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="TancredsPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Tancreds_Battlegear.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="829,0,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold" Width="409">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Tancred's Battlegear"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,478,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="790" Height="130">
+                <CheckBox x:Name="Tancred_s_Skull" 
+                    Margin="30,20,0,0"
+                    Content="CheckBox" Checked="Tancred_s_Skull_Checked" Unchecked="Tancred_s_Skull_Unchecked" ToolTip="Diablo (Normal) 1:109"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="140" Width="790">
+                <CheckBox x:Name="Tancred_s_Spine"
+                    Margin="30,10,0,0"
+                    Content="CheckBox" Checked="Tancred_s_Spine_Checked" Unchecked="Tancred_s_Spine_Unchecked" ToolTip="Mephisto (Nightmare) 1:286"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="140" Width="790">
+                <CheckBox x:Name="Tancred_s_Hobnails"
+                    Margin="30,10,0,0" 
+                    Content="CheckBox" Checked="Tancred_s_Hobnails_Checked" Unchecked="Tancred_s_Hobnails_Unchecked" ToolTip="Diablo (Normal) 1:1596"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="160" Width="790">
+                <CheckBox x:Name="Tancred_s_Crowbill"
+                    Margin="20,10,0,0"
+                    Content="CheckBox" Checked="Tancred_s_Crowbill_Checked" Unchecked="Tancred_s_Crowbill_Unchecked" ToolTip="Diablo (Normal) 1:56"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic5"
+                Background="#99000000" Height="120" Width="790">
+                <CheckBox x:Name="Tancred_s_Weird"
+                    Margin="20,10,0,0"
+                    Content="CheckBox" Checked="Tancred_s_Weird_Checked" Unchecked="Tancred_s_Weird_Unchecked" ToolTip="Duriel (Hell) 1:622"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

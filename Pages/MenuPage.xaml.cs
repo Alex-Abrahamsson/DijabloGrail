@@ -21,35 +21,6 @@ namespace DijabloGrail
 
         public double[] allScore = new double[50];
         public double grailScore;
-        public SoundPlayer sp = new SoundPlayer();
-        public bool firstStart = true;
-
-        public void PlaySong()
-        {
-            Random numberGenerator = new Random();
-            int randomNumber = numberGenerator.Next(1, 5);
-
-            switch (randomNumber)
-            {
-                case 1:
-                    sp.SoundLocation = @".\Music\Act 1 - Town1.wav";
-                    sp.Play();
-                    break;
-                case 2:
-                    sp.SoundLocation = @".\Music\Act 1 - Tristram.wav";
-                    sp.Play();
-                    break;
-                case 3:
-                    sp.SoundLocation = @".\Music\Act 2 - Town2.wav";
-                    sp.Play();
-                    break;
-                case 4:
-                    sp.SoundLocation = @".\Music\Act 5 - Xtown.wav";
-                    sp.Play();
-                    break;
-            }
-        }
-
         public void SetScore()
         {
             if (grailScore < 1)
@@ -80,27 +51,8 @@ namespace DijabloGrail
 
             CalculateScore();
             SetScore();
-
-            if (firstStart)
-            {
-                PlaySong();
-                firstStart = false;
-            }
-
             //--------------------------------MAIN CODE END--------------------------
         }
-
-        //========================================== MUTE CHECKBOX ====================================
-        private void MuteCheckBox_Checked(object sender, RoutedEventArgs e)
-        {
-            Properties.Settings.Default.IsMuted = true;
-        }
-
-        private void MuteCheckBox_Unchecked(object sender, RoutedEventArgs e)
-        {
-            Properties.Settings.Default.IsMuted = false;
-        }
-        //=============================================================================================
 
         private void SetAllScoreVariables()
         {
@@ -338,6 +290,18 @@ namespace DijabloGrail
         {
             SigonsPage sigonsPage = new SigonsPage();
             this.NavigationService.Navigate(sigonsPage);
+        }
+
+        private void TancredsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TancredsPage tancredsPage = new TancredsPage();
+            this.NavigationService.Navigate(tancredsPage);
+        }
+
+        private void VidalasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            VidalasPage vidalasPage = new VidalasPage();
+            this.NavigationService.Navigate(vidalasPage);
         }
     }
 }
