@@ -1,0 +1,63 @@
+﻿<Page x:Class="DijabloGrail.Pages.SazabisPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="SazabisPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Sazabis_Grand_Tribute.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="768,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold" Width="446">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Sazabi's Grand Tribute"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,554,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="700" Height="250">
+                <CheckBox x:Name="Sazabi_s_Mental_Sheath" 
+                    Margin="30,140,0,0"
+                    Content="" ToolTip="Mephisto (Nightmare) 1370:" Checked="Sazabi_s_Mental_Sheath_Checked" Unchecked="Sazabi_s_Mental_Sheath_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="200" Width="700">
+                <CheckBox x:Name="Sazabi_s_Cobalt_Redeemer"
+                    Margin="30,30,0,0"
+                    Content="" ToolTip="Baal (Hell) 1:464" Checked="Sazabi_s_Cobalt_Redeemer_Checked" Unchecked="Sazabi_s_Cobalt_Redeemer_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="200" Width="700">
+                <CheckBox x:Name="Sazabi_s_Ghost_Liberator"
+                    Margin="30,30,0,0" 
+                    Content="" ToolTip="Baal (Hell) 1:563" Checked="Sazabi_s_Ghost_Liberator_Checked" Unchecked="Sazabi_s_Ghost_Liberator_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

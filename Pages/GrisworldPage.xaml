@@ -1,0 +1,69 @@
+﻿<Page x:Class="DijabloGrail.Pages.GrisworldPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="GrisworldPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Griswolds_Legacy.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Griswold's Legacy"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,556,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="710" Height="150">
+                <CheckBox x:Name="Griswold_s_Heart" 
+                    Margin="30,40,0,0"
+                    Content="" ToolTip="Mephisto (Hell) 1:272" Checked="Griswold_s_Heart_Checked" Unchecked="Griswold_s_Heart_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="145" Width="710">
+                <CheckBox x:Name="Griswold_s_Valor"
+                    Margin="30,40,0,0"
+                    Content="" ToolTip="Baal (Hell) 1:7121" Checked="Griswold_s_Valor_Checked" Unchecked="Griswold_s_Valor_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="205" Width="710">
+                <CheckBox x:Name="Griswold_s_Redemption"
+                    Margin="30,50,0,0" 
+                    Content="" ToolTip="Baal (Hell) 1:17479" Checked="Griswold_s_Redemption_Checked" Unchecked="Griswold_s_Redemption_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="200" Width="710">
+                <CheckBox x:Name="Griswold_s_Honor"
+                    Margin="20,40,0,0"
+                    Content="" ToolTip="Baal (Hell) 1:18026" Checked="Griswold_s_Honor_Checked" Unchecked="Griswold_s_Honor_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

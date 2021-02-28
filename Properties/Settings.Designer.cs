@@ -4858,5 +4858,485 @@ namespace DijabloGrail.Properties {
                 this["Vidala_s_Snare"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Telling_of_Beads {
+            get {
+                return ((bool)(this["Telling_of_Beads"]));
+            }
+            set {
+                this["Telling_of_Beads"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Laying_of_Hands {
+            get {
+                return ((bool)(this["Laying_of_Hands"]));
+            }
+            set {
+                this["Laying_of_Hands"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Dark_Adherent {
+            get {
+                return ((bool)(this["Dark_Adherent"]));
+            }
+            set {
+                this["Dark_Adherent"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Rite_of_Passage {
+            get {
+                return ((bool)(this["Rite_of_Passage"]));
+            }
+            set {
+                this["Rite_of_Passage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Credendum {
+            get {
+                return ((bool)(this["Credendum"]));
+            }
+            set {
+                this["Credendum"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Haemosu_s_Adamant {
+            get {
+                return ((bool)(this["Haemosu_s_Adamant"]));
+            }
+            set {
+                this["Haemosu_s_Adamant"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Dangoon_s_Teaching {
+            get {
+                return ((bool)(this["Dangoon_s_Teaching"]));
+            }
+            set {
+                this["Dangoon_s_Teaching"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Taebaek_s_Glory {
+            get {
+                return ((bool)(this["Taebaek_s_Glory"]));
+            }
+            set {
+                this["Taebaek_s_Glory"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Ondal_s_Almighty {
+            get {
+                return ((bool)(this["Ondal_s_Almighty"]));
+            }
+            set {
+                this["Ondal_s_Almighty"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hwanin_s_Splendor {
+            get {
+                return ((bool)(this["Hwanin_s_Splendor"]));
+            }
+            set {
+                this["Hwanin_s_Splendor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hwanin_s_Justice {
+            get {
+                return ((bool)(this["Hwanin_s_Justice"]));
+            }
+            set {
+                this["Hwanin_s_Justice"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hwanin_s_Refuge {
+            get {
+                return ((bool)(this["Hwanin_s_Refuge"]));
+            }
+            set {
+                this["Hwanin_s_Refuge"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hwanin_s_Blessing {
+            get {
+                return ((bool)(this["Hwanin_s_Blessing"]));
+            }
+            set {
+                this["Hwanin_s_Blessing"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Naj_s_Circlet {
+            get {
+                return ((bool)(this["Naj_s_Circlet"]));
+            }
+            set {
+                this["Naj_s_Circlet"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Naj_s_Light_Plate {
+            get {
+                return ((bool)(this["Naj_s_Light_Plate"]));
+            }
+            set {
+                this["Naj_s_Light_Plate"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Naj_s_Puzzler {
+            get {
+                return ((bool)(this["Naj_s_Puzzler"]));
+            }
+            set {
+                this["Naj_s_Puzzler"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Guillaume_s_Face {
+            get {
+                return ((bool)(this["Guillaume_s_Face"]));
+            }
+            set {
+                this["Guillaume_s_Face"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Whitstan_s_Guard {
+            get {
+                return ((bool)(this["Whitstan_s_Guard"]));
+            }
+            set {
+                this["Whitstan_s_Guard"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Magnus__Skin {
+            get {
+                return ((bool)(this["Magnus__Skin"]));
+            }
+            set {
+                this["Magnus__Skin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Wilhelm_s_Pride {
+            get {
+                return ((bool)(this["Wilhelm_s_Pride"]));
+            }
+            set {
+                this["Wilhelm_s_Pride"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sander_s_Paragon {
+            get {
+                return ((bool)(this["Sander_s_Paragon"]));
+            }
+            set {
+                this["Sander_s_Paragon"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sander_s_Superstition {
+            get {
+                return ((bool)(this["Sander_s_Superstition"]));
+            }
+            set {
+                this["Sander_s_Superstition"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sander_s_Taboo {
+            get {
+                return ((bool)(this["Sander_s_Taboo"]));
+            }
+            set {
+                this["Sander_s_Taboo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sander_s_Riprap {
+            get {
+                return ((bool)(this["Sander_s_Riprap"]));
+            }
+            set {
+                this["Sander_s_Riprap"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sazabi_s_Mental_Sheath {
+            get {
+                return ((bool)(this["Sazabi_s_Mental_Sheath"]));
+            }
+            set {
+                this["Sazabi_s_Mental_Sheath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sazabi_s_Cobalt_Redeemer {
+            get {
+                return ((bool)(this["Sazabi_s_Cobalt_Redeemer"]));
+            }
+            set {
+                this["Sazabi_s_Cobalt_Redeemer"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sazabi_s_Ghost_Liberator {
+            get {
+                return ((bool)(this["Sazabi_s_Ghost_Liberator"]));
+            }
+            set {
+                this["Sazabi_s_Ghost_Liberator"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cow_King_s_Horns {
+            get {
+                return ((bool)(this["Cow_King_s_Horns"]));
+            }
+            set {
+                this["Cow_King_s_Horns"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cow_King_s_Hide {
+            get {
+                return ((bool)(this["Cow_King_s_Hide"]));
+            }
+            set {
+                this["Cow_King_s_Hide"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cow_King_s_Hooves {
+            get {
+                return ((bool)(this["Cow_King_s_Hooves"]));
+            }
+            set {
+                this["Cow_King_s_Hooves"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Aldur_s_Stony_Gaze {
+            get {
+                return ((bool)(this["Aldur_s_Stony_Gaze"]));
+            }
+            set {
+                this["Aldur_s_Stony_Gaze"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Aldur_s_Advance {
+            get {
+                return ((bool)(this["Aldur_s_Advance"]));
+            }
+            set {
+                this["Aldur_s_Advance"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Aldur_s_Deception {
+            get {
+                return ((bool)(this["Aldur_s_Deception"]));
+            }
+            set {
+                this["Aldur_s_Deception"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Aldur_s_Rhythm {
+            get {
+                return ((bool)(this["Aldur_s_Rhythm"]));
+            }
+            set {
+                this["Aldur_s_Rhythm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Bul_Kathos__Sacred_Charge {
+            get {
+                return ((bool)(this["Bul_Kathos__Sacred_Charge"]));
+            }
+            set {
+                this["Bul_Kathos__Sacred_Charge"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Bul_Kathos__Tribal_Guardian {
+            get {
+                return ((bool)(this["Bul_Kathos__Tribal_Guardian"]));
+            }
+            set {
+                this["Bul_Kathos__Tribal_Guardian"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Griswold_s_Heart {
+            get {
+                return ((bool)(this["Griswold_s_Heart"]));
+            }
+            set {
+                this["Griswold_s_Heart"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Griswold_s_Valor {
+            get {
+                return ((bool)(this["Griswold_s_Valor"]));
+            }
+            set {
+                this["Griswold_s_Valor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Griswold_s_Redemption {
+            get {
+                return ((bool)(this["Griswold_s_Redemption"]));
+            }
+            set {
+                this["Griswold_s_Redemption"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Griswold_s_Honor {
+            get {
+                return ((bool)(this["Griswold_s_Honor"]));
+            }
+            set {
+                this["Griswold_s_Honor"] = value;
+            }
+        }
     }
 }

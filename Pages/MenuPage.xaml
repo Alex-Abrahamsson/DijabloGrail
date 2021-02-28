@@ -230,17 +230,17 @@
                 <TextBlock.TextDecorations>
                     <TextDecoration/>
                 </TextBlock.TextDecorations><Run Language="sv-se" Text="Elite Sets"/></TextBlock>
-            <Button Content="Aldur's Watchtower" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="AldursBtn" Content="Aldur's Watchtower" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="AldursBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Bul_Katho's Children" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="BulkathosBtn" Content="Bul_Katho's Children" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="BulkathosBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Griswold's Legacy" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="GriswoldsBtn" Content="Griswold's Legacy" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="GriswoldsBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
@@ -276,42 +276,42 @@
                 <TextBlock.TextDecorations>
                     <TextDecoration/>
                 </TextBlock.TextDecorations><Run Language="sv-se" Text="Exceptional Sets"/></TextBlock>
-            <Button Content="The Disciple" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="DicipleBtn" Content="The Disciple" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="DicipleBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Heaven's Brethren" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="HeavensBtn" Content="Heaven's Brethren" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="HeavensBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Hwanin's Majesty" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="HwaninsBtn" Content="Hwanin's Majesty" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="HwaninsBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Naj's Ancient Vestige" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="NajsBtn" Content="Naj's Ancient Vestige" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="NajsBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Orphan's Call" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="OrphansBtn" Content="Orphan's Call" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="OrphansBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Sander's Folly" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="SanderBtn" Content="Sander's Folly" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="SanderBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Sazabi's Grand Tribute" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="SazabisBtn" Content="Sazabi's Grand Tribute" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="SazabisBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Cow King's Leathers" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="CowkingsBtn" Content="Cow King's Leathers" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="CowkingsBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>

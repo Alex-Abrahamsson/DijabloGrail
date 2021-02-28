@@ -1,0 +1,75 @@
+﻿<Page x:Class="DijabloGrail.Pages.DiciplePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="DiciplePage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/The_Diciples.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold" Text="The Diciple">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,562,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="700" Height="90">
+                <CheckBox x:Name="Telling_of_Beads" 
+                    Margin="30,20,0,0"
+                    Content="CheckBox" ToolTip="Duriel (Hell) 1:4353" Checked="Telling_of_Beads_Checked" Unchecked="Telling_of_Beads_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="150" Width="700">
+                <CheckBox x:Name="Laying_of_Hands"
+                    Margin="30,30,0,0"
+                    Content="CheckBox" ToolTip="Baal (Nightmare) 1:229" Checked="Laying_of_Hands_Checked" Unchecked="Laying_of_Hands_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="140" Width="700">
+                <CheckBox x:Name="Dark_Adherent"
+                    Margin="30,10,0,0" 
+                    Content="CheckBox" ToolTip="Mephisto (Hell) 1:272" Checked="Dark_Adherent_Checked" Unchecked="Dark_Adherent_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="150" Width="700">
+                <CheckBox x:Name="Rite_of_Passage"
+                    Margin="20,20,0,0"
+                    Content="CheckBox" ToolTip="Baal (Normal) 1:166" Checked="Rite_of_Passage_Checked" Unchecked="Rite_of_Passage_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic5"
+                Background="#99000000" Height="160" Width="700">
+                <CheckBox x:Name="Credendum"
+                    Margin="20,40,0,0"
+                    Content="CheckBox" ToolTip="Diablo (Hell) 1:310" Checked="Credendum_Checked" Unchecked="Credendum_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

@@ -1,0 +1,69 @@
+﻿<Page x:Class="DijabloGrail.Pages.HeavensPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="HeavensPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Heavens_Brethren.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="887,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Heaven's Brethren"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,456,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="820" Height="145">
+                <CheckBox x:Name="Haemosu_s_Adamant" 
+                    Margin="30,20,0,0"
+                    Content="CheckBox" ToolTip="Diablo (Nightmare) 1:175" Checked="Haemosu_s_Adamant_Checked" Unchecked="Haemosu_s_Adamant_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="180" Width="820">
+                <CheckBox x:Name="Dangoon_s_Teaching"
+                    Margin="30,30,0,0"
+                    Content="CheckBox" ToolTip="Mephisto (Hell) 1:227" Checked="Dangoon_s_Teaching_Checked" Unchecked="Dangoon_s_Teaching_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="195" Width="820">
+                <CheckBox x:Name="Taebaek_s_Glory"
+                    Margin="30,30,0,0" 
+                    Content="CheckBox" ToolTip="Baal (Hell) 1:812" Checked="Taebaek_s_Glory_Checked" Unchecked="Taebaek_s_Glory_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="180" Width="820">
+                <CheckBox x:Name="Ondal_s_Almighty"
+                    Margin="20,30,0,0"
+                    Content="CheckBox" ToolTip="Baal (Hell) 1:453" Checked="Ondal_s_Almighty_Checked" Unchecked="Ondal_s_Almighty_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

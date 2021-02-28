@@ -303,5 +303,71 @@ namespace DijabloGrail
             VidalasPage vidalasPage = new VidalasPage();
             this.NavigationService.Navigate(vidalasPage);
         }
+
+        private void DicipleBtn_Click(object sender, RoutedEventArgs e)
+        {
+            DiciplePage diciplePage = new DiciplePage();
+            this.NavigationService.Navigate(diciplePage);
+        }
+
+        private void HeavensBtn_Click(object sender, RoutedEventArgs e)
+        {
+            HeavensPage heavensPage = new HeavensPage();
+            this.NavigationService.Navigate(heavensPage);
+        }
+
+        private void HwaninsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            HwaninsPage hwaninsPage = new HwaninsPage();
+            this.NavigationService.Navigate(hwaninsPage);
+        }
+
+        private void NajsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NajsPage najsPage = new NajsPage();
+            this.NavigationService.Navigate(najsPage);
+        }
+
+        private void OrphansBtn_Click(object sender, RoutedEventArgs e)
+        {
+            OrphansPage orphansPage = new OrphansPage();
+            this.NavigationService.Navigate(orphansPage);
+        }
+
+        private void SanderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SandersPage sandersPage = new SandersPage();
+            this.NavigationService.Navigate(sandersPage);
+        }
+
+        private void SazabisBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SazabisPage sazabisPage = new SazabisPage();
+            this.NavigationService.Navigate(sazabisPage);
+        }
+
+        private void CowkingsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CowkingsPage cowkingsPage = new CowkingsPage();
+            this.NavigationService.Navigate(cowkingsPage);
+        }
+
+        private void AldursBtn_Click(object sender, RoutedEventArgs e)
+        {
+            AldursPage aldursPage = new AldursPage();
+            this.NavigationService.Navigate(aldursPage);
+        }
+
+        private void BulkathosBtn_Click(object sender, RoutedEventArgs e)
+        {
+            BulKatosPage bulKatosPage = new BulKatosPage();
+            this.NavigationService.Navigate(bulKatosPage);
+        }
+
+        private void GriswoldsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            GrisworldPage grisworld = new GrisworldPage();
+            this.NavigationService.Navigate(grisworld);
+        }
     }
 }

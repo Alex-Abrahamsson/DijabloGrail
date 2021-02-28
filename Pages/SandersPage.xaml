@@ -1,0 +1,69 @@
+﻿<Page x:Class="DijabloGrail.Pages.SandersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="SandersPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Sanders_Folly.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Sander's Folly"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,528,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="740" Height="180">
+                <CheckBox x:Name="Sander_s_Paragon" 
+                    Margin="30,80,0,0"
+                    Content="" ToolTip="Mephisto (Normal) 1:4871" Checked="Sander_s_Paragon_Checked" Unchecked="Sander_s_Paragon_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="170" Width="740">
+                <CheckBox x:Name="Sander_s_Superstition"
+                    Margin="30,40,0,0"
+                    Content="" ToolTip="Mephisto (Normal) 1:159" Checked="Sander_s_Superstition_Checked" Unchecked="Sander_s_Superstition_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="120" Width="740">
+                <CheckBox x:Name="Sander_s_Taboo"
+                    Margin="30,20,0,0" 
+                    Content="" ToolTip="Mephisto (Normal) 1:95" Checked="Sander_s_Taboo_Checked" Unchecked="Sander_s_Taboo_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="180" Width="740">
+                <CheckBox x:Name="Sander_s_Riprap"
+                    Margin="20,40,0,0"
+                    Content="" ToolTip="Mephisto (Normal) 1:190" Checked="Sander_s_Riprap_Checked" Unchecked="Sander_s_Riprap_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

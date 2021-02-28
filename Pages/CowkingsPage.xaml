@@ -1,0 +1,63 @@
+﻿<Page x:Class="DijabloGrail.Pages.CowkingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="CowkingsPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/CowKings_Leathers.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="865,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Cow King's Leather"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,556,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="700" Height="260">
+                <CheckBox x:Name="Cow_King_s_Horns" 
+                    Margin="30,150,0,0"
+                    Content="" ToolTip="The Cow King (Hell) 1:240" Checked="Cow_King_s_Horns_Checked" Unchecked="Cow_King_s_Horns_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="140" Width="700">
+                <CheckBox x:Name="Cow_King_s_Hide"
+                    Margin="30,30,0,0"
+                    Content="" ToolTip="The Cow King (Normal) 1:21" Checked="Cow_King_s_Hide_Checked" Unchecked="Cow_King_s_Hide_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="220" Width="700">
+                <CheckBox x:Name="Cow_King_s_Hooves"
+                    Margin="30,40,0,0" 
+                    Content="" ToolTip="The Cow King (Normal) 1:42" Checked="Cow_King_s_Hooves_Checked" Unchecked="Cow_King_s_Hooves_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

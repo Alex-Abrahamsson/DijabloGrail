@@ -1,0 +1,69 @@
+﻿<Page x:Class="DijabloGrail.Pages.HwaninsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="HwaninsPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Hwanins_Majesty.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Hwanin's Majesty"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,488,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="750" Height="185">
+                <CheckBox x:Name="Hwanin_s_Splendor" 
+                    Margin="30,50,0,0"
+                    Content="" ToolTip="Baal (Nightamre) 1:228" Checked="Hwanin_s_Splendor_Checked" Unchecked="Hwanin_s_Splendor_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="175" Width="750">
+                <CheckBox x:Name="Hwanin_s_Justice"
+                    Margin="30,10,0,0"
+                    Content="" ToolTip="Mephstio (Nightamre) 1:211" Checked="Hwanin_s_Justice_Checked" Unchecked="Hwanin_s_Justice_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="130" Width="750">
+                <CheckBox x:Name="Hwanin_s_Refuge"
+                    Margin="30,10,0,0" 
+                    Content="" ToolTip="Mephisto (Nightmare) 1:368" Checked="Hwanin_s_Refuge_Checked" Unchecked="Hwanin_s_Refuge_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="200" Width="750">
+                <CheckBox x:Name="Hwanin_s_Blessing"
+                    Margin="20,50,0,0"
+                    Content="" ToolTip="Diablo (Normal) 1:219" Checked="Hwanin_s_Blessing_Checked" Unchecked="Hwanin_s_Blessing_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>
