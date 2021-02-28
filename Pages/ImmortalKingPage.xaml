@@ -1,0 +1,83 @@
+﻿<Page x:Class="DijabloGrail.Pages.ImmortalKingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="ImmortalKingPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/ImmortalKings.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold" Text="Immortal King">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,690,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="580" Height="140">
+                <CheckBox x:Name="Immortal_King_s_Will" 
+                    Margin="30,20,0,0"
+                    Content="" ToolTip="Diablo (Normal) 1:277" Checked="Immortal_King_s_Will_Checked" Unchecked="Immortal_King_s_Will_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="185" Width="580">
+                <CheckBox x:Name="Immortal_King_s_Stone_Crusher"
+                    Margin="30,10,0,0"
+                    Content="" ToolTip="Diablo (Hell) 1:179" Checked="Immortal_King_s_Stone_Crusher_Checked" Unchecked="Immortal_King_s_Stone_Crusher_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="170" Width="580">
+                <CheckBox x:Name="Immortal_King_s_Soul_Cage"
+                    Margin="30,10,0,0" 
+                    Content="" ToolTip="Baal (Hell) 1:7121" Checked="Immortal_King_s_Soul_Cage_Checked" Unchecked="Immortal_King_s_Soul_Cage_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="220" Width="580">
+                <CheckBox x:Name="Immortal_King_s_Detail"
+                    Margin="20,10,0,0"
+                    Content="" ToolTip="Baal (Nightmare) 1:367" Checked="Immortal_King_s_Detail_Checked" Unchecked="Immortal_King_s_Detail_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+        <WrapPanel Margin="590,79,142,254">
+            <WrapPanel x:Name="Pic5" 
+                Background="#99000000" Width="540" Height="185">
+                <CheckBox x:Name="Immortal_King_s_Forge" 
+                    Margin="30,20,0,0"
+                    Content="" ToolTip="Baal (Nightmare) 1:367" Checked="Immortal_King_s_Forge_Checked" Unchecked="Immortal_King_s_Forge_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic6" 
+                Background="#99000000" Height="195" Width="540">
+                <CheckBox x:Name="Immortal_King_s_Pillar"
+                    Margin="30,10,0,0"
+                    Content="" ToolTip="Baal (Nightmare) 1:367" Checked="Immortal_King_s_Pillar_Checked" Unchecked="Immortal_King_s_Pillar_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

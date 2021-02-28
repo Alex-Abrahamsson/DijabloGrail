@@ -5338,5 +5338,77 @@ namespace DijabloGrail.Properties {
                 this["Griswold_s_Honor"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Immortal_King_s_Will {
+            get {
+                return ((bool)(this["Immortal_King_s_Will"]));
+            }
+            set {
+                this["Immortal_King_s_Will"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Immortal_King_s_Stone_Crusher {
+            get {
+                return ((bool)(this["Immortal_King_s_Stone_Crusher"]));
+            }
+            set {
+                this["Immortal_King_s_Stone_Crusher"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Immortal_King_s_Soul_Cage {
+            get {
+                return ((bool)(this["Immortal_King_s_Soul_Cage"]));
+            }
+            set {
+                this["Immortal_King_s_Soul_Cage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Immortal_King_s_Detail {
+            get {
+                return ((bool)(this["Immortal_King_s_Detail"]));
+            }
+            set {
+                this["Immortal_King_s_Detail"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Immortal_King_s_Forge {
+            get {
+                return ((bool)(this["Immortal_King_s_Forge"]));
+            }
+            set {
+                this["Immortal_King_s_Forge"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Immortal_King_s_Pillar {
+            get {
+                return ((bool)(this["Immortal_King_s_Pillar"]));
+            }
+            set {
+                this["Immortal_King_s_Pillar"] = value;
+            }
+        }
     }
 }

@@ -369,5 +369,11 @@ namespace DijabloGrail
             GrisworldPage grisworld = new GrisworldPage();
             this.NavigationService.Navigate(grisworld);
         }
+
+        private void ImmortalBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ImmortalKingPage immortalKing = new ImmortalKingPage();
+            this.NavigationService.Navigate(immortalKing);
+        }
     }
 }
