@@ -154,7 +154,7 @@
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="Arcannas_Btn_Copy" Content="Artic Gear" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="200" FontWeight="Bold" FontStyle="Normal" Height="30" BorderBrush="#00707070" Click="Arcannas_Btn_Click" Margin="5,3,0,0">
+            <Button x:Name="ArcticBtn" Content="Artic Gear" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="14" Width="200" FontWeight="Bold" FontStyle="Normal" Height="30" BorderBrush="#00707070" Margin="5,3,0,0" Click="ArcticBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
@@ -255,17 +255,17 @@
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Natalya's Odium" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="NatalyasBtn" Content="Natalya's Odium" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="NatalyasBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Tal Rasha's Wrappings" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="TalrashasBtn" Content="Tal Rasha's Wrappings" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="TalrashasBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Trang-oul's Avatar" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="TranoulsBtn" Content="Trang-oul's Avatar" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="TranoulsBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>

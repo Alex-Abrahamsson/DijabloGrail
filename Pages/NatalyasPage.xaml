@@ -1,0 +1,69 @@
+﻿<Page x:Class="DijabloGrail.Pages.NatalyasPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="NatalyasPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/Natalys_Odium.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="896,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Natalya's Odium"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,536,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="720" Height="195">
+                <CheckBox x:Name="Natalya_s_Totem" 
+                    Margin="30,100,0,0"
+                    Content="" ToolTip="Baal (Nightmare) 1:522" Checked="Natalya_s_Totem_Checked" Unchecked="Natalya_s_Totem_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="185" Width="720">
+                <CheckBox x:Name="Natalya_s_Mark"
+                    Margin="30,40,0,0"
+                    Content="" ToolTip="Baal (Hell) 1:7374" Checked="Natalya_s_Mark_Checked" Unchecked="Natalya_s_Mark_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="130" Width="720">
+                <CheckBox x:Name="Natalya_s_Shadow"
+                    Margin="30,30,0,0" 
+                    Content="" ToolTip="Diablo (Hell) 1:308" Checked="Natalya_s_Shadow_Checked" Unchecked="Natalya_s_Shadow_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="160" Width="720">
+                <CheckBox x:Name="Natalya_s_Soul"
+                    Margin="20,50,0,0"
+                    Content="" ToolTip="Mephisto (Nightmare) 1:368" Checked="Natalya_s_Soul_Checked" Unchecked="Natalya_s_Soul_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

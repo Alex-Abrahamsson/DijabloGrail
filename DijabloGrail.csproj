@@ -10,6 +10,7 @@
     <None Remove="53956.jpg" />
     <None Remove="Images\Aldurs_Watchtower.png" />
     <None Remove="Images\Arcannas_Tricks.png" />
+    <None Remove="Images\Artic_Gear.png" />
     <None Remove="Images\Berserkers_Arsenal.png" />
     <None Remove="Images\BulKatos.png" />
     <None Remove="Images\Cathans_Traps.png" />
@@ -63,6 +64,7 @@
     <Resource Include="Images\53956.jpg" />
     <Resource Include="Images\Aldurs_Watchtower.png" />
     <Resource Include="Images\Arcannas_Tricks.png" />
+    <Resource Include="Images\Artic_Gear.png" />
     <Resource Include="Images\Berserkers_Arsenal.png" />
     <Resource Include="Images\BulKatos.png" />
     <Resource Include="Images\Cathans_Traps.png" />

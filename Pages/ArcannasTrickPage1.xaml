@@ -60,7 +60,7 @@
                     Unchecked="Arcanna_s_flesh_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Arcannas_Staff_Pic"
-                Background="#99000000" Height="190" Width="891">
+                Background="#99000000" Height="180" Width="891">
                 <CheckBox x:Name="Arcanna_s_Deathwand"
                     Margin="30,10,0,0" ToolTip="Mephisto (Normal) 1:207" 
                     Content="" Checked="Arcanna_s_Deathwand_Checked" Unchecked="Arcanna_s_Deathwand_Unchecked"/>

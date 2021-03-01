@@ -1,0 +1,75 @@
+﻿<Page x:Class="DijabloGrail.Pages.TrangOulsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="TrangOulsPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/TrangOuls.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" 
+            Margin="864,10,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontFamily="MV Boli"
+            FontSize="40"
+            Foreground="#FF09C700"
+            FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Trang-oul's Avatar"/></TextBlock>
+        <Button x:Name="MenuBtn"
+            Content="Menu" 
+            HorizontalAlignment="Left"
+            Margin="1138,625,0,0" 
+            VerticalAlignment="Top"
+            Width="100"
+            Height="40"
+            FontFamily="Monotype Corsiva"
+            FontSize="28"
+            FontWeight="Bold" 
+            TextBlock.FontFamily="MV Boli" Click="MenuBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <WrapPanel Margin="0,0,640,0">
+            <WrapPanel x:Name="Pic1" 
+                Background="#99000000" Width="630" Height="105">
+                <CheckBox x:Name="Trang_Oul_s_Guise" 
+                    Margin="30,20,0,0"
+                    Content="" ToolTip="Baal (Hell) 1:812" Checked="Trang_Oul_s_Guise_Checked" Unchecked="Trang_Oul_s_Guise_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic2" 
+                Background="#99000000" Height="140" Width="630">
+                <CheckBox x:Name="Trang_Oul_s_Scales"
+                    Margin="30,10,0,0"
+                    Content="" ToolTip="Mephisto (Hell) 1:410" Checked="Trang_Oul_s_Scales_Checked" Unchecked="Trang_Oul_s_Scales_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic3"
+                Background="#99000000" Height="175" Width="630">
+                <CheckBox x:Name="Trang_Oul_s_Wing"
+                    Margin="30,40,0,0" 
+                    Content="" ToolTip="Baal (Nightmare) 1:1320" Checked="Trang_Oul_s_Wing_Checked" Unchecked="Trang_Oul_s_Wing_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic4"
+                Background="#99000000" Height="155" Width="630">
+                <CheckBox x:Name="Trang_Oul_s_Girth"
+                    Margin="20,40,0,0"
+                    Content="" ToolTip="Baal (Hell) 1:807" Checked="Trang_Oul_s_Girth_Checked" Unchecked="Trang_Oul_s_Girth_Unchecked"/>
+            </WrapPanel>
+            <WrapPanel x:Name="Pic5"
+                Background="#99000000" Height="135" Width="630">
+                <CheckBox x:Name="Trang_Oul_s_Claws"
+                    Margin="20,10,0,0"
+                    Content="" ToolTip="Mephisto (Nightmare) 1:368" Checked="Trang_Oul_s_Claws_Checked" Unchecked="Trang_Oul_s_Claws_Unchecked"/>
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Page>

@@ -5470,5 +5470,221 @@ namespace DijabloGrail.Properties {
                 this["M_avina_s_Tenet"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Natalya_s_Totem {
+            get {
+                return ((bool)(this["Natalya_s_Totem"]));
+            }
+            set {
+                this["Natalya_s_Totem"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Natalya_s_Mark {
+            get {
+                return ((bool)(this["Natalya_s_Mark"]));
+            }
+            set {
+                this["Natalya_s_Mark"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Natalya_s_Shadow {
+            get {
+                return ((bool)(this["Natalya_s_Shadow"]));
+            }
+            set {
+                this["Natalya_s_Shadow"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Natalya_s_Soul {
+            get {
+                return ((bool)(this["Natalya_s_Soul"]));
+            }
+            set {
+                this["Natalya_s_Soul"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tal_Rasha_s_Lidless_Eye {
+            get {
+                return ((bool)(this["Tal_Rasha_s_Lidless_Eye"]));
+            }
+            set {
+                this["Tal_Rasha_s_Lidless_Eye"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tal_Rasha_s_Horadric_Crest {
+            get {
+                return ((bool)(this["Tal_Rasha_s_Horadric_Crest"]));
+            }
+            set {
+                this["Tal_Rasha_s_Horadric_Crest"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tal_Rasha_s_Guardianship {
+            get {
+                return ((bool)(this["Tal_Rasha_s_Guardianship"]));
+            }
+            set {
+                this["Tal_Rasha_s_Guardianship"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tal_Rasha_s_Fine_Spun_Cloth {
+            get {
+                return ((bool)(this["Tal_Rasha_s_Fine_Spun_Cloth"]));
+            }
+            set {
+                this["Tal_Rasha_s_Fine_Spun_Cloth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Tal_Rasha_s_Adjudication {
+            get {
+                return ((bool)(this["Tal_Rasha_s_Adjudication"]));
+            }
+            set {
+                this["Tal_Rasha_s_Adjudication"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Trang_Oul_s_Guise {
+            get {
+                return ((bool)(this["Trang_Oul_s_Guise"]));
+            }
+            set {
+                this["Trang_Oul_s_Guise"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Trang_Oul_s_Scales {
+            get {
+                return ((bool)(this["Trang_Oul_s_Scales"]));
+            }
+            set {
+                this["Trang_Oul_s_Scales"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Trang_Oul_s_Wing {
+            get {
+                return ((bool)(this["Trang_Oul_s_Wing"]));
+            }
+            set {
+                this["Trang_Oul_s_Wing"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Trang_Oul_s_Girth {
+            get {
+                return ((bool)(this["Trang_Oul_s_Girth"]));
+            }
+            set {
+                this["Trang_Oul_s_Girth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Trang_Oul_s_Claws {
+            get {
+                return ((bool)(this["Trang_Oul_s_Claws"]));
+            }
+            set {
+                this["Trang_Oul_s_Claws"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arctic_Furs {
+            get {
+                return ((bool)(this["Arctic_Furs"]));
+            }
+            set {
+                this["Arctic_Furs"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arctic_Binding {
+            get {
+                return ((bool)(this["Arctic_Binding"]));
+            }
+            set {
+                this["Arctic_Binding"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arctic_Mitts {
+            get {
+                return ((bool)(this["Arctic_Mitts"]));
+            }
+            set {
+                this["Arctic_Mitts"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Arctic_Horn {
+            get {
+                return ((bool)(this["Arctic_Horn"]));
+            }
+            set {
+                this["Arctic_Horn"] = value;
+            }
+        }
     }
 }

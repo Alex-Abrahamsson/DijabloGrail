@@ -381,5 +381,29 @@ namespace DijabloGrail
             MavinasPage mavinasPage = new MavinasPage();
             this.NavigationService.Navigate(mavinasPage);
         }
+
+        private void NatalyasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NatalyasPage natalyasPage = new NatalyasPage();
+            this.NavigationService.Navigate(natalyasPage);
+        }
+
+        private void TalrashasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TalrashasPage talrashasPage = new TalrashasPage();
+            this.NavigationService.Navigate(talrashasPage);
+        }
+
+        private void TranoulsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            TrangOulsPage trangOulsPage = new TrangOulsPage();
+            this.NavigationService.Navigate(trangOulsPage);
+        }
+
+        private void ArcticBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Artic_Gear_Page1 artic_Gear_Page = new Artic_Gear_Page1();
+            this.NavigationService.Navigate(artic_Gear_Page);
+        }
     }
 }
