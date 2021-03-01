@@ -375,5 +375,11 @@ namespace DijabloGrail
             ImmortalKingPage immortalKing = new ImmortalKingPage();
             this.NavigationService.Navigate(immortalKing);
         }
+
+        private void MavinasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MavinasPage mavinasPage = new MavinasPage();
+            this.NavigationService.Navigate(mavinasPage);
+        }
     }
 }

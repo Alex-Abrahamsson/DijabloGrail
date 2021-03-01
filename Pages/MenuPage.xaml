@@ -250,7 +250,7 @@
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="M'avina's Battle Hymn" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0">
+            <Button x:Name="MavinasBtn" Content="M'avina's Battle Hymn" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="15" Width="205" FontWeight="Bold" FontStyle="Normal" Height="35" BorderBrush="#00707070" Margin="2,5,0,0" Click="MavinasBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>

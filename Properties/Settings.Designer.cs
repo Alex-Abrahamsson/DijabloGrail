@@ -5410,5 +5410,65 @@ namespace DijabloGrail.Properties {
                 this["Immortal_King_s_Pillar"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool M_avina_s_True_Sight {
+            get {
+                return ((bool)(this["M_avina_s_True_Sight"]));
+            }
+            set {
+                this["M_avina_s_True_Sight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool M_avina_s_Caster {
+            get {
+                return ((bool)(this["M_avina_s_Caster"]));
+            }
+            set {
+                this["M_avina_s_Caster"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool M_avina_s_Embrace {
+            get {
+                return ((bool)(this["M_avina_s_Embrace"]));
+            }
+            set {
+                this["M_avina_s_Embrace"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool M_avina_s_Icy_Clutch {
+            get {
+                return ((bool)(this["M_avina_s_Icy_Clutch"]));
+            }
+            set {
+                this["M_avina_s_Icy_Clutch"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool M_avina_s_Tenet {
+            get {
+                return ((bool)(this["M_avina_s_Tenet"]));
+            }
+            set {
+                this["M_avina_s_Tenet"] = value;
+            }
+        }
     }
 }
