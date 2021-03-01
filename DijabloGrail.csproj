@@ -84,15 +84,6 @@
     <Resource Include="Images\Mavinas_Battle_Hymn.png" />
     <Resource Include="Images\MenuBtn.png" />
     <Resource Include="Images\MenuBtnSmall.png" />
-    <Content Include="Music\Act 1 - Town1.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Music\Act 1 - Tristram.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Music\Act 5 - Xtown.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Resource Include="Images\Agelic_raiment.png" />
     <Resource Include="Images\Angelic_Halo.png" />
     <Resource Include="Images\Angelic_Mantle.png" />
@@ -116,9 +107,6 @@
     <Resource Include="Images\TrangOuls.png" />
     <Resource Include="Images\Tristram.jpg" />
     <Resource Include="Images\Vidalas_Rig.png" />
-    <Content Include="Music\Act 2 - Town2.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
 
   <ItemGroup>
