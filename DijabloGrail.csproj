@@ -22,6 +22,7 @@
     <None Remove="Images\Heavens_Brethren.png" />
     <None Remove="Images\Hsarus_Defense.png" />
     <None Remove="Images\Hwanins_Majesty.png" />
+    <None Remove="Images\Icon.ico" />
     <None Remove="Images\ImmortalKings.png" />
     <None Remove="Images\Infernal_Tools.png" />
     <None Remove="Images\Iratha%27s_Finery.png" />
@@ -76,6 +77,7 @@
     <Resource Include="Images\Heavens_Brethren.png" />
     <Resource Include="Images\Hsarus_Defense.png" />
     <Resource Include="Images\Hwanins_Majesty.png" />
+    <Resource Include="Images\Icon.ico" />
     <Resource Include="Images\ImmortalKings.png" />
     <Resource Include="Images\Infernal_Tools.png" />
     <Resource Include="Images\Iratha's_Finery.png" />
