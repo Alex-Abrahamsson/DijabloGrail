@@ -22,7 +22,7 @@
                 <ImageBrush ImageSource="/Images/MenuBtnSmall.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="SaveSeasonScoreBtn" Content="Save seson score" HorizontalAlignment="Left" Margin="1052,616,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="18" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070">
+        <Button x:Name="SaveSeasonScoreBtn" Content="Save seson score" HorizontalAlignment="Left" Margin="1052,616,0,0" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="18" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="SaveSeasonScoreBtn_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

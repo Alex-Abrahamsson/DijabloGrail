@@ -12,6 +12,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Media;
 using DijabloGrail.Pages;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace DijabloGrail
 {
@@ -404,6 +406,32 @@ namespace DijabloGrail
         {
             Artic_Gear_Page1 artic_Gear_Page = new Artic_Gear_Page1();
             this.NavigationService.Navigate(artic_Gear_Page);
+        }
+
+        private void SaveSeasonScoreBtn_Click(object sender, RoutedEventArgs e)
+        {
+            double seasonScore = 0;
+            foreach (var item in allScore)
+            {
+                seasonScore += item;
+            }
+            string seasonScorestring = $"Your saved season score is: {Convert.ToString(seasonScore)}";
+
+
+            TextWriter writer = null;
+            try
+            {
+                string jsonSanve = JsonConvert.SerializeObject(seasonScorestring);
+                writer = new StreamWriter("JsonSaveFile.json");
+                writer.Write(jsonSanve);
+            }
+            finally
+            {
+                if (writer != null)
+                {
+                    writer.Close();
+                }
+            }
         }
     }
 }

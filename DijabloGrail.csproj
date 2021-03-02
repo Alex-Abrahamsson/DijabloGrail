@@ -31,6 +31,7 @@
     <None Remove="Images\Milabregas_Regalia.png" />
     <None Remove="Images\Najs_Ancient_Vestige.png" />
     <None Remove="Images\Natalys_Odium.png" />
+    <None Remove="Images\NewBlack.png" />
     <None Remove="Images\Orphans_Call.png" />
     <None Remove="Images\Sanders_Folly.png" />
     <None Remove="Images\Sazabis_Grand_Tribute.png" />
@@ -59,6 +60,10 @@
     <None Remove="Properties\Act 2 - Town2.wav" />
     <None Remove="Properties\Act 5 - Xtown.wav" />
     <None Remove="Tristram.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -99,6 +104,7 @@
     <Resource Include="Images\Milabregas_Regalia.png" />
     <Resource Include="Images\Najs_Ancient_Vestige.png" />
     <Resource Include="Images\Natalys_Odium.png" />
+    <Resource Include="Images\NewBlack.png" />
     <Resource Include="Images\Orphans_Call.png" />
     <Resource Include="Images\Sanders_Folly.png" />
     <Resource Include="Images\Sazabis_Grand_Tribute.png" />

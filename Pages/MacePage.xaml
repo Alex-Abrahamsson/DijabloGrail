@@ -10,13 +10,13 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Images/klipp.png" Stretch="Fill" Opacity="1"/>
+            <ImageBrush ImageSource="/Images/NewBlack.png" Stretch="Fill" Opacity="1"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold" Text="Maces">
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold" Text="Maces">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations></TextBlock>
-        <ListBox Margin="105,161,895,109" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="105,161,895,154" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Felloak" Content="Felloak" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050" Checked="Felloak_Checked" Unchecked="Felloak_Unchecked"/>
             <CheckBox x:Name="Stoutnail" Content="Stoutnail" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:236" Checked="Stoutnail_Checked" Unchecked="Stoutnail_Unchecked"/>
@@ -27,7 +27,7 @@
             <CheckBox x:Name="Bonesnap" Content="Bonesnap" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:142" Checked="Bonesnap_Checked" Unchecked="Bonesnap_Unchecked"/>
             <CheckBox x:Name="Steeldriver" Content="Steeldriver" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="Steeldriver_Checked" Unchecked="Steeldriver_Unchecked"/>
         </ListBox>
-        <ListBox Margin="500,161,500,109" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="500,161,500,154" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="247" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Dark_Clan_Crusher" Content="Dark Clan Crusher" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:238" Checked="Dark_Clan_Crusher_Checked" Unchecked="Dark_Clan_Crusher_Unchecked"/>
             <CheckBox x:Name="Fleshrender" Content="Fleshrender" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="Fleshrender_Checked" Unchecked="Fleshrender_Unchecked"/>
@@ -38,7 +38,7 @@
             <CheckBox x:Name="Bloodtree_Stump" Content="Bloodtree Stump" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:584" Checked="Bloodtree_Stump_Checked" Unchecked="Bloodtree_Stump_Unchecked"/>
             <CheckBox x:Name="The_Gavel_Of_Pain" Content="The Gavel Of Pain" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:548" Checked="The_Gavel_Of_Pain_Checked" Unchecked="The_Gavel_Of_Pain_Unchecked"/>
         </ListBox>
-        <ListBox Margin="908,161,92,109" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="908,161,92,154" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Nord_s_Tenderizer" Content="Nord's Tenderizer" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:618" Checked="Nord_s_Tenderizer_Checked" Unchecked="Nord_s_Tenderizer_Unchecked"/>
             <CheckBox x:Name="Demon_Limb" Content="Demon Limb" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:450" Checked="Demon_Limb_Checked" Unchecked="Demon_Limb_Unchecked"/>
@@ -51,7 +51,7 @@
             <CheckBox x:Name="Earth_Shifter" Content="Earth Shifter" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:29131" Checked="Earth_Shifter_Checked" Unchecked="Earth_Shifter_Unchecked"/>
             <CheckBox x:Name="The_Cranium_Basher" Content="The Cranium Basher" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:29131" Checked="The_Cranium_Basher_Checked" Unchecked="The_Cranium_Basher_Unchecked"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

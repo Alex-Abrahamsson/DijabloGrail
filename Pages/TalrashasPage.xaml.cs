@@ -20,13 +20,13 @@ namespace DijabloGrail.Pages
     {
         public void AddPoints(double points)
         {
-            double pointsToAdd = points / 10;
+            double pointsToAdd = Math.Round(points / 10);
             Properties.Settings.Default.TalRashasScore = Properties.Settings.Default.TalRashasScore + pointsToAdd;
         }
 
         public void RemovePoints(double points)
         {
-            double pointsToRemove = points / 10;
+            double pointsToRemove = Math.Round(points / 10);
             Properties.Settings.Default.TalRashasScore = Properties.Settings.Default.TalRashasScore - pointsToRemove;
         }
 

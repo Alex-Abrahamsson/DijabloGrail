@@ -21,13 +21,13 @@ namespace DijabloGrail
 
         public void AddPoints(double points)
         {
-            double pointsToAdd = points / 10;
+            double pointsToAdd = Math.Round(points / 10);
             Properties.Settings.Default.DaggerScore = Properties.Settings.Default.DaggerScore + pointsToAdd;
         }
 
         public void RemovePoints(double points)
         {
-            double pointsToRemove = points / 10;
+            double pointsToRemove = Math.Round(points / 10);
             Properties.Settings.Default.DaggerScore = Properties.Settings.Default.DaggerScore - pointsToRemove;
         }
 

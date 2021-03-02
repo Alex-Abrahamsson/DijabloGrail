@@ -10,9 +10,9 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Images/klipp.png"/>
+            <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Helms"/></TextBlock>
@@ -27,7 +27,7 @@
             <CheckBox x:Name="Undead_Crown" Content="Undead Crown" FontSize="16" Foreground="#FFC77600" Checked="Undead_Crown_Checked" Unchecked="Undead_Crown_Unchecked" ToolTip="Baal (Normal) 1:224"/>
             <CheckBox x:Name="Wormskull" Content="Wormskull" FontSize="16" Foreground="#FFC77600" Checked="Wormskull_Checked" Unchecked="Wormskull_Unchecked" ToolTip="Diablo (Normal) 1:273"/>
         </ListBox>
-        <ListBox Margin="500,140,500,130" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="500,140,500,100" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="246" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Peasant_Crown" Content="Peasant Corwn" FontSize="16" Foreground="#FFC77600" Checked="Peasant_Crown_Checked" Unchecked="Peasant_Crown_Unchecked" ToolTip="Baal (Normal) 1:413"/>
             <CheckBox x:Name="Rockstopper" Content="Rockstopper" FontSize="16" Foreground="#FFC77600" Checked="Rockstopper_Checked" Unchecked="Rockstopper_Unchecked" ToolTip="Mephisto (Nightmare) 1:715"/>
@@ -51,7 +51,7 @@
             <CheckBox x:Name="Crown_of_Ages" Content="Crown of Ages" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Crown_of_Ages_Checked" Unchecked="Crown_of_Ages_Unchecked" ToolTip="Baal (Hell) 1:17802"/>
             <CheckBox x:Name="Giant_Skull" Content="Giant Skull" FontSize="16" Foreground="#FFC77600" BorderBrush="#FF707070" Checked="Giant_Skull_Checked" Unchecked="Giant_Skull_Unchecked" ToolTip="Baal (Hell) 1:2024"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

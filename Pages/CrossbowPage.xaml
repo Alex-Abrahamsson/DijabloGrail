@@ -10,32 +10,32 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Images/klipp.png"/>
+            <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Crossbows"/></TextBlock>
-        <ListBox Margin="105,168,895,102" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="124,246,876,246" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Leadcrow" Content="Leadcrow" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:237" Checked="Leadcrow_Checked" Unchecked="Leadcrow_Unchecked"/>
             <CheckBox x:Name="Ichorsting" Content="Ichorsting" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:127" Checked="Ichorsting_Checked" Unchecked="Ichorsting_Unchecked"/>
             <CheckBox x:Name="Hellcast" Content="Hellcast" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:188" Checked="Hellcast_Checked" Unchecked="Hellcast_Unchecked"/>
             <CheckBox x:Name="Doomslinger" Content="Doomslinger" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="Doomslinger_Checked" Unchecked="Doomslinger_Unchecked"/>
         </ListBox>
-        <ListBox Margin="500,168,500,102" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="519,246,481,246" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="245" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Langer_Briser" Content="Langer Briser" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:358" Checked="Langer_Briser_Checked" Unchecked="Langer_Briser_Unchecked"/>
             <CheckBox x:Name="Pus_Spitter" Content="Pus Spitter" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:680" Checked="Pus_Spitter_Checked" Unchecked="Pus_Spitter_Unchecked"/>
             <CheckBox x:Name="Buriza_Do_Kyanon" Content="Buriza-Do Kyanon" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:597" Checked="Buriza_Do_Kyanon_Checked" Unchecked="Buriza_Do_Kyanon_Unchecked"/>
             <CheckBox x:Name="Demon_Machine" Content="Demon Machine" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:549" Checked="Demon_Machine_Checked" Unchecked="Demon_Machine_Unchecked"/>
         </ListBox>
-        <ListBox Margin="891,168,109,102" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="910,246,90,246" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Hellrack" Content="Hellrack" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:469" Checked="Hellrack_Checked" Unchecked="Hellrack_Unchecked"/>
             <CheckBox x:Name="Gut_Siphon" Content="Gut Siphon" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:1164" Checked="Gut_Siphon_Checked" Unchecked="Gut_Siphon_Unchecked"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

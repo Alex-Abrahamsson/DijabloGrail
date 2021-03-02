@@ -22,13 +22,13 @@ namespace DijabloGrail.Pages
 
         public void AddPoints(double points)
         {
-            double pointsToAdd = points / 10;
+            double pointsToAdd = Math.Round(points / 10);
             Properties.Settings.Default.CleglawScore = Properties.Settings.Default.CleglawScore + pointsToAdd;
         }
 
         public void RemovePoints(double points)
         {
-            double pointsToRemove = points / 10;
+            double pointsToRemove = Math.Round(points / 10);
             Properties.Settings.Default.CleglawScore = Properties.Settings.Default.CleglawScore - pointsToRemove;
         }
 

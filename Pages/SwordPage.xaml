@@ -10,9 +10,9 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Images/klipp.png"/>
+            <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Swords"/></TextBlock>
@@ -60,7 +60,7 @@
             <CheckBox x:Name="Doombringer" Content="Doombringer" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:1029" Checked="Doombringer_Checked" Unchecked="Doombringer_Unchecked"/>
             <CheckBox x:Name="The_Grandfather" Content="The Grandfather" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:14565" Checked="The_Grandfather_Checked" Unchecked="The_Grandfather_Unchecked"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

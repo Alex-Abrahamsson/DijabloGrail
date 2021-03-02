@@ -10,13 +10,13 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Images/klipp.png"/>
+            <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Boots"/></TextBlock>
-        <ListBox Margin="100,118,900,152" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="109,241,891,241" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Hotspur" Content="Hotspur" FontSize="16" Foreground="#FFC77600" Checked="Hotspur_Checked" Unchecked="Hotspur_Unchecked" ToolTip="Blood Raven (Normal) 1:820"/>
             <CheckBox x:Name="Gorefoot" Content="Gorefoot" FontSize="16" Foreground="#FFC77600" Checked="Gorefoot_Checked" Unchecked="Gorefoot_Unchecked" ToolTip="Mephisto (Normal) 1:237"/>
@@ -24,7 +24,7 @@
             <CheckBox x:Name="Goblin_Toe" Content="Goblin Toe" FontSize="16" Foreground="#FFC77600" Checked="Goblin_Toe_Checked" Unchecked="Goblin_Toe_Unchecked" ToolTip="diablo (Normal) 1:230"/>
             <CheckBox x:Name="Tearhaunch" Content="Tearhaunch" FontSize="16" Foreground="#FFC77600" Checked="Tearhaunch_Checked" Unchecked="Tearhaunch_Unchecked" ToolTip="Diablo (Normal) 1:168"/>
         </ListBox>
-        <ListBox Margin="500,118,500,152" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="509,241,491,241" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="249" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Infernostride" Content="Infernostride" FontSize="16" Foreground="#FFC77600" Checked="Infernostride_Checked" Unchecked="Infernostride_Unchecked" ToolTip="Baal (Normal) 1:416"/>
             <CheckBox x:Name="Waterwalk" Content="Waterwalk" FontSize="16" Foreground="#FFC77600" Checked="Waterwalk_Checked" Unchecked="Waterwalk_Unchecked" ToolTip="Mephisto (Nightmare) 1:718"/>
@@ -32,13 +32,13 @@
             <CheckBox x:Name="War_Traveler" Content="War Traveler" FontSize="16" Foreground="#FFC77600" Checked="War_Traveler_Checked" Unchecked="War_Traveler_Unchecked" ToolTip="Baal (Nightmare) 1:1300"/>
             <CheckBox x:Name="Gore_Rider" Content="Gore Rider" FontSize="16" Foreground="#FFC77600" Checked="Gore_Rider_Checked" Unchecked="Gore_Rider_Unchecked" ToolTip="Baal (Nightmare) 1:916"/>
         </ListBox>
-        <ListBox Margin="901,118,99,152" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" Height="450" TextBlock.FontFamily="MV Boli">
+        <ListBox Margin="910,241,90,241" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Sandstorm_Trek" Content="Sandstorm Trek" FontSize="16" Foreground="#FFC77600" Checked="Sandstorm_Trek_Checked" Unchecked="Sandstorm_Trek_Unchecked" ToolTip="Mephisto (Hell) 1:683"/>
             <CheckBox x:Name="Marrowwalk" Content="Marrowwalk" FontSize="16" Foreground="#FFC77600" Checked="Marrowwalk_Checked" Unchecked="Marrowwalk_Unchecked" ToolTip="Diablo (Hell) 1:890"/>
             <CheckBox x:Name="Shadow_Dancer" Content="Shadow Dancer" FontSize="16" Foreground="#FFC77600" Checked="Shadow_Dancer_Checked" Unchecked="Shadow_Dancer_Unchecked" ToolTip="Baal (Hell) 1:17802"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>

@@ -10,9 +10,9 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Images/klipp.png"/>
+            <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold" Height="62">
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Jewlery"/><LineBreak/><Run Language="sv-se"/></TextBlock>
@@ -65,7 +65,7 @@
             <CheckBox x:Name="Gheed_s_Fortune" Content="Gheed's Fortune" FontSize="16" Checked="Gheed_s_Fortune_Checked" Unchecked="Gheed_s_Fortune_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:494"/>
             <CheckBox x:Name="Hellfire_Torch" Content="Hellfire Torch" FontSize="16" Checked="Hellfire_Torch_Checked" Unchecked="Hellfire_Torch_Unchecked" Foreground="#FFE28909" ToolTip="Diablo Clone 1:1"/>
         </ListBox>
-        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1138,625,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
