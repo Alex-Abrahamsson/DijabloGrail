@@ -38,17 +38,17 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,550,0">
+        <WrapPanel Margin="10,30,550,82">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="700" Height="365">
+                Background="#99000000" Width="700" Height="270">
                 <CheckBox x:Name="Bul_Kathos__Sacred_Charge" 
-                    Margin="30,180,0,0"
+                    Margin="30,50,0,0"
                     Content="" ToolTip="Baal (Hell) 1:5826" Checked="Bul_Kathos__Sacred_Charge_Checked" Unchecked="Bul_Kathos__Sacred_Charge_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
                 Background="#99000000" Height="280" Width="700">
                 <CheckBox x:Name="Bul_Kathos__Tribal_Guardian"
-                    Margin="30,40,0,0"
+                    Margin="30,80,0,0"
                     Content="" ToolTip="Baal (Hell) 1:5826" Checked="Bul_Kathos__Tribal_Guardian_Checked" Unchecked="Bul_Kathos__Tribal_Guardian_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

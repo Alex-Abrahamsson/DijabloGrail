@@ -41,27 +41,27 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,318,0">
+        <WrapPanel Margin="10,10,380,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="950" Height="180">
+                Background="#99000000" Width="890" Height="180">
                 <CheckBox x:Name="Arctic_Furs" 
                     Margin="30,20,0,0"
                     Content="" ToolTip="Blood Raven (Normal) 1:291" Checked="Arctic_Furs_Checked" Unchecked="Arctic_Furs_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="145" Width="950">
+                Background="#99000000" Height="145" Width="890">
                 <CheckBox x:Name="Arctic_Binding"
                     Margin="30,30,0,0"
                     Content="" ToolTip="Andariel (Normal) 1:51" Checked="Arctic_Binding_Checked" Unchecked="Arctic_Binding_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="155" Width="950">
+                Background="#99000000" Height="155" Width="890">
                 <CheckBox x:Name="Arctic_Mitts"
                     Margin="30,30,0,0" 
                     Content="" ToolTip="Mephisto (Normal) 1:169" Checked="Arctic_Mitts_Checked" Unchecked="Arctic_Mitts_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="210" Width="950">
+                Background="#99000000" Height="210" Width="890">
                 <CheckBox x:Name="Arctic_Horn"
                     Margin="20,30,0,0"
                     Content="" ToolTip="Diablo (Normal) 1:79" Checked="Arctic_Horn_Checked" Unchecked="Arctic_Horn_Unchecked"/>

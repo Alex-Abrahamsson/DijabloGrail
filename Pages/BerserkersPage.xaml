@@ -13,7 +13,7 @@
             <ImageBrush ImageSource="/Images/Berserkers_Arsenal.png"/>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Left" 
-            Margin="864,10,0,0" 
+            Margin="876,10,0,0" 
             TextWrapping="Wrap"
             VerticalAlignment="Top"
             FontFamily="MV Boli"
@@ -38,23 +38,31 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,421,0">
+        <WrapPanel Margin="10,64,386,10" RenderTransformOrigin="0.5,0.5">
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.505"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="3.741"/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
             <WrapPanel x:Name="BerserkHead_Pic" 
-                Background="#99000000" Width="890" Height="230">
+                Background="#99000000" Width="890" Height="150">
                 <CheckBox x:Name="Berserk_s_Headgear" 
-                    Margin="40,100,0,0"
+                    Margin="40,10,0,0"
                     Content="" Checked="Berserk_s_Headgear_Checked" Unchecked="Berserk_s_Headgear_Unchecked" ToolTip="Andariel (Normal) 1:76"/>
             </WrapPanel>
             <WrapPanel x:Name="BerserkArmor_Pic" 
-                Background="#99000000" Height="170" Width="891">
+                Background="#99000000" Height="200" Width="891">
                 <CheckBox x:Name="Berserk_s_Haubark"
-                    Margin="40,20,0,0"
+                    Margin="40,50,0,0"
                     Content="" Checked="Berserk_s_Haubark_Checked" Unchecked="Berserk_s_Haubark_Unchecked" ToolTip="Mephisto (Normal) 1:84"/>
             </WrapPanel>
             <WrapPanel x:Name="BerserkAxe_Pic"
-                Background="#99000000" Height="200" Width="891">
+                Background="#99000000" Height="250" Width="891">
                 <CheckBox x:Name="Berserk_s_Hatchet"
-                    Margin="40,30,0,0" 
+                    Margin="40,50,0,0" 
                     Content="" Checked="Berserk_s_Hatchet_Checked" Unchecked="Berserk_s_Hatchet_Unchecked" ToolTip="Mephisto (Normal) 1:51"/>
             </WrapPanel>
         </WrapPanel>

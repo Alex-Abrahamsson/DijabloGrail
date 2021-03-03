@@ -38,27 +38,27 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,384,10">
+        <WrapPanel Margin="10,10,384,10">
             <WrapPanel x:Name="CathansHead_pic" 
-                Background="#99000000" Width="860" Height="170">
+                Background="#99000000" Width="860" Height="150">
                 <CheckBox x:Name="Cathan_s_Visage" 
                     Margin="30,20,0,0"
                     Content="" Checked="Cathan_s_Visage_Checked" Unchecked="Cathan_s_Visage_Unchecked" ToolTip="Mephisto (Normal) 1:84"/>
             </WrapPanel>
             <WrapPanel x:Name="CathansMesh_Pic" 
-                Background="#99000000" Width="860" Height="140">
+                Background="#99000000" Width="860" Height="150">
                 <CheckBox x:Name="Cathan_s_Mesh"
                     Margin="30,10,0,0"
                     Content="" Checked="Cathan_s_Mesh_Checked" Unchecked="Cathan_s_Mesh_Unchecked" ToolTip="Mephisto (Normal) 1:51"/>
             </WrapPanel>
             <WrapPanel x:Name="CathansRule_Pic"
-                Background="#99000000" Width="860" Height="150">
+                Background="#99000000" Width="860" Height="170">
                 <CheckBox x:Name="Cathan_s_Rule"
                     Margin="30,10,0,0" 
                     Content="" Checked="Cathan_s_Rule_Checked" Unchecked="Cathan_s_Rule_Unchecked" ToolTip="Mephisto (Normal) 1:160"/>
             </WrapPanel>
             <WrapPanel x:Name="CathansSigil_Pic"
-                Background="#99000000" Width="860" Height="95">
+                Background="#99000000" Width="860" Height="105">
                 <CheckBox x:Name="Cathan_s_Sigil"
                     Margin="20,10,0,0"
                     Content="" Checked="Cathan_s_Sigil_Checked" Unchecked="Cathan_s_Sigil_Unchecked" ToolTip="Duriel (Normal) 1:580"/>
