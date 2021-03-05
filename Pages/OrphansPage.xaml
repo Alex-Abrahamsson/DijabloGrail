@@ -38,7 +38,7 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,490,0">
+        <WrapPanel Margin="10,10,490,10">
             <WrapPanel x:Name="Pic1" 
                 Background="#99000000" Width="750" Height="170">
                 <CheckBox x:Name="Guillaume_s_Face" 
@@ -52,7 +52,7 @@
                     Content="" ToolTip="Mephisto (Nightmare) 1:286" Checked="Whitstan_s_Guard_Checked" Unchecked="Whitstan_s_Guard_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="150" Width="750">
+                Background="#99000000" Height="160" Width="750">
                 <CheckBox x:Name="Magnus__Skin"
                     Margin="30,30,0,0" 
                     Content="" ToolTip="Mephisto (Nightmare) 1:287" Checked="Magnus__Skin_Checked" Unchecked="Magnus__Skin_Unchecked"/>

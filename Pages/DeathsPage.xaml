@@ -23,23 +23,23 @@
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Death's Disguise"/></TextBlock>
-        <WrapPanel Margin="0,0,422,0">
+        <WrapPanel Margin="10,42,422,34">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="820" Height="320">
+                Background="#99000000" Width="820" Height="220">
                 <CheckBox x:Name="Deaths_Touch" 
-                    Margin="40,180,0,0"
+                    Margin="40,50,0,0"
                     Content="" ToolTip="Diablo (Normal) 1:79" Checked="Deaths_Touch_Checked" Unchecked="Deaths_Touch_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="110" Width="820">
+                Background="#99000000" Height="200" Width="820">
                 <CheckBox x:Name="Deaths_Hand"
-                    Margin="35,25,0,0"
+                    Margin="35,50,0,0"
                     Content="" ToolTip="Blood Raven (Normal) 1:293" Checked="Deaths_Hand_Checked" Unchecked="Deaths_Hand_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="150" Width="820">
+                Background="#99000000" Height="200" Width="820">
                 <CheckBox x:Name="Deaths_Guard"
-                    Margin="35,25,0,0" 
+                    Margin="35,40,0,0" 
                     Content="" ToolTip="Blood Raven (Normal) 1:293" Checked="Deaths_Guard_Checked" Unchecked="Deaths_Guard_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

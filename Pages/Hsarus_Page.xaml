@@ -38,23 +38,23 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,389,0">
+        <WrapPanel Margin="10,42,389,55">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="870" Height="300">
+                Background="#99000000" Width="870" Height="200">
                 <CheckBox x:Name="Hsarus_IronFist" 
-                    Margin="40,160,0,0"
+                    Margin="20,50,0,0"
                     Content="" Checked="Hsarus_IronFist_Checked" Unchecked="Hsarus_IronFist_Unchecked" ToolTip="Blood Raven (Normal) 1:291"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="150" Width="880">
+                Background="#99000000" Height="220" Width="880">
                 <CheckBox x:Name="Hsarus_IronStay"
-                    Margin="40,25,0,0"
+                    Margin="20,70,0,0"
                     Content="" Checked="Hsarus_IronStay_Checked" Unchecked="Hsarus_IronStay_Unchecked" ToolTip="Andariel (Normal) 1:76"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
                 Background="#99000000" Height="190" Width="880">
                 <CheckBox x:Name="Hsarus_IronHeel"
-                    Margin="40,25,0,0" 
+                    Margin="20,40,0,0" 
                     Content="" Checked="Hsarus_IronHeel_Checked" Unchecked="Hsarus_IronHeel_Unchecked" ToolTip="Andariel (Normal) 1:76"/>
             </WrapPanel>
         </WrapPanel>

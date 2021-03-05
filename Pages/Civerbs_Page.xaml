@@ -23,23 +23,23 @@
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Civerb's Vestments"/></TextBlock>
-        <WrapPanel Margin="0,0,446,0">
+        <WrapPanel Margin="10,10,446,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="820" Height="310">
+                Background="#99000000" Width="820" Height="220">
                 <CheckBox x:Name="Civerbs_Cudgel" 
-                    Margin="40,170,0,0"
+                    Margin="40,60,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:153" Checked="Civerbs_Cudgel_Checked" Unchecked="Civerbs_Cudgel_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="85" Width="820">
+                Background="#99000000" Height="180" Width="820">
                 <CheckBox x:Name="Civerbs_Icon"
-                    Margin="40,15,0,0"
+                    Margin="40,50,0,0"
                     Content="" ToolTip="Duriel (Normal) 1:580" Checked="Civerbs_Icon_Checked" Unchecked="Civerbs_Icon_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="196" Width="820">
+                Background="#99000000" Height="250" Width="820">
                 <CheckBox x:Name="Civerbs_Ward"
-                    Margin="40,20,0,0" 
+                    Margin="40,50,0,0" 
                     Content="" ToolTip="Mephisto (Normal) 1:100" Checked="Civerbs_Ward_Checked" Unchecked="Civerbs_Ward_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

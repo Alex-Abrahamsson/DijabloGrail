@@ -38,29 +38,29 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,421,0">
+        <WrapPanel Margin="10,10,421,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="850" Height="250">
+                Background="#99000000" Width="850" Height="200">
                 <CheckBox x:Name="Iratha_s_Coil" 
-                    Margin="40,150,0,0"
+                    Margin="20,50,0,0"
                     Content="" ToolTip="Baal (Normal) 1:179" Checked="Iratha_s_Coil_Checked" Unchecked="Iratha_s_Coil_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="80" Width="850">
+                Background="#99000000" Height="130" Width="850">
                 <CheckBox x:Name="Iratha_s_Collar"
-                    Margin="40,20,0,0"
+                    Margin="20,30,0,0"
                     Content="" ToolTip="Duriel (Normal) 1:580" Checked="Iratha_s_Collar_Checked" Unchecked="Iratha_s_Collar_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="130" Width="850">
+                Background="#99000000" Height="180" Width="850">
                 <CheckBox x:Name="Iratha_s_Cord"
-                    Margin="40,30,0,0" 
+                    Margin="20,30,0,0" 
                     Content="" ToolTip="Mephisto (Normal) 1:169" Checked="Iratha_s_Cord_Checked" Unchecked="Iratha_s_Cord_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="150" Width="850">
+                Background="#99000000" Height="180" Width="850">
                 <CheckBox x:Name="Iratha_s_Cuff"
-                    Margin="40,30,0,0"
+                    Margin="20,30,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:169" Checked="Iratha_s_Cuff_Checked" Unchecked="Iratha_s_Cuff_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

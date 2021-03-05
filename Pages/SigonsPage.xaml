@@ -38,41 +38,41 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,494,10">
+        <WrapPanel Margin="10,10,494,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="740" Height="115">
+                Background="#99000000" Width="740" Height="95">
                 <CheckBox x:Name="Sigon_s_Visor" 
-                    Margin="30,20,0,0"
+                    Margin="10,20,0,0"
                     Content="" Checked="Sigon_s_Visor_Checked" Unchecked="Sigon_s_Visor_Unchecked" ToolTip="Mephisto (Normal) 1:101"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="110" Width="740">
+                Background="#99000000" Height="100" Width="740">
                 <CheckBox x:Name="Sigon_s_Shelter"
-                    Margin="30,10,0,0"
+                    Margin="10,20,0,0"
                     Content="" Checked="Sigon_s_Shelter_Checked" Unchecked="Sigon_s_Shelter_Unchecked" ToolTip="Baal (Normal) 1:98"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="115" Width="740">
+                Background="#99000000" Height="125" Width="740">
                 <CheckBox x:Name="Sigon_s_Sabot"
-                    Margin="30,10,0,0" 
+                    Margin="10,20,0,0" 
                     Content="" Checked="Sigon_s_Sabot_Checked" Unchecked="Sigon_s_Sabot_Unchecked" ToolTip="Diablo (Normal) 1:67"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="120" Width="740">
+                Background="#99000000" Height="115" Width="740">
                 <CheckBox x:Name="Sigon_s_Guard"
-                    Margin="20,10,0,0"
+                    Margin="10,20,0,0"
                     Content="" Checked="Sigon_s_Guard_Checked" Unchecked="Sigon_s_Guard_Unchecked" ToolTip="Mephisto (Normal) 1:100"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic5"
                 Background="#99000000" Height="120" Width="740">
                 <CheckBox x:Name="Sigon_s_Wrap"
-                    Margin="20,10,0,0"
+                    Margin="10,20,0,0"
                     Content="" Checked="Sigon_s_Wrap_Checked" Unchecked="Sigon_s_Wrap_Unchecked" ToolTip="Diablo (Normal) 1:67"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic6"
                 Background="#99000000" Height="120" Width="740">
                 <CheckBox x:Name="Sigon_s_Gage"
-                    Margin="20,10,0,0"
+                    Margin="10,20,0,0"
                     Content="" Checked="Sigon_s_Gage_Checked" Unchecked="Sigon_s_Gage_Unchecked" ToolTip="Diablo (Normal) 1:67"/>
             </WrapPanel>
         </WrapPanel>

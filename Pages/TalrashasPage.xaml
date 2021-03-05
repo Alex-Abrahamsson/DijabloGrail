@@ -38,33 +38,35 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,594,0">
+        <WrapPanel Margin="10,10,710,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="680" Height="180">
+                Background="#99000000" Width="560" Height="260">
                 <CheckBox x:Name="Tal_Rasha_s_Lidless_Eye" 
                     Margin="30,40,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:607" Checked="Tal_Rasha_s_Lidless_Eye_Checked" Unchecked="Tal_Rasha_s_Lidless_Eye_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="125" Width="680">
+                Background="#99000000" Height="200" Width="560">
                 <CheckBox x:Name="Tal_Rasha_s_Horadric_Crest"
                     Margin="30,30,0,0"
                     Content="" ToolTip="Diablo (Nightmare) 1:175" Checked="Tal_Rasha_s_Horadric_Crest_Checked" Unchecked="Tal_Rasha_s_Horadric_Crest_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="140" Width="680">
+                Background="#99000000" Height="230" Width="560">
                 <CheckBox x:Name="Tal_Rasha_s_Guardianship"
                     Margin="30,30,0,0" 
                     Content="" ToolTip="Baal (Hell) 1:807" Checked="Tal_Rasha_s_Guardianship_Checked" Unchecked="Tal_Rasha_s_Guardianship_Unchecked"/>
             </WrapPanel>
+        </WrapPanel>
+        <WrapPanel Margin="602,101,42,286">
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="150" Width="680">
+                Background="#99000000" Height="200" Width="600">
                 <CheckBox x:Name="Tal_Rasha_s_Fine_Spun_Cloth"
                     Margin="20,40,0,0"
                     Content="" ToolTip="Mephisto (Nightmare) 1:368" Checked="Tal_Rasha_s_Fine_Spun_Cloth_Checked" Unchecked="Tal_Rasha_s_Fine_Spun_Cloth_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic5"
-                Background="#99000000" Height="120" Width="680">
+                Background="#99000000" Height="125" Width="600">
                 <CheckBox x:Name="Tal_Rasha_s_Adjudication"
                     Margin="20,20,0,0"
                     Content="" ToolTip="Duriel (Hell) 1:4353" Checked="Tal_Rasha_s_Adjudication_Checked" Unchecked="Tal_Rasha_s_Adjudication_Unchecked"/>

@@ -38,29 +38,29 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,556,0">
+        <WrapPanel Margin="10,10,508,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="710" Height="150">
+                Background="#99000000" Width="750" Height="120">
                 <CheckBox x:Name="Griswold_s_Heart" 
-                    Margin="30,40,0,0"
+                    Margin="15,10,0,0"
                     Content="" ToolTip="Mephisto (Hell) 1:272" Checked="Griswold_s_Heart_Checked" Unchecked="Griswold_s_Heart_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="145" Width="710">
+                Background="#99000000" Height="160" Width="750">
                 <CheckBox x:Name="Griswold_s_Valor"
-                    Margin="30,40,0,0"
+                    Margin="15,40,0,0"
                     Content="" ToolTip="Baal (Hell) 1:7121" Checked="Griswold_s_Valor_Checked" Unchecked="Griswold_s_Valor_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="205" Width="710">
+                Background="#99000000" Height="225" Width="750">
                 <CheckBox x:Name="Griswold_s_Redemption"
-                    Margin="30,50,0,0" 
+                    Margin="15,50,0,0" 
                     Content="" ToolTip="Baal (Hell) 1:17479" Checked="Griswold_s_Redemption_Checked" Unchecked="Griswold_s_Redemption_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="200" Width="710">
+                Background="#99000000" Height="185" Width="750">
                 <CheckBox x:Name="Griswold_s_Honor"
-                    Margin="20,40,0,0"
+                    Margin="15,30,0,0"
                     Content="" ToolTip="Baal (Hell) 1:18026" Checked="Griswold_s_Honor_Checked" Unchecked="Griswold_s_Honor_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

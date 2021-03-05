@@ -38,33 +38,33 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,478,0">
+        <WrapPanel Margin="10,10,456,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="790" Height="130">
+                Background="#99000000" Width="810" Height="130">
                 <CheckBox x:Name="Tancred_s_Skull" 
                     Margin="30,20,0,0"
                     Content="CheckBox" Checked="Tancred_s_Skull_Checked" Unchecked="Tancred_s_Skull_Unchecked" ToolTip="Diablo (Normal) 1:109"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="140" Width="790">
+                Background="#99000000" Height="140" Width="810">
                 <CheckBox x:Name="Tancred_s_Spine"
                     Margin="30,10,0,0"
                     Content="CheckBox" Checked="Tancred_s_Spine_Checked" Unchecked="Tancred_s_Spine_Unchecked" ToolTip="Mephisto (Nightmare) 1:286"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="140" Width="790">
+                Background="#99000000" Height="130" Width="810">
                 <CheckBox x:Name="Tancred_s_Hobnails"
                     Margin="30,10,0,0" 
                     Content="CheckBox" Checked="Tancred_s_Hobnails_Checked" Unchecked="Tancred_s_Hobnails_Unchecked" ToolTip="Diablo (Normal) 1:1596"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="160" Width="790">
+                Background="#99000000" Height="160" Width="810">
                 <CheckBox x:Name="Tancred_s_Crowbill"
                     Margin="20,10,0,0"
                     Content="CheckBox" Checked="Tancred_s_Crowbill_Checked" Unchecked="Tancred_s_Crowbill_Unchecked" ToolTip="Diablo (Normal) 1:56"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic5"
-                Background="#99000000" Height="120" Width="790">
+                Background="#99000000" Height="120" Width="810">
                 <CheckBox x:Name="Tancred_s_Weird"
                     Margin="20,10,0,0"
                     Content="CheckBox" Checked="Tancred_s_Weird_Checked" Unchecked="Tancred_s_Weird_Unchecked" ToolTip="Duriel (Hell) 1:622"/>

@@ -38,23 +38,23 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,384,0">
+        <WrapPanel Margin="10,10,413,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="890" Height="245">
+                Background="#99000000" Width="850" Height="200">
                 <CheckBox x:Name="Infernal_Cranium" 
-                    Margin="30,150,0,0"
+                    Margin="15,50,0,0"
                     Content="" ToolTip="Blood Raven (Normal) 1:291" Checked="Infernal_Cranium_Checked" Unchecked="Infernal_Cranium_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="150" Width="891">
+                Background="#99000000" Height="240" Width="850">
                 <CheckBox x:Name="Infernal_Sign"
-                    Margin="30,30,0,0"
+                    Margin="15,70,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:169" Checked="Infernal_Sign_Checked" Unchecked="Infernal_Sign_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="196" Width="891">
+                Background="#99000000" Height="220" Width="850">
                 <CheckBox x:Name="Infernal_Torch"
-                    Margin="30,50,0,0" 
+                    Margin="15,35,0,0" 
                     Content="" ToolTip="Diablo (Normal) 1:234" Checked="Infernal_Torch_Checked" Unchecked="Infernal_Torch_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

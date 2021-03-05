@@ -38,29 +38,29 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,528,0">
+        <WrapPanel Margin="10,10,528,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="740" Height="180">
+                Background="#99000000" Width="740" Height="140">
                 <CheckBox x:Name="Sander_s_Paragon" 
-                    Margin="30,80,0,0"
+                    Margin="30,30,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:4871" Checked="Sander_s_Paragon_Checked" Unchecked="Sander_s_Paragon_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="170" Width="740">
+                Background="#99000000" Height="190" Width="740">
                 <CheckBox x:Name="Sander_s_Superstition"
                     Margin="30,40,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:159" Checked="Sander_s_Superstition_Checked" Unchecked="Sander_s_Superstition_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="120" Width="740">
+                Background="#99000000" Height="150" Width="740">
                 <CheckBox x:Name="Sander_s_Taboo"
-                    Margin="30,20,0,0" 
+                    Margin="30,15,0,0" 
                     Content="" ToolTip="Mephisto (Normal) 1:95" Checked="Sander_s_Taboo_Checked" Unchecked="Sander_s_Taboo_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="180" Width="740">
+                Background="#99000000" Height="190" Width="740">
                 <CheckBox x:Name="Sander_s_Riprap"
-                    Margin="20,40,0,0"
+                    Margin="20,20,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:190" Checked="Sander_s_Riprap_Checked" Unchecked="Sander_s_Riprap_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

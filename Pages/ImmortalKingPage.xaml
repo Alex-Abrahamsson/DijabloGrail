@@ -38,9 +38,9 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,690,0">
+        <WrapPanel Margin="10,10,690,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="580" Height="140">
+                Background="#99000000" Width="580" Height="125">
                 <CheckBox x:Name="Immortal_King_s_Will" 
                     Margin="30,20,0,0"
                     Content="" ToolTip="Diablo (Normal) 1:277" Checked="Immortal_King_s_Will_Checked" Unchecked="Immortal_King_s_Will_Unchecked"/>
@@ -54,27 +54,27 @@
             <WrapPanel x:Name="Pic3"
                 Background="#99000000" Height="170" Width="580">
                 <CheckBox x:Name="Immortal_King_s_Soul_Cage"
-                    Margin="30,10,0,0" 
+                    Margin="30,30,0,0" 
                     Content="" ToolTip="Baal (Hell) 1:7121" Checked="Immortal_King_s_Soul_Cage_Checked" Unchecked="Immortal_King_s_Soul_Cage_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
                 Background="#99000000" Height="220" Width="580">
                 <CheckBox x:Name="Immortal_King_s_Detail"
-                    Margin="20,10,0,0"
+                    Margin="20,50,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:367" Checked="Immortal_King_s_Detail_Checked" Unchecked="Immortal_King_s_Detail_Unchecked"/>
             </WrapPanel>
         </WrapPanel>
-        <WrapPanel Margin="590,79,142,254">
+        <WrapPanel Margin="590,79,92,243">
             <WrapPanel x:Name="Pic5" 
-                Background="#99000000" Width="540" Height="185">
+                Background="#99000000" Width="600" Height="185">
                 <CheckBox x:Name="Immortal_King_s_Forge" 
-                    Margin="30,20,0,0"
+                    Margin="30,40,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:367" Checked="Immortal_King_s_Forge_Checked" Unchecked="Immortal_King_s_Forge_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic6" 
-                Background="#99000000" Height="195" Width="540">
+                Background="#99000000" Height="205" Width="600">
                 <CheckBox x:Name="Immortal_King_s_Pillar"
-                    Margin="30,10,0,0"
+                    Margin="30,40,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:367" Checked="Immortal_King_s_Pillar_Checked" Unchecked="Immortal_King_s_Pillar_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

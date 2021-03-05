@@ -38,29 +38,29 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,436,0">
+        <WrapPanel Margin="10,10,409,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="840" Height="210">
+                Background="#99000000" Width="850" Height="150">
                 <CheckBox x:Name="Isenhart_s_Lightbrand" 
-                    Margin="30,90,0,0"
+                    Margin="15,30,0,0"
                     Content="" Checked="Isenhart_s_Lightbrand_Checked" Unchecked="Isenhart_s_Lightbrand_Unchecked" ToolTip="Mephisto (Normal) 1:51"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="120" Width="840">
+                Background="#99000000" Height="150" Width="840">
                 <CheckBox x:Name="Isenhart_s_Horns"
-                    Margin="30,10,0,0"
+                    Margin="15,30,0,0"
                     Content="" Checked="Isenhart_s_Horns_Checked" Unchecked="Isenhart_s_Horns_Unchecked" ToolTip="Diablo (Normal) 1:55"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="130" Width="840">
+                Background="#99000000" Height="170" Width="840">
                 <CheckBox x:Name="Isenhart_s_Case"
-                    Margin="30,20,0,0" 
+                    Margin="15,30,0,0" 
                     Content="" Checked="Isenhart_s_Case_Checked" Unchecked="Isenhart_s_Case_Unchecked" ToolTip="Diablo (Normal) 1:29"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="200" Width="840">
+                Background="#99000000" Height="210" Width="840">
                 <CheckBox x:Name="Isenhart_s_Parry"
-                    Margin="20,20,0,0"
+                    Margin="15,30,0,0"
                     Content="" Checked="Isenhart_s_Parry_Checked" Unchecked="Isenhart_s_Parry_Unchecked" ToolTip="Baal (Normal) 1:89"/>
             </WrapPanel>
         </WrapPanel>

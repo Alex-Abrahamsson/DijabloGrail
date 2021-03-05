@@ -38,23 +38,23 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,366,0">
+        <WrapPanel Margin="10,10,366,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="910" Height="290">
+                Background="#99000000" Width="910" Height="250">
                 <CheckBox x:Name="Cleglaws_Tooth" 
-                    Margin="40,150,0,0"
+                    Margin="40,60,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:52" Checked="Cleglaws_Tooth_Checked" Unchecked="Cleglaws_Tooth_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="120" Width="910">
+                Background="#99000000" Height="200" Width="910">
                 <CheckBox x:Name="Cleglaws_Pinchers"
-                    Margin="40,25,0,0"
+                    Margin="40,40,0,0"
                     Content="" ToolTip="Andariel (Normal) 1:76" Checked="Cleglaws_Pinchers_Checked" Unchecked="Cleglaws_Pinchers_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="196" Width="910">
+                Background="#99000000" Height="230" Width="910">
                 <CheckBox x:Name="Cleglaws_Claw"
-                    Margin="40,25,0,0" 
+                    Margin="40,50,0,0" 
                     Content="" ToolTip="Andariel (Normal) 1:103" Checked="Cleglaws_Claw_Checked" Unchecked="Cleglaws_Claw_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

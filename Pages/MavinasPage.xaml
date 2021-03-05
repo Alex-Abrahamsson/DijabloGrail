@@ -38,35 +38,37 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,594,0">
+        <WrapPanel Margin="10,10,640,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="680" Height="130">
+                Background="#99000000" Width="600" Height="200">
                 <CheckBox x:Name="M_avina_s_True_Sight" 
-                    Margin="30,20,0,0"
+                    Margin="20,50,0,0"
                     Content="" ToolTip="Mephisto (Hell) 1:7121" Checked="M_avina_s_True_Sight_Checked" Unchecked="M_avina_s_True_Sight_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="155" Width="680">
+                Background="#99000000" Height="250" Width="600">
                 <CheckBox x:Name="M_avina_s_Caster"
-                    Margin="30,10,0,0"
+                    Margin="20,50,0,0"
                     Content="" ToolTip="Baal (Hell) 1:1042" Checked="M_avina_s_Caster_Checked" Unchecked="M_avina_s_Caster_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="130" Width="680">
+                Background="#99000000" Height="230" Width="630">
                 <CheckBox x:Name="M_avina_s_Embrace"
-                    Margin="30,10,0,0" 
+                    Margin="20,50,0,0" 
                     Content="" ToolTip="Baal (Hell) 1:456" Checked="M_avina_s_Embrace_Checked" Unchecked="M_avina_s_Embrace_Unchecked"/>
             </WrapPanel>
-            <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="145" Width="680">
-                <CheckBox x:Name="M_avina_s_Icy_Clutch"
-                    Margin="20,10,0,0"
+        </WrapPanel>
+        <WrapPanel Margin="640,101,42,233">
+            <WrapPanel x:Name="Pic4" 
+                Background="#99000000" Width="590" Height="200">
+                <CheckBox x:Name="M_avina_s_Icy_Clutch" 
+                    Margin="15,40,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:519" Checked="M_avina_s_Icy_Clutch_Checked" Unchecked="M_avina_s_Icy_Clutch_Unchecked"/>
             </WrapPanel>
-            <WrapPanel x:Name="Pic5"
-                Background="#99000000" Height="150" Width="680">
+            <WrapPanel x:Name="Pic5" 
+                Background="#99000000" Height="180" Width="550">
                 <CheckBox x:Name="M_avina_s_Tenet"
-                    Margin="20,10,0,0"
+                    Margin="15,40,0,0"
                     Content="" ToolTip="Mephisto (Nightmare) 1:287" Checked="M_avina_s_Tenet_Checked" Unchecked="M_avina_s_Tenet_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

@@ -38,29 +38,29 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,488,0">
+        <WrapPanel Margin="10,10,488,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="750" Height="185">
+                Background="#99000000" Width="750" Height="150">
                 <CheckBox x:Name="Hwanin_s_Splendor" 
-                    Margin="30,50,0,0"
+                    Margin="20,40,0,0"
                     Content="" ToolTip="Baal (Nightamre) 1:228" Checked="Hwanin_s_Splendor_Checked" Unchecked="Hwanin_s_Splendor_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="175" Width="750">
+                Background="#99000000" Height="200" Width="750">
                 <CheckBox x:Name="Hwanin_s_Justice"
-                    Margin="30,10,0,0"
+                    Margin="20,40,0,0"
                     Content="" ToolTip="Mephstio (Nightamre) 1:211" Checked="Hwanin_s_Justice_Checked" Unchecked="Hwanin_s_Justice_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="130" Width="750">
+                Background="#99000000" Height="160" Width="750">
                 <CheckBox x:Name="Hwanin_s_Refuge"
-                    Margin="30,10,0,0" 
+                    Margin="20,30,0,0" 
                     Content="" ToolTip="Mephisto (Nightmare) 1:368" Checked="Hwanin_s_Refuge_Checked" Unchecked="Hwanin_s_Refuge_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="200" Width="750">
+                Background="#99000000" Height="180" Width="770">
                 <CheckBox x:Name="Hwanin_s_Blessing"
-                    Margin="20,50,0,0"
+                    Margin="20,30,0,0"
                     Content="" ToolTip="Diablo (Normal) 1:219" Checked="Hwanin_s_Blessing_Checked" Unchecked="Hwanin_s_Blessing_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

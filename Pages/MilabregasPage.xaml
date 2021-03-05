@@ -38,29 +38,29 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,10,572,-10">
+        <WrapPanel Margin="10,10,572,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="650" Height="140">
+                Background="#99000000" Width="650" Height="150">
                 <CheckBox x:Name="Milabrega_s_Diadem" 
-                    Margin="30,40,0,0"
+                    Margin="15,30,0,0"
                     Content="" ToolTip="Baal (Normal) 1:179" Checked="Milabrega_s_Diadem_Checked" Unchecked="Milabrega_s_Diadem_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="140" Width="650">
+                Background="#99000000" Height="160" Width="650">
                 <CheckBox x:Name="Milabrega_s_Robe"
-                    Margin="30,30,0,0"
+                    Margin="15,30,0,0"
                     Content="" ToolTip="Mephisto (Nightmare) 1:341" Checked="Milabrega_s_Robe_Checked" Unchecked="Milabrega_s_Robe_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="200" Width="650">
+                Background="#99000000" Height="190" Width="650">
                 <CheckBox x:Name="Milabrega_s_Orb"
-                    Margin="30,40,0,0" 
+                    Margin="15,30,0,0" 
                     Content="" ToolTip="Mephisto (Normal) 1:51" Checked="Milabrega_s_Orb_Checked" Unchecked="Milabrega_s_Orb_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="200" Width="650">
+                Background="#99000000" Height="180" Width="650">
                 <CheckBox x:Name="Milabrega_s_Rod"
-                    Margin="20,30,0,0"
+                    Margin="15,30,0,0"
                     Content="" ToolTip="Mephisto (Normal) 1:156" Checked="Milabrega_s_Rod_Checked" Unchecked="Milabrega_s_Rod_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

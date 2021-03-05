@@ -38,23 +38,23 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,558,0">
+        <WrapPanel Margin="10,42,558,34">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="700" Height="210">
+                Background="#99000000" Width="700" Height="170">
                 <CheckBox x:Name="Naj_s_Circlet" 
-                    Margin="30,100,0,0"
+                    Margin="20,30,0,0"
                     Content="" ToolTip="Baal (Noraml) 1:117" Checked="Naj_s_Circlet_Checked" Unchecked="Naj_s_Circlet_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="170" Width="700">
+                Background="#99000000" Height="200" Width="700">
                 <CheckBox x:Name="Naj_s_Light_Plate"
-                    Margin="30,30,0,0"
+                    Margin="20,30,0,0"
                     Content="" ToolTip="Baal (Hell) 1:566" Checked="Naj_s_Light_Plate_Checked" Unchecked="Naj_s_Light_Plate_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="250" Width="700">
+                Background="#99000000" Height="270" Width="700">
                 <CheckBox x:Name="Naj_s_Puzzler"
-                    Margin="30,30,0,0" 
+                    Margin="20,30,0,0" 
                     Content="" ToolTip="Diablo (Hell) 1:561" Checked="Naj_s_Puzzler_Checked" Unchecked="Naj_s_Puzzler_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

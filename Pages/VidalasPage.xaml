@@ -38,30 +38,30 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,452,0">
+        <WrapPanel Margin="10,10,418,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="820" Height="230">
+                Background="#99000000" Width="860" Height="200">
                 <CheckBox x:Name="Vidala_s_Barb" 
-                    Margin="20,80,0,0"
-                    Content="CheckBox" ToolTip="Mephisto (Normal) 1:69" Checked="Vidala_s_Barb_Checked" Unchecked="Vidala_s_Barb_Unchecked"/>
+                    Margin="10,20,0,0"
+                    Content="" ToolTip="Mephisto (Normal) 1:69" Checked="Vidala_s_Barb_Checked" Unchecked="Vidala_s_Barb_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="160" Width="820">
+                Background="#99000000" Height="180" Width="860">
                 <CheckBox x:Name="Vidala_s_Ambush"
-                    Margin="20,30,0,0"
-                    Content="CheckBox" ToolTip="Diablo (Normal) 1:1469" Checked="Vidala_s_Ambush_Checked" Unchecked="Vidala_s_Ambush_Unchecked"/>
+                    Margin="10,15,0,0"
+                    Content="" ToolTip="Diablo (Normal) 1:1469" Checked="Vidala_s_Ambush_Checked" Unchecked="Vidala_s_Ambush_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="130" Width="820">
+                Background="#99000000" Height="160" Width="860">
                 <CheckBox x:Name="Vidala_s_Fetlock"
-                    Margin="30,10,0,0" 
-                    Content="CheckBox" ToolTip="Diablo (Normal) 1:84" Checked="Vidala_s_Fetlock_Checked" Unchecked="Vidala_s_Fetlock_Unchecked"/>
+                    Margin="10,10,0,0" 
+                    Content="" ToolTip="Diablo (Normal) 1:84" Checked="Vidala_s_Fetlock_Checked" Unchecked="Vidala_s_Fetlock_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="150" Width="820">
+                Background="#99000000" Height="150" Width="860">
                 <CheckBox x:Name="Vidala_s_Snare"
-                    Margin="20,10,0,0"
-                    Content="CheckBox" ToolTip="Duriel (Normal) 1:580" Checked="Vidala_s_Snare_Checked" Unchecked="Vidala_s_Snare_Unchecked"/>
+                    Margin="10,10,0,0"
+                    Content="" ToolTip="Duriel (Normal) 1:580" Checked="Vidala_s_Snare_Checked" Unchecked="Vidala_s_Snare_Unchecked"/>
             </WrapPanel>
         </WrapPanel>
 

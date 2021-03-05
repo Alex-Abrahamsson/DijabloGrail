@@ -38,29 +38,29 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,536,0">
+        <WrapPanel Margin="10,10,478,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="720" Height="195">
+                Background="#99000000" Width="720" Height="140">
                 <CheckBox x:Name="Natalya_s_Totem" 
-                    Margin="30,100,0,0"
+                    Margin="15,20,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:522" Checked="Natalya_s_Totem_Checked" Unchecked="Natalya_s_Totem_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="185" Width="720">
+                Background="#99000000" Height="220" Width="720">
                 <CheckBox x:Name="Natalya_s_Mark"
-                    Margin="30,40,0,0"
+                    Margin="15,50,0,0"
                     Content="" ToolTip="Baal (Hell) 1:7374" Checked="Natalya_s_Mark_Checked" Unchecked="Natalya_s_Mark_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="130" Width="720">
+                Background="#99000000" Height="150" Width="720">
                 <CheckBox x:Name="Natalya_s_Shadow"
-                    Margin="30,30,0,0" 
+                    Margin="15,30,0,0" 
                     Content="" ToolTip="Diablo (Hell) 1:308" Checked="Natalya_s_Shadow_Checked" Unchecked="Natalya_s_Shadow_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="160" Width="720">
+                Background="#99000000" Height="185" Width="780">
                 <CheckBox x:Name="Natalya_s_Soul"
-                    Margin="20,50,0,0"
+                    Margin="15,30,0,0"
                     Content="" ToolTip="Mephisto (Nightmare) 1:368" Checked="Natalya_s_Soul_Checked" Unchecked="Natalya_s_Soul_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

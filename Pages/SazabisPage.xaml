@@ -38,21 +38,21 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,554,0">
+        <WrapPanel Margin="10,10,554,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="700" Height="250">
+                Background="#99000000" Width="700" Height="200">
                 <CheckBox x:Name="Sazabi_s_Mental_Sheath" 
-                    Margin="30,140,0,0"
+                    Margin="30,50,0,0"
                     Content="" ToolTip="Mephisto (Nightmare) 1370:" Checked="Sazabi_s_Mental_Sheath_Checked" Unchecked="Sazabi_s_Mental_Sheath_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="200" Width="700">
+                Background="#99000000" Height="260" Width="700">
                 <CheckBox x:Name="Sazabi_s_Cobalt_Redeemer"
                     Margin="30,30,0,0"
                     Content="" ToolTip="Baal (Hell) 1:464" Checked="Sazabi_s_Cobalt_Redeemer_Checked" Unchecked="Sazabi_s_Cobalt_Redeemer_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="200" Width="700">
+                Background="#99000000" Height="220" Width="700">
                 <CheckBox x:Name="Sazabi_s_Ghost_Liberator"
                     Margin="30,30,0,0" 
                     Content="" ToolTip="Baal (Hell) 1:563" Checked="Sazabi_s_Ghost_Liberator_Checked" Unchecked="Sazabi_s_Ghost_Liberator_Unchecked"/>

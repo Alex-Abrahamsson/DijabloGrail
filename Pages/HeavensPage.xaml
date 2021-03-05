@@ -38,30 +38,30 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,456,0">
+        <WrapPanel Margin="10,10,456,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="820" Height="145">
+                Background="#99000000" Width="820" Height="155">
                 <CheckBox x:Name="Haemosu_s_Adamant" 
-                    Margin="30,20,0,0"
-                    Content="CheckBox" ToolTip="Diablo (Nightmare) 1:175" Checked="Haemosu_s_Adamant_Checked" Unchecked="Haemosu_s_Adamant_Unchecked"/>
+                    Margin="15,20,0,0"
+                    Content="" ToolTip="Diablo (Nightmare) 1:175" Checked="Haemosu_s_Adamant_Checked" Unchecked="Haemosu_s_Adamant_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="180" Width="820">
+                Background="#99000000" Height="170" Width="820">
                 <CheckBox x:Name="Dangoon_s_Teaching"
-                    Margin="30,30,0,0"
-                    Content="CheckBox" ToolTip="Mephisto (Hell) 1:227" Checked="Dangoon_s_Teaching_Checked" Unchecked="Dangoon_s_Teaching_Unchecked"/>
+                    Margin="15,30,0,0"
+                    Content="" ToolTip="Mephisto (Hell) 1:227" Checked="Dangoon_s_Teaching_Checked" Unchecked="Dangoon_s_Teaching_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="195" Width="820">
+                Background="#99000000" Height="180" Width="820">
                 <CheckBox x:Name="Taebaek_s_Glory"
-                    Margin="30,30,0,0" 
-                    Content="CheckBox" ToolTip="Baal (Hell) 1:812" Checked="Taebaek_s_Glory_Checked" Unchecked="Taebaek_s_Glory_Unchecked"/>
+                    Margin="15,30,0,0" 
+                    Content="" ToolTip="Baal (Hell) 1:812" Checked="Taebaek_s_Glory_Checked" Unchecked="Taebaek_s_Glory_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
                 Background="#99000000" Height="180" Width="820">
                 <CheckBox x:Name="Ondal_s_Almighty"
-                    Margin="20,30,0,0"
-                    Content="CheckBox" ToolTip="Baal (Hell) 1:453" Checked="Ondal_s_Almighty_Checked" Unchecked="Ondal_s_Almighty_Unchecked"/>
+                    Margin="15,20,0,0"
+                    Content="" ToolTip="Baal (Hell) 1:453" Checked="Ondal_s_Almighty_Checked" Unchecked="Ondal_s_Almighty_Unchecked"/>
             </WrapPanel>
         </WrapPanel>
 

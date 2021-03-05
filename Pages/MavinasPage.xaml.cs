@@ -117,14 +117,6 @@ namespace DijabloGrail.Pages
             Properties.Settings.Default.Save();
         }
 
-        private void M_avina_s_Icy_Clutch_Checked(object sender, RoutedEventArgs e)
-        {
-            Pic4.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00000000"));
-            AddPoints(519);
-            Properties.Settings.Default.M_avina_s_Icy_Clutch = true;
-            Properties.Settings.Default.Save();
-        }
-
         private void M_avina_s_Icy_Clutch_Unchecked(object sender, RoutedEventArgs e)
         {
             Pic4.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#99000000"));
@@ -146,6 +138,14 @@ namespace DijabloGrail.Pages
             Pic5.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#99000000"));
             RemovePoints(287);
             Properties.Settings.Default.M_avina_s_Tenet = false;
+            Properties.Settings.Default.Save();
+        }
+
+        private void M_avina_s_Icy_Clutch_Checked(object sender, RoutedEventArgs e)
+        {
+            Pic4.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00000000"));
+            AddPoints(519);
+            Properties.Settings.Default.M_avina_s_Icy_Clutch = true;
             Properties.Settings.Default.Save();
         }
     }

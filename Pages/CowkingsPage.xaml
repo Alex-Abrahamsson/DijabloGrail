@@ -38,23 +38,23 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,556,0">
+        <WrapPanel Margin="10,42,556,55">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="700" Height="260">
+                Background="#99000000" Width="700" Height="180">
                 <CheckBox x:Name="Cow_King_s_Horns" 
-                    Margin="30,150,0,0"
+                    Margin="30,40,0,0"
                     Content="" ToolTip="The Cow King (Hell) 1:240" Checked="Cow_King_s_Horns_Checked" Unchecked="Cow_King_s_Horns_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="140" Width="700">
+                Background="#99000000" Height="200" Width="700">
                 <CheckBox x:Name="Cow_King_s_Hide"
-                    Margin="30,30,0,0"
+                    Margin="30,50,0,0"
                     Content="" ToolTip="The Cow King (Normal) 1:21" Checked="Cow_King_s_Hide_Checked" Unchecked="Cow_King_s_Hide_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
                 Background="#99000000" Height="220" Width="700">
                 <CheckBox x:Name="Cow_King_s_Hooves"
-                    Margin="30,40,0,0" 
+                    Margin="30,50,0,0" 
                     Content="" ToolTip="The Cow King (Normal) 1:42" Checked="Cow_King_s_Hooves_Checked" Unchecked="Cow_King_s_Hooves_Unchecked"/>
             </WrapPanel>
         </WrapPanel>
