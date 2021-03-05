@@ -9,6 +9,7 @@
   <ItemGroup>
     <None Remove="53956.jpg" />
     <None Remove="Images\Aldurs_Watchtower.png" />
+    <None Remove="Images\AngelicRaiment_Fullset.png" />
     <None Remove="Images\Arcannas_Tricks.png" />
     <None Remove="Images\Artic_Gear.png" />
     <None Remove="Images\Berserkers_Arsenal.png" />
@@ -69,6 +70,7 @@
   <ItemGroup>
     <Resource Include="Images\53956.jpg" />
     <Resource Include="Images\Aldurs_Watchtower.png" />
+    <Resource Include="Images\AngelicRaiment_Fullset.png" />
     <Resource Include="Images\Arcannas_Tricks.png" />
     <Resource Include="Images\Artic_Gear.png" />
     <Resource Include="Images\Berserkers_Arsenal.png" />
@@ -90,16 +92,6 @@
     <Resource Include="Images\Mavinas_Battle_Hymn.png" />
     <Resource Include="Images\MenuBtn.png" />
     <Resource Include="Images\MenuBtnSmall.png" />
-    <Resource Include="Images\Agelic_raiment.png" />
-    <Resource Include="Images\Angelic_Halo.png" />
-    <Resource Include="Images\Angelic_Mantle.png" />
-    <Resource Include="Images\Angelic_Sabre.png" />
-    <Resource Include="Images\Angelic_Wings.png" />
-    <Resource Include="Images\AngelicRaiment_Fullset.png" />
-    <Resource Include="Images\Angelic_Halo_Stats.png" />
-    <Resource Include="Images\Angelic_Mantel_Stats.png" />
-    <Resource Include="Images\Angelic_Wings_Stats.png" />
-    <Resource Include="Images\Anglelic_Sickle_Stats.png" />
     <Resource Include="Images\Milabregas_Regalia.png" />
     <Resource Include="Images\Najs_Ancient_Vestige.png" />
     <Resource Include="Images\Natalys_Odium.png" />
