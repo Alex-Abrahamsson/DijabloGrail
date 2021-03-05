@@ -38,29 +38,31 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <WrapPanel Margin="0,0,604,0">
+        <WrapPanel Margin="10,10,711,10">
             <WrapPanel x:Name="Pic1" 
-                Background="#99000000" Width="650" Height="170">
+                Background="#99000000" Width="550" Height="220">
                 <CheckBox x:Name="Aldur_s_Stony_Gaze" 
-                    Margin="30,30,0,0"
+                    Margin="10,30,0,0"
                     Content="" ToolTip="Diablo (Nightmare) 1:441" Checked="Aldur_s_Stony_Gaze_Checked" Unchecked="Aldur_s_Stony_Gaze_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
-                Background="#99000000" Height="160" Width="650">
+                Background="#99000000" Height="220" Width="550">
                 <CheckBox x:Name="Aldur_s_Advance"
-                    Margin="30,40,0,0"
+                    Margin="10,30,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:519" Checked="Aldur_s_Advance_Checked" Unchecked="Aldur_s_Advance_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
-                Background="#99000000" Height="160" Width="650">
+                Background="#99000000" Height="240" Width="550">
                 <CheckBox x:Name="Aldur_s_Deception"
-                    Margin="30,40,0,0" 
+                    Margin="10,30,0,0" 
                     Content="" ToolTip="Baal (Hell) 1:807" Checked="Aldur_s_Deception_Checked" Unchecked="Aldur_s_Deception_Unchecked"/>
             </WrapPanel>
+        </WrapPanel>
+        <WrapPanel Margin="574,187,123,262">
             <WrapPanel x:Name="Pic4"
-                Background="#99000000" Height="210" Width="650">
+                Background="#99000000" Height="250" Width="550">
                 <CheckBox x:Name="Aldur_s_Rhythm"
-                    Margin="20,40,0,0"
+                    Margin="10,30,0,0"
                     Content="" ToolTip="Mephisto (Nightmare) 1:212" Checked="Aldur_s_Rhythm_Checked" Unchecked="Aldur_s_Rhythm_Unchecked"/>
             </WrapPanel>
         </WrapPanel>
