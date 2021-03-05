@@ -16,15 +16,16 @@
             <TextBlock.TextDecorations>
                 <TextDecoration/>
             </TextBlock.TextDecorations><Run Language="sv-se" Text="Swords"/></TextBlock>
-        <ListBox HorizontalAlignment="Left" Height="500" Margin="99,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="547" Margin="99,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Rixot_s_Keen" Content="Rixot's Keen" FontSize="16" Foreground="#FFE28909" ToolTip="Blood Raven (Normal) 1:1050" Checked="Rixot_s_Keen_Checked" Unchecked="Rixot_s_Keen_Unchecked"/>
             <CheckBox x:Name="Blood_Crescent" Content="Blood Crescent" FontSize="16" Foreground="#FFE28909" ToolTip="Andariel (Normal) 1:237" Checked="Blood_Crescent_Checked" Unchecked="Blood_Crescent_Unchecked"/>
             <CheckBox x:Name="Skewer_of_Krintiz" Content="Skewer of Krintiz" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Normal) 1:208" Checked="Skewer_of_Krintiz_Checked" Unchecked="Skewer_of_Krintiz_Unchecked"/>
             <CheckBox x:Name="Gleamscythe" Content="Gleamscythe" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Normal) 1:155" Checked="Gleamscythe_Checked" Unchecked="Gleamscythe_Unchecked"/>
             <CheckBox x:Name="Griswold_s_Edge" Content="Griswold's Edge" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Normal) 1:127" Checked="Griswold_s_Edge_Checked" Unchecked="Griswold_s_Edge_Unchecked"/>
             <CheckBox x:Name="Hellplague" Content="Hellplague" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Normal) 1:141" Checked="Hellplague_Checked" Unchecked="Hellplague_Unchecked"/>
-            <CheckBox x:Name="Culwen_s_Point" Content="Culwen's Point" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Normal) 1:196" Margin="0,0,0,50" Checked="Culwen_s_Point_Checked" Unchecked="Culwen_s_Point_Unchecked"/>
+            <CheckBox x:Name="Culwen_s_Point" Content="Culwen's Point" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Normal) 1:196" Margin="0,0,0,35" Checked="Culwen_s_Point_Checked" Unchecked="Culwen_s_Point_Unchecked"/>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="24" TextDecorations="Underline" FontStyle="Italic" FontWeight="Bold" Margin="30,0,0,10"><Run Language="sv-se" Text="Two Handed"/></TextBlock>
             <CheckBox x:Name="Shadowfang" Content="Shadowfang" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Normal) 1:155" Checked="Shadowfang_Checked" Unchecked="Shadowfang_Unchecked"/>
             <CheckBox x:Name="Soulflay" Content="Soulflay" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Normal) 1:132" Checked="Soulflay_Checked" Unchecked="Soulflay_Unchecked"/>
             <CheckBox x:Name="Kinemil_s_Awl" Content="Kinemil's Awl" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Normal) 1:142" Checked="Kinemil_s_Awl_Checked" Unchecked="Kinemil_s_Awl_Unchecked"/>
@@ -32,7 +33,7 @@
             <CheckBox x:Name="Ripsaw" Content="Ripsaw" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Normal) 1:196" Checked="Ripsaw_Checked" Unchecked="Ripsaw_Unchecked"/>
             <CheckBox x:Name="The_Patriarch" Content="The Patriarch" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Normal) 1:338" Checked="The_Patriarch_Checked" Unchecked="The_Patriarch_Unchecked"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Center" Height="500" Margin="0,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
+        <ListBox HorizontalAlignment="Center" Height="547" Margin="0,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
             <TextBlock TextWrapping="Wrap" Height="40" Width="250" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Bloodletter" Content="Bloodletter" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Normal) 1:238" Checked="Bloodletter_Checked" Unchecked="Bloodletter_Unchecked"/>
             <CheckBox x:Name="Coldsteel_Eye" Content="Coldsteel Eye" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:581" Checked="Coldsteel_Eye_Checked" Unchecked="Coldsteel_Eye_Unchecked"/>
@@ -41,7 +42,8 @@
             <CheckBox x:Name="Ginther_s_Rift" Content="Ginther's Rift" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:529" Checked="Ginther_s_Rift_Checked" Unchecked="Ginther_s_Rift_Unchecked"/>
             <CheckBox x:Name="Headstriker" Content="Headstriker" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:680" Checked="Headstriker_Checked" Unchecked="Headstriker_Unchecked"/>
             <CheckBox x:Name="Plague_Bearer" Content="Plague Bearer" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:583" Checked="Plague_Bearer_Checked" Unchecked="Plague_Bearer_Unchecked"/>
-            <CheckBox x:Name="The_Atlantean" Content="The Atlantean" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Nightmare) 1:598" Margin="0,0,0,30" Checked="The_Atlantean_Checked" Unchecked="The_Atlantean_Unchecked"/>
+            <CheckBox x:Name="The_Atlantean" Content="The Atlantean" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Nightmare) 1:598" Margin="0,0,0,10" Checked="The_Atlantean_Checked" Unchecked="The_Atlantean_Unchecked"/>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="24" TextDecorations="Underline" FontStyle="Italic" FontWeight="Bold" Margin="30,0,0,5"><Run Language="sv-se" Text="Two Handed"/></TextBlock>
             <CheckBox x:Name="Crainte_Vomir" Content="Crainte Vomir" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:529" Checked="Crainte_Vomir_Checked" Unchecked="Crainte_Vomir_Unchecked"/>
             <CheckBox x:Name="Bing_Sz_Wang" Content="Bing Sz Wang" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:683" Checked="Bing_Sz_Wang_Checked" Unchecked="Bing_Sz_Wang_Unchecked"/>
             <CheckBox x:Name="The_Vile_Husk" Content="The Vile Husk" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Nightmare) 1:584" Checked="The_Vile_Husk_Checked" Unchecked="The_Vile_Husk_Unchecked"/>
@@ -49,13 +51,14 @@
             <CheckBox x:Name="Todesfaelle_Flamme" Content="Todesfaelle Flamme" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Nightmare) 1:598" Checked="Todesfaelle_Flamme_Checked" Unchecked="Todesfaelle_Flamme_Unchecked"/>
             <CheckBox x:Name="Swordguard" Content="Swordguard" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Nightmare) 1:549" Checked="Swordguard_Checked" Unchecked="Swordguard_Unchecked"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Left" Height="500" Margin="908,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="398" Margin="908,93,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
             <CheckBox x:Name="Djinn_Slayer" Content="Djinn Slayer" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Hell) 1:565" Checked="Djinn_Slayer_Checked" Unchecked="Djinn_Slayer_Unchecked"/>
             <CheckBox x:Name="Bloodmoon" Content="Bloodmoon" FontSize="16" Foreground="#FFE28909" ToolTip="Mephisto (Hell) 1:568" Checked="Bloodmoon_Checked" Unchecked="Bloodmoon_Unchecked"/>
             <CheckBox x:Name="Lightsabre" Content="Lightsabre" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Hell) 1:560" Checked="Lightsabre_Checked" Unchecked="Lightsabre_Unchecked"/>
             <CheckBox x:Name="Azurewrath" Content="Azurewrath" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Hell) 1:2799" Checked="Azurewrath_Checked" Unchecked="Azurewrath_Unchecked"/>
-            <CheckBox x:Name="Frostwind" Content="Frostwind" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:1158" Margin="0,0,0,30" Checked="Frostwind_Checked" Unchecked="Frostwind_Unchecked"/>
+            <CheckBox x:Name="Frostwind" Content="Frostwind" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:1158" Margin="0,0,0,10" Checked="Frostwind_Checked" Unchecked="Frostwind_Unchecked"/>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="24" TextDecorations="Underline" FontStyle="Italic" FontWeight="Bold" Margin="30,0,0,10"><Run Language="sv-se" Text="Two Handed"/></TextBlock>
             <CheckBox x:Name="Flamebellow" Content="Flamebellow" FontSize="16" Foreground="#FFE28909" ToolTip="Diablo (Hell) 1:582" Checked="Flamebellow_Checked" Unchecked="Flamebellow_Unchecked"/>
             <CheckBox x:Name="Doombringer" Content="Doombringer" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:1029" Checked="Doombringer_Checked" Unchecked="Doombringer_Unchecked"/>
             <CheckBox x:Name="The_Grandfather" Content="The Grandfather" FontSize="16" Foreground="#FFE28909" ToolTip="Baal (Hell) 1:14565" Checked="The_Grandfather_Checked" Unchecked="The_Grandfather_Unchecked"/>
