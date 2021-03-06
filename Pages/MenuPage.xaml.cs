@@ -21,15 +21,15 @@ namespace DijabloGrail
     public partial class MenuPage : Page
     {
 
-        public double[] allScore = new double[50];
+        public double[] allScore = new double[60];
         public double grailScore;
         public void SetScore()
         {
             if (grailScore < 1)
             {
-                ScoreBox.Text = "   Dijablo <3  ";
+                ScoreBox.Text = "     Dijablo <3  ";
             }
-            else ScoreBox.Text = "  Score: " + grailScore;
+            else ScoreBox.Text = "    Score: " + grailScore;
         }
 
         public void UpdateScore()
@@ -74,6 +74,8 @@ namespace DijabloGrail
             allScore[13] = Properties.Settings.Default.MaceScore;
             allScore[14] = Properties.Settings.Default.ScepterScore;
             allScore[15] = Properties.Settings.Default.JavelinScore;
+            allScore[48] = Properties.Settings.Default.ThrowingScore;
+            allScore[49] = Properties.Settings.Default.PolearmScore;
 
             allScore[16] = Properties.Settings.Default.AngelicScore;
             allScore[17] = Properties.Settings.Default.ArcannasScore;
@@ -432,6 +434,24 @@ namespace DijabloGrail
                     writer.Close();
                 }
             }
+        }
+
+        private void ThrowWeaponBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ThrowingPage throwingPage = new ThrowingPage();
+            this.NavigationService.Navigate(throwingPage);
+        }
+
+        private void JavelinBtn_Click(object sender, RoutedEventArgs e)
+        {
+            JavelinPage javelinPage = new JavelinPage();
+            this.NavigationService.Navigate(javelinPage);
+        }
+
+        private void PolearmBtn_Click(object sender, RoutedEventArgs e)
+        {
+            PolearmPage polearmPage = new PolearmPage();
+            this.NavigationService.Navigate(polearmPage);
         }
     }
 }
