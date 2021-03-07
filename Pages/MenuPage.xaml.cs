@@ -21,7 +21,7 @@ namespace DijabloGrail
     public partial class MenuPage : Page
     {
 
-        public double[] allScore = new double[60];
+        public double[] allScore = new double[52];
         public double grailScore;
         public void SetScore()
         {
@@ -74,43 +74,43 @@ namespace DijabloGrail
             allScore[13] = Properties.Settings.Default.MaceScore;
             allScore[14] = Properties.Settings.Default.ScepterScore;
             allScore[15] = Properties.Settings.Default.JavelinScore;
-            allScore[48] = Properties.Settings.Default.ThrowingScore;
-            allScore[49] = Properties.Settings.Default.PolearmScore;
-            allScore[50] = Properties.Settings.Default.SpearScore;
-            allScore[51] = Properties.Settings.Default.StaveScore;
+            allScore[16] = Properties.Settings.Default.ThrowingScore;
+            allScore[17] = Properties.Settings.Default.PolearmScore;
+            allScore[18] = Properties.Settings.Default.SpearScore;
+            allScore[19] = Properties.Settings.Default.StaveScore;
 
-            allScore[16] = Properties.Settings.Default.AngelicScore;
-            allScore[17] = Properties.Settings.Default.ArcannasScore;
-            allScore[18] = Properties.Settings.Default.BerserkersScore;
-            allScore[19] = Properties.Settings.Default.CatansScore;
-            allScore[20] = Properties.Settings.Default.CiverbScore;
-            allScore[21] = Properties.Settings.Default.CleglawScore;
-            allScore[22] = Properties.Settings.Default.DeathsScore;
-            allScore[23] = Properties.Settings.Default.HsarusScore;
-            allScore[24] = Properties.Settings.Default.InfernalsScore;
-            allScore[25] = Properties.Settings.Default.IrathasScore;
-            allScore[26] = Properties.Settings.Default.IsenheartScore;
-            allScore[27] = Properties.Settings.Default.MilabregasScore;
-            allScore[28] = Properties.Settings.Default.SigonsScore;
-            allScore[29] = Properties.Settings.Default.TancredsScore;
-            allScore[30] = Properties.Settings.Default.VidalasScore;
-            allScore[31] = Properties.Settings.Default.AldursScore;
-            allScore[32] = Properties.Settings.Default.BulKatosScore;
-            allScore[33] = Properties.Settings.Default.CowKingsScore;
-            allScore[34] = Properties.Settings.Default.TheDiscipleScore;
-            allScore[35] = Properties.Settings.Default.GrisworldScore;
-            allScore[36] = Properties.Settings.Default.HeavensScore;
-            allScore[37] = Properties.Settings.Default.HwaninsScore;
-            allScore[38] = Properties.Settings.Default.ImmortalsScore;
-            allScore[39] = Properties.Settings.Default.MavinasScore;
-            allScore[40] = Properties.Settings.Default.NatalyasScore;
-            allScore[41] = Properties.Settings.Default.NajsScore;
-            allScore[42] = Properties.Settings.Default.OrphansScore;
-            allScore[43] = Properties.Settings.Default.SandersScore;
-            allScore[44] = Properties.Settings.Default.SazabisScore;
-            allScore[45] = Properties.Settings.Default.TalRashasScore;
-            allScore[46] = Properties.Settings.Default.TrangoulsScore;
-            allScore[47] = Properties.Settings.Default.ArticScore;
+            allScore[20] = Properties.Settings.Default.AngelicScore;
+            allScore[21] = Properties.Settings.Default.ArcannasScore;
+            allScore[22] = Properties.Settings.Default.BerserkersScore;
+            allScore[23] = Properties.Settings.Default.CatansScore;
+            allScore[24] = Properties.Settings.Default.CiverbScore;
+            allScore[25] = Properties.Settings.Default.CleglawScore;
+            allScore[26] = Properties.Settings.Default.DeathsScore;
+            allScore[27] = Properties.Settings.Default.HsarusScore;
+            allScore[28] = Properties.Settings.Default.InfernalsScore;
+            allScore[29] = Properties.Settings.Default.IrathasScore;
+            allScore[30] = Properties.Settings.Default.IsenheartScore;
+            allScore[31] = Properties.Settings.Default.MilabregasScore;
+            allScore[32] = Properties.Settings.Default.SigonsScore;
+            allScore[33] = Properties.Settings.Default.TancredsScore;
+            allScore[34] = Properties.Settings.Default.VidalasScore;
+            allScore[35] = Properties.Settings.Default.AldursScore;
+            allScore[36] = Properties.Settings.Default.BulKatosScore;
+            allScore[37] = Properties.Settings.Default.CowKingsScore;
+            allScore[38] = Properties.Settings.Default.TheDiscipleScore;
+            allScore[39] = Properties.Settings.Default.GrisworldScore;
+            allScore[40] = Properties.Settings.Default.HeavensScore;
+            allScore[41] = Properties.Settings.Default.HwaninsScore;
+            allScore[42] = Properties.Settings.Default.ImmortalsScore;
+            allScore[43] = Properties.Settings.Default.MavinasScore;
+            allScore[44] = Properties.Settings.Default.NatalyasScore;
+            allScore[45] = Properties.Settings.Default.NajsScore;
+            allScore[46] = Properties.Settings.Default.OrphansScore;
+            allScore[47] = Properties.Settings.Default.SandersScore;
+            allScore[48] = Properties.Settings.Default.SazabisScore;
+            allScore[49] = Properties.Settings.Default.TalRashasScore;
+            allScore[50] = Properties.Settings.Default.TrangoulsScore;
+            allScore[51] = Properties.Settings.Default.ArticScore;
         }
 
         private void HelmsBtn_Click(object sender, RoutedEventArgs e)
