@@ -5,6 +5,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <Configurations>Debug;Release;Test</Configurations>
+    <ApplicationIcon>Images\DijabloGrail_Icon.ico</ApplicationIcon>
+    <Authors>Alex Abrahamsson</Authors>
+    <Product>Dijablo Grail</Product>
+    <PackageId>DijabloGrail_Alex</PackageId>
+    <Description>First ever package</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
