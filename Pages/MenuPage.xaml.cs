@@ -426,7 +426,7 @@ namespace DijabloGrail
             try
             {
                 string jsonSanve = JsonConvert.SerializeObject(seasonScorestring);
-                writer = new StreamWriter("JsonSaveFile.json");
+                writer = new StreamWriter("YourSeasonScore.json");
                 writer.Write(jsonSanve);
             }
             finally
