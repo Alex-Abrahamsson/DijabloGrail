@@ -87,12 +87,12 @@
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="SpearsBtn" Content="Spears" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Constantia" FontSize="18" Width="160" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Margin="10,2,0,0">
+            <Button x:Name="SpearsBtn" Content="Spears" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Constantia" FontSize="18" Width="160" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Margin="10,2,0,0" Click="SpearsBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="StaveBtn" Content="Staves" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Constantia" FontSize="18" Width="160" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Margin="95,5,0,0">
+            <Button x:Name="StaveBtn" Content="Staves" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Constantia" FontSize="18" Width="160" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Margin="95,5,0,0" Click="StaveBtn_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/Images/MenuBtn.png"/>
                 </Button.Background>

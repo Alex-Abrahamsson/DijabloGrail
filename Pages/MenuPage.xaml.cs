@@ -76,6 +76,8 @@ namespace DijabloGrail
             allScore[15] = Properties.Settings.Default.JavelinScore;
             allScore[48] = Properties.Settings.Default.ThrowingScore;
             allScore[49] = Properties.Settings.Default.PolearmScore;
+            allScore[50] = Properties.Settings.Default.SpearScore;
+            allScore[51] = Properties.Settings.Default.StaveScore;
 
             allScore[16] = Properties.Settings.Default.AngelicScore;
             allScore[17] = Properties.Settings.Default.ArcannasScore;
@@ -452,6 +454,18 @@ namespace DijabloGrail
         {
             PolearmPage polearmPage = new PolearmPage();
             this.NavigationService.Navigate(polearmPage);
+        }
+
+        private void SpearsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SpearPage spearPage = new SpearPage();
+            this.NavigationService.Navigate(spearPage);
+        }
+
+        private void StaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            StavePage stavePage = new StavePage();
+            this.NavigationService.Navigate(stavePage);
         }
     }
 }

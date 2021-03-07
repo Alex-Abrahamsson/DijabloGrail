@@ -1,0 +1,47 @@
+﻿<Page x:Class="DijabloGrail.Pages.StavePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="StavePage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/NewBlack.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations><Run Language="sv-se" Text="Staves"/></TextBlock>
+        <ListBox Margin="113,248,887,218" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Bane_Ash" Content="Bane Ash" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:3149" Checked="Bane_Ash_Checked" Unchecked="Bane_Ash_Unchecked"/>
+            <CheckBox x:Name="Serpent_Lord" Content="Serpent Lord" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:331" Checked="Serpent_Lord_Checked" Unchecked="Serpent_Lord_Unchecked"/>
+            <CheckBox x:Name="Spire_of_Lazarus" Content="Spire of Lazarus" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:466" Checked="Spire_of_Lazarus_Checked" Unchecked="Spire_of_Lazarus_Unchecked"/>
+            <CheckBox x:Name="The_Salamander" Content="The Salamander" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:433" Checked="The_Salamander_Checked" Unchecked="The_Salamander_Unchecked"/>
+            <CheckBox x:Name="The_Iron_Jang_Bong" Content="The Iron Jang Bong" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:563" Checked="The_Iron_Jang_Bong_Checked" Unchecked="The_Iron_Jang_Bong_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="510,248,490,218" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Razorswitch" Content="Razorswitch" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:713" Checked="Razorswitch_Checked" Unchecked="Razorswitch_Unchecked"/>
+            <CheckBox x:Name="Ribcracker" Content="Ribcracker" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:1077" Checked="Ribcracker_Checked" Unchecked="Ribcracker_Unchecked"/>
+            <CheckBox x:Name="Chromatic_Ire" Content="Chromatic Ire" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:1589" Checked="Chromatic_Ire_Checked" Unchecked="Chromatic_Ire_Unchecked"/>
+            <CheckBox x:Name="Warpspear" Content="Warpspear" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:2051" Checked="Warpspear_Checked" Unchecked="Warpspear_Unchecked"/>
+            <CheckBox x:Name="Skull_Collector" Content="Skull Collector" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:1790" Checked="Skull_Collector_Checked" Unchecked="Skull_Collector_Unchecked"/>
+        </ListBox>
+        <ListBox Margin="905,248,95,218" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <CheckBox x:Name="Ondal_s_Wisdom" Content="Ondal's Wisdom" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:1402" Checked="Ondal_s_Wisdom_Checked" Unchecked="Ondal_s_Wisdom_Unchecked"/>
+            <CheckBox x:Name="Mang_Song_s_Lesson" Content="Mang Song's Lesson" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:43696" Checked="Mang_Song_s_Lesson_Checked" Unchecked="Mang_Song_s_Lesson_Unchecked"/>
+        </ListBox>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>
