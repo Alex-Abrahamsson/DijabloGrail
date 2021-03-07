@@ -12,12 +12,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Belts"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Language="sv-se" Text="Belts"/></TextBlock>
         <ListBox Margin="111,239,889,239" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600" FontStyle="Italic" FontWeight="Bold" Text="Normal Unique" Margin="20,0,0,0"/>
             <CheckBox x:Name="Lenymo" Content="Lenymo" FontSize="16" Foreground="#FFC77600" Checked="Lenymo_Checked" Unchecked="Lenymo_Unchecked" ToolTip="Blood Raven (Normal) 1:820"/>
             <CheckBox x:Name="Snakecord" Content="Snakecord" FontSize="16" Foreground="#FFC77600" Checked="Snakecord_Checked" Unchecked="Snakecord_Unchecked" ToolTip="Mephisto (Normal) 1:237"/>
             <CheckBox x:Name="Nightsmoke" Content="Nightsmoke" FontSize="16" Foreground="#FFC77600" Checked="Nightsmoke_Checked" Unchecked="Nightsmoke_Unchecked" ToolTip="Diablo (Normal) 1:274"/>
@@ -25,7 +22,7 @@
             <CheckBox x:Name="Bladebuckle" Content="Bladebuckle" FontSize="16" Foreground="#FFC77600" Checked="Bladebuckle_Checked" Unchecked="Bladebuckle_Unchecked" ToolTip="Diablo (Normal) 1:168"/>
         </ListBox>
         <ListBox Margin="510,239,490,239" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="243" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="243" FontFamily="MV Boli" FontSize="26" FontStyle="Italic" FontWeight="Bold" Text="Exceptional Unique"/>
             <CheckBox x:Name="String_of_Ears" Content="String of Ears" FontSize="16" Foreground="#FFC77600" Checked="String_of_Ears_Checked" Unchecked="String_of_Ears_Unchecked" ToolTip="Baal (Normal) 1:416"/>
             <CheckBox x:Name="Razortail" Content="Razortail" FontSize="16" Foreground="#FFC77600" Checked="Razortail_Checked" Unchecked="Razortail_Unchecked" ToolTip="Mephisto (Nightmare) 1:718"/>
             <CheckBox x:Name="Glooms_Trap" Content="Gloom's Trap" FontSize="16" Foreground="#FFC77600" Checked="Glooms_Trap_Checked" Unchecked="Glooms_Trap_Unchecked" ToolTip="Mephisto (Nightmare) 1:921"/>
@@ -33,7 +30,7 @@
             <CheckBox x:Name="Thundergods_Vigor" Content="Thundergod's Vigor" FontSize="16" Foreground="#FFC77600" Checked="Thundergods_Vigor_Checked" Unchecked="Thundergods_Vigor_Unchecked" ToolTip="Baal (Nightmare) 1:916"/>
         </ListBox>
         <ListBox Margin="910,239,90,239" Width="280" Foreground="#FFC77600" BorderBrush="#FD000000" Background="#B2000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontStyle="Italic" FontWeight="Bold" Text="Elite Unique" Margin="20,0,0,0"/>
             <CheckBox x:Name="Arachnid_Mesh" Content="Arachnid Mesh" FontSize="16" Foreground="#FFC77600" Checked="Arachnid_Mesh_Checked" Unchecked="Arachnid_Mesh_Unchecked" ToolTip="Mephisto (Hell) 1:1027"/>
             <CheckBox x:Name="Nosferatu_Coil" Content="Nosferatu's Coil" FontSize="16" Foreground="#FFC77600" Checked="Nosferatu_Coil_Checked" Unchecked="Nosferatu_Coil_Unchecked" ToolTip="Diablo (Hell) 1:1187"/>
             <CheckBox x:Name="Verdungos_Hearty_Cord" Content="Verdungo's Hearty Cord" FontSize="16" Foreground="#FFC77600" Checked="Verdungos_Hearty_Cord_Checked" Unchecked="Verdungos_Hearty_Cord_Unchecked" ToolTip="Diablo (Hell) 1:772"/>

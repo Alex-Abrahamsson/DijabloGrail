@@ -12,13 +12,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Gloves" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations>
-        </TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Gloves" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"/>
         <ListBox Margin="120,233,880,233" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique"/></TextBlock>
             <CheckBox x:Name="The_Hand_of_Broc" Content="The Hand of Broc" FontSize="16" Foreground="#FFC77600" Checked="The_Hand_of_Broc_Checked" Unchecked="The_Hand_of_Broc_Unchecked" ToolTip="Blood Raven (Normal) 1:820"/>
             <CheckBox x:Name="Bloodfist" Content="Bloodfist" FontSize="16" Foreground="#FFC77600" Checked="Bloodfist_Checked" Unchecked="Bloodfist_Unchecked" ToolTip="Mephisto (Normal) 1:237"/>
             <CheckBox x:Name="Chance_Guards" Content="Chance Guards" FontSize="16" Foreground="#FFC77600" Checked="Chance_Guards_Checked" Unchecked="Chance_Guards_Unchecked" ToolTip="Mephisto (Normal) 1:251"/>
@@ -26,7 +22,7 @@
             <CheckBox x:Name="Frostburn" Content="Frostburn" FontSize="16" Foreground="#FFC77600" Checked="Frostburn_Checked" Unchecked="Frostburn_Unchecked" ToolTip="Diablo (Normal) 1:168"/>
         </ListBox>
         <ListBox Margin="516,233,484,233" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="247" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="247" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique"/></TextBlock>
             <CheckBox x:Name="Venom_Grip" Content="Venom Grip" FontSize="16" Foreground="#FFC77600" Checked="Venom_Grip_Checked" Unchecked="Venom_Grip_Unchecked" ToolTip="Baal (Normal) 1:246"/>
             <CheckBox x:Name="Gravepalm" Content="Gravepalm" FontSize="16" Foreground="#FFC77600" Checked="Gravepalm_Checked" Unchecked="Gravepalm_Unchecked" ToolTip="Mephisto (Nightmare) 1:718"/>
             <CheckBox x:Name="Ghoulhide" Content="Ghoulhide" FontSize="16" Foreground="#FFC77600" Checked="Ghoulhide_Checked" Unchecked="Ghoulhide_Unchecked" ToolTip="Mephisto (Nightmare) 1:921"/>
@@ -34,7 +30,7 @@
             <CheckBox x:Name="Hellmouth" Content="Hellmouth" FontSize="16" Foreground="#FFC77600" Checked="Hellmouth_Checked" Unchecked="Hellmouth_Unchecked" ToolTip="Baal (Nightmare) 1:916"/>
         </ListBox>
         <ListBox Margin="924,233,76,233" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique"/></TextBlock>
             <CheckBox x:Name="Dracul_s_Grasp" Content="Dracul's Grasp" FontSize="16" Foreground="#FFC77600" Checked="Dracul_s_Grasp_Checked" Unchecked="Dracul_s_Grasp_Unchecked" ToolTip="Mephisto (Hell) 1:1033"/>
             <CheckBox x:Name="Soul_Drainer" Content="Soul Drainer" FontSize="16" Foreground="#FFC77600" Checked="Soul_Drainer_Checked" Unchecked="Soul_Drainer_Unchecked" ToolTip="Diablo (Hell) 1:1189"/>
             <CheckBox x:Name="Steelrend" Content="Steelrend" FontSize="16" Foreground="#FFC77600" Checked="Steelrend_Checked" Unchecked="Steelrend_Unchecked" ToolTip="Baal (Hell) 1:17802"/>

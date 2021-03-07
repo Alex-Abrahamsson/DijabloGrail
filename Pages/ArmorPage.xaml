@@ -17,12 +17,9 @@
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
         </Button>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Armors"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Language="sv-se" Text="Armors"/></TextBlock>
         <ListBox HorizontalAlignment="Left" Height="500" Margin="113,94,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" FontFamily="MV Boli">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold" FontStyle="Italic"><Run Text="N"/><Run Language="sv-se" Text="ormal Unique"/></TextBlock>
             <CheckBox x:Name="Greyform" Content="Greyform" FontSize="16" Foreground="#FFE28909" Checked="Greyform_Checked" Unchecked="Greyform_Unchecked" ToolTip="Blood Raven (Normal) 1:816"/>
             <CheckBox x:Name="Blinkbat_s_Form" Content="Blinkbat's Form" FontSize="16" Foreground="#FFE28909" Checked="Blinkbat_s_Form_Checked" Unchecked="Blinkbat_s_Form_Unchecked" ToolTip="Mephisto (Normal) 1:3664"/>
             <CheckBox x:Name="The_Centurion" Content="The Centurion" FontSize="16" Foreground="#FFE28909" Checked="The_Centurion_Checked" Unchecked="The_Centurion_Unchecked" ToolTip="Mephisto (Normal) 1:543"/>
@@ -40,7 +37,7 @@
             <CheckBox x:Name="Sparkling_Mail" Content="Sparkling Mail" FontSize="16" Foreground="#FFE28909" Checked="Sparkling_Mail_Checked" Unchecked="Sparkling_Mail_Unchecked" ToolTip="Mephisto (Normal) 1:127"/>
         </ListBox>
         <ListBox HorizontalAlignment="Center" Height="500" Margin="0,94,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="252" FontFamily="MV Boli" FontSize="26" FontWeight="Bold"><Run Text="Exceptiona"/><Run Text="l U"/><Run Language="sv-se" Text="n"/><Run Text="ique"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="252" FontFamily="MV Boli" FontSize="26" FontWeight="Bold" FontStyle="Italic"><Run Text="Exceptiona"/><Run Text="l U"/><Run Language="sv-se" Text="n"/><Run Text="ique"/></TextBlock>
             <CheckBox x:Name="The_Spirit_Shroud" Content="The Spirit Shroud" FontSize="16" Foreground="#FFE28909" Checked="The_Spirit_Shroud_Checked" Unchecked="The_Spirit_Shroud_Unchecked" ToolTip="Baal (Normal) 1:413"/>
             <CheckBox x:Name="Skin_of_the_Vipermagi" Content="Skin of the Vipermagi" FontSize="16" Foreground="#FFE28909" Checked="Skin_of_the_Vipermagi_Checked" Unchecked="Skin_of_the_Vipermagi_Unchecked" ToolTip="Baal (Normal) 1:416"/>
             <CheckBox x:Name="Skin_of_the_Flayed_One" Content="Skin of the Flayed One" FontSize="16" Foreground="#FFE28909" Checked="Skin_of_the_Flayed_One_Checked" Unchecked="Skin_of_the_Flayed_One_Unchecked" ToolTip="Mephisto (Nightmare) 1:715"/>
@@ -58,7 +55,7 @@
             <CheckBox x:Name="Corpsemourn" Content="Corpsemourn" FontSize="16" Foreground="#FFE28909" Checked="Corpsemourn_Checked" Unchecked="Corpsemourn_Unchecked" ToolTip="Mephisto (Hell) 1:679"/>
         </ListBox>
         <ListBox HorizontalAlignment="Left" Height="500" Margin="900,94,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" FontFamily="MV Boli">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold" FontStyle="Italic"><Run Language="sv-se" Text="Elite Unique"/></TextBlock>
             <CheckBox x:Name="Ormus__Robes" Content="Ormus'Robes" FontSize="16" Foreground="#FFE28909" Checked="Ormus__Robes_Checked" Unchecked="Ormus__Robes_Unchecked" ToolTip="Mephisto (Hell) 1:681"/>
             <CheckBox x:Name="The_Gladiator_s_Bane" Content="The Gladiator's Bane" FontSize="16" Foreground="#FFE28909" Checked="The_Gladiator_s_Bane_Checked" Unchecked="The_Gladiator_s_Bane_Unchecked" ToolTip="Diablo (Hell) 1:885"/>
             <CheckBox x:Name="Arkaine_s_Valor" Content="Arkaine's Valor" FontSize="16" Foreground="#FFE28909" Checked="Arkaine_s_Valor_Checked" Unchecked="Arkaine_s_Valor_Unchecked" ToolTip="Baal (Hell) 1:1404"/>

@@ -12,12 +12,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Polearms"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Language="sv-se" Text="Polearms"/></TextBlock>
         <ListBox Margin="113,248,887,184" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique"/></TextBlock>
             <CheckBox x:Name="Dimoak_s_Hew" Content="Dimoak's Hew" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:501" Checked="Dimoak_s_Hew_Checked" Unchecked="Dimoak_s_Hew_Unchecked"/>
             <CheckBox x:Name="Steelgoad" Content="Steelgoad" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:155" Checked="Steelgoad_Checked" Unchecked="Steelgoad_Unchecked"/>
             <CheckBox x:Name="Soul_Harvest" Content="Soul Harvest" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:127" Checked="Soul_Harvest_Checked" Unchecked="Soul_Harvest_Unchecked"/>
@@ -26,7 +23,7 @@
             <CheckBox x:Name="The_Grim_Reaper" Content="The Grim Reaper" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:358" Checked="The_Grim_Reaper_Checked" Unchecked="The_Grim_Reaper_Unchecked"/>
         </ListBox>
         <ListBox Margin="510,248,490,184" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="246" FontFamily="MV Boli" FontSize="26" Margin="15,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="246" FontFamily="MV Boli" FontSize="26" Margin="15,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique"/></TextBlock>
             <CheckBox x:Name="The_Meat_Scraper" Content="The Meat Scraper" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="The_Meat_Scraper_Checked" Unchecked="The_Meat_Scraper_Unchecked"/>
             <CheckBox x:Name="Blackleach_Blade" Content="Blackleach Blade" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:529" Checked="Blackleach_Blade_Checked" Unchecked="Blackleach_Blade_Unchecked"/>
             <CheckBox x:Name="Athena_s_Wrath" Content="Athena's Wrath" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:680" Checked="Athena_s_Wrath_Checked" Unchecked="Athena_s_Wrath_Unchecked"/>
@@ -35,7 +32,7 @@
             <CheckBox x:Name="Grim_s_Burning_Dead" Content="Grim's Burning Dead" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:447" Checked="Grim_s_Burning_Dead_Checked" Unchecked="Grim_s_Burning_Dead_Unchecked"/>
         </ListBox>
         <ListBox Margin="905,248,95,184" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique"/></TextBlock>
             <CheckBox x:Name="Bonehew" Content="Bonehew" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:399" Checked="Bonehew_Checked" Unchecked="Bonehew_Unchecked"/>
             <CheckBox x:Name="The_Reaper_s_Toll" Content="The Reaper's Toll" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:582" Checked="The_Reaper_s_Toll_Checked" Unchecked="The_Reaper_s_Toll_Unchecked"/>
             <CheckBox x:Name="Tomb_Reaver" Content="Tomb Reaver" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:850" Checked="Tomb_Reaver_Checked" Unchecked="Tomb_Reaver_Unchecked"/>

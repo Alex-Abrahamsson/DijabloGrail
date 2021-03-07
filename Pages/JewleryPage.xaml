@@ -12,16 +12,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold" Height="62">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Jewlery"/><LineBreak/><Run Language="sv-se"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold" Height="62"><Run Language="sv-se" Text="Jewlery"/><LineBreak/><Run Language="sv-se"/></TextBlock>
         <ListBox HorizontalAlignment="Left" Height="450" Margin="103,118,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="214" FontFamily="MV Boli" FontSize="28" FontWeight="Bold"><Run Language="sv-se" Text="Unique Rings">
-                    <Run.TextDecorations>
-                        <TextDecoration/>
-                    </Run.TextDecorations>
-                </Run></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="214" FontFamily="MV Boli" FontSize="28" FontWeight="Bold" Text="Unique Rings"/>
             <CheckBox x:Name="Nagelring" Content="Nagelring" FontSize="16" Background="White" Checked="Nagelring_Checked" Unchecked="Nagelring_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Normal) 1:144"/>
             <CheckBox x:Name="Manald_Heal" Content="Manald Heal" FontSize="16" Checked="Manald_Heal_Checked" Unchecked="Manald_Heal_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Nightmare) 1:278"/>
             <CheckBox x:Name="Stone_of_Jordan" Content="Stone of Jordan" FontSize="16" Checked="Stone_of_Jordan_Checked" Unchecked="Stone_of_Jordan_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Nightmare) 1:4175"/>
@@ -33,11 +26,7 @@
             <CheckBox x:Name="Wisp_Projector" Content="Wisp Projector" FontSize="16" Checked="Wisp_Projector_Checked" Unchecked="Wisp_Projector_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:7289"/>
         </ListBox>
         <ListBox HorizontalAlignment="Center" Height="450" Margin="0,118,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="235" FontFamily="MV Boli" FontSize="28" FontWeight="Bold"><Run Language="sv-se" Text="Unique Amulets">
-                    <Run.TextDecorations>
-                        <TextDecoration/>
-                    </Run.TextDecorations>
-                </Run></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="235" FontFamily="MV Boli" FontSize="28" FontWeight="Bold" Text="Unique Amulets"/>
             <CheckBox x:Name="Nokozan_Relic" Content="Nokozan Relic" FontSize="16" Checked="Nokozan_Relic_Checked" Unchecked="Nokozan_Relic_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Normal) 1:351"/>
             <CheckBox x:Name="The_Eye_of_Etlich" Content="The Eye of Etlich" FontSize="16" Checked="The_Eye_of_Etlich_Checked" Unchecked="The_Eye_of_Etlich_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Normal) 1:1406"/>
             <CheckBox x:Name="The_Mahim_Oak_Curio" Content="The Mahim-Oak Curio" FontSize="16" Checked="The_Mahim_Oak_Curio_Checked" Unchecked="The_Mahim_Oak_Curio_Unchecked" Foreground="#FFE28909" ToolTip="Andariel (Nightmare) 1:943"/>
@@ -52,15 +41,7 @@
             <CheckBox x:Name="Metalgrid" Content="Metalgrid" FontSize="16" Checked="Metalgrid_Checked" Unchecked="Metalgrid_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:9259"/>
         </ListBox>
         <ListBox HorizontalAlignment="Left" Height="450" Margin="908,118,0,0" VerticalAlignment="Top" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="233" FontFamily="MV Boli" FontSize="28" FontWeight="Bold"><Run Language="sv-se" Text="Unique Charms">
-                    <Run.TextDecorations>
-                        <TextDecoration/>
-                    </Run.TextDecorations>
-                </Run><LineBreak/><Run Language="sv-se">
-                    <Run.TextDecorations>
-                        <TextDecoration/>
-                    </Run.TextDecorations>
-                </Run></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="233" FontFamily="MV Boli" FontSize="28" FontWeight="Bold"><Run Text="Unique Charms"/><LineBreak/><Run/></TextBlock>
             <CheckBox x:Name="Annihilus" Content="Annihilus" FontSize="16" Checked="Annihilus_Checked" Unchecked="Annihilus_Unchecked" Foreground="#FFE28909" ToolTip="Uber Tristram 1:1"/>
             <CheckBox x:Name="Gheed_s_Fortune" Content="Gheed's Fortune" FontSize="16" Checked="Gheed_s_Fortune_Checked" Unchecked="Gheed_s_Fortune_Unchecked" Foreground="#FFE28909" ToolTip="Duriel (Hell) 1:494"/>
             <CheckBox x:Name="Hellfire_Torch" Content="Hellfire Torch" FontSize="16" Checked="Hellfire_Torch_Checked" Unchecked="Hellfire_Torch_Unchecked" Foreground="#FFE28909" ToolTip="Diablo Clone 1:1"/>

@@ -13,16 +13,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Shields"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Language="sv-se" Text="Shields"/></TextBlock>
         <ListBox HorizontalAlignment="Left" Height="336" Margin="914,0,0,0" VerticalAlignment="Center" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontWeight="Bold" TextBlock.FontFamily="MV Boli" FontWeight="Normal">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold"><Run Text="Elite Unique">
-                    <Run.TextDecorations>
-                        <TextDecoration/>
-                    </Run.TextDecorations>
-                </Run></TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold" Text="Elite Unique"/>
             <CheckBox x:Name="Blackoak_Shield" Content="Blackoak Shield" FontSize="16" Foreground="#FFE28909" Checked="Blackoak_Shield_Checked" Unchecked="Blackoak_Shield_Unchecked" ToolTip="Mephisto (Hell) 1:1027"/>
             <CheckBox x:Name="Stormshield" Content="Stormshield" FontSize="16" Foreground="#FFE28909" Checked="Stormshield_Checked" Unchecked="Stormshield_Unchecked" ToolTip="Diablo (Hell) 1:890"/>
             <CheckBox x:Name="Spike_Thorn" Content="Spike Thorn" FontSize="16" Foreground="#FFE28909" Checked="Spike_Thorn_Checked" Unchecked="Spike_Thorn_Unchecked" ToolTip="Diablo (Hell) 1:1187"/>
@@ -31,11 +24,7 @@
             <CheckBox x:Name="Spirit_Ward" Content="Spirit Ward" FontSize="16" Foreground="#FFE28909" Checked="Spirit_Ward_Checked" Unchecked="Spirit_Ward_Unchecked" ToolTip="Baal (Hell) 1:2024"/>
         </ListBox>
         <ListBox HorizontalAlignment="Left" Height="336" Margin="519,0,0,0" VerticalAlignment="Center" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontWeight="Bold" TextBlock.FontFamily="MV Boli" FontWeight="Normal">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="255" FontFamily="MV Boli" FontSize="26" FontWeight="Bold"><Run Text="Exceptional Unique">
-                    <Run.TextDecorations>
-                        <TextDecoration/>
-                    </Run.TextDecorations>
-                </Run></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="255" FontFamily="MV Boli" FontSize="26" FontWeight="Bold" Text="Exceptional Unique"/>
             <CheckBox x:Name="Visceratuant" Content="Visceratuant" FontSize="16" Foreground="#FFE28909" Checked="Visceratuant_Checked" Unchecked="Visceratuant_Unchecked" ToolTip="Baal (Normal) 1:413"/>
             <CheckBox x:Name="Mosers_Blessed_Circle" Content="Moser's Blessed Circle" FontSize="16" Foreground="#FFE28909" Checked="Mosers_Blessed_Circle_Checked" Unchecked="Mosers_Blessed_Circle_Unchecked" ToolTip="Mephisto (Nightmare) 1:715"/>
             <CheckBox x:Name="Stormchaser" Content="Stormchaser" FontSize="16" Foreground="#FFE28909" Checked="Stormchaser_Checked" Unchecked="Stormchaser_Unchecked" ToolTip="Mephisto (Nightmare) 1:854"/>
@@ -46,11 +35,7 @@
             <CheckBox x:Name="Radaments_Sphere" Content="Radament's Sphere" FontSize="16" Foreground="#FFE28909" Checked="Radaments_Sphere_Checked" Unchecked="Radaments_Sphere_Unchecked" ToolTip="Baal (Nightmare) 1:571"/>
         </ListBox>
         <ListBox HorizontalAlignment="Left" Height="336" Margin="118,0,0,0" VerticalAlignment="Center" Width="280" FontSize="24" Background="#B2000000" BorderBrush="Black" Foreground="#FFC77600" TextBlock.FontWeight="Bold" TextBlock.FontFamily="MV Boli" FontWeight="Normal">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold"><Run Text="Normal Unique">
-                    <Run.TextDecorations>
-                        <TextDecoration/>
-                    </Run.TextDecorations>
-                </Run></TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" FontWeight="Bold" Text="Normal Unique"/>
             <CheckBox x:Name="Pelta_Lunata" Content="Pelta Lunata" FontSize="16" Foreground="#FFE28909" Checked="Pelta_Lunata_Checked" Unchecked="Pelta_Lunata_Unchecked" ToolTip="Blood Raven (Normal) 1:816"/>
             <CheckBox x:Name="Umbral_Disk" Content=" Umbral Disk" FontSize="16" Foreground="#FFE28909" Checked="Umbral_Disk_Checked" Unchecked="Umbral_Disk_Unchecked" ToolTip="Andariel (Normal) 1:257"/>
             <CheckBox x:Name="Stormguild" Content="Stormguild" FontSize="16" Foreground="#FFE28909" Checked="Stormguild_Checked" Unchecked="Stormguild_Unchecked" ToolTip="Mephisto (Normal) 1:250"/>

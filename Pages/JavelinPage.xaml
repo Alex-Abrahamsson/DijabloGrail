@@ -12,12 +12,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Text="Javelin"/><Run Language="sv-se" Text="s"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Text="Javelin"/><Run Language="sv-se" Text="s"/></TextBlock>
         <ListBox Margin="500,250,500,292" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique"/></TextBlock>
             <CheckBox x:Name="Demon_s_Arch" Content="Demon's Arch" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:582" Checked="Demon_s_Arch_Checked" Unchecked="Demon_s_Arch_Unchecked"/>
             <CheckBox x:Name="Wraith_Flight" Content="Wraith Flight" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:850" Checked="Wraith_Flight_Checked" Unchecked="Wraith_Flight_Unchecked"/>
             <CheckBox x:Name="Gargoyle_s_Bite" Content="Gargoyle's Bite" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:14565" Checked="Gargoyle_s_Bite_Checked" Unchecked="Gargoyle_s_Bite_Unchecked"/>

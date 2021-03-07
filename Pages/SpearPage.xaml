@@ -12,12 +12,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Spears"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Language="sv-se" Text="Spears"/></TextBlock>
         <ListBox Margin="113,248,887,227" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique"/></TextBlock>
             <CheckBox x:Name="The_Dragon_Chang" Content="The Dragon Chang" FontSize="16" Foreground="#FFC77600" ToolTip="Andariel (Normal) 1:237" Checked="The_Dragon_Chang_Checked" Unchecked="The_Dragon_Chang_Unchecked"/>
             <CheckBox x:Name="Razortine" Content="Razortine" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:208" Checked="Razortine_Checked" Unchecked="Razortine_Unchecked"/>
             <CheckBox x:Name="Bloodthief" Content="Bloodthief" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:132" Checked="Bloodthief_Checked" Unchecked="Bloodthief_Unchecked"/>
@@ -25,7 +22,7 @@
             <CheckBox x:Name="The_Tannr_Gorerod" Content="The Tannr Gorerod" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:188" Checked="The_Tannr_Gorerod_Checked" Unchecked="The_Tannr_Gorerod_Unchecked"/>
         </ListBox>
         <ListBox Margin="510,248,490,227" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique"/></TextBlock>
             <CheckBox x:Name="The_Impaler" Content="The Impaler" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:338" Checked="The_Impaler_Checked" Unchecked="The_Impaler_Unchecked"/>
             <CheckBox x:Name="Kelpie_Snare" Content="Kelpie Snare" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:360" Checked="Kelpie_Snare_Checked" Unchecked="Kelpie_Snare_Unchecked"/>
             <CheckBox x:Name="Soulfeast_Tine" Content="Soulfeast Tine" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:681" Checked="Soulfeast_Tine_Checked" Unchecked="Soulfeast_Tine_Unchecked"/>
@@ -33,7 +30,7 @@
             <CheckBox x:Name="Spire_of_Honor" Content="Spire of Honor" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:597" Checked="Spire_of_Honor_Checked" Unchecked="Spire_of_Honor_Unchecked"/>
         </ListBox>
         <ListBox Margin="905,248,95,227" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique"/></TextBlock>
             <CheckBox x:Name="Arioc_s_Needle" Content="Arioc's Needle" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:262" Checked="Arioc_s_Needle_Checked" Unchecked="Arioc_s_Needle_Unchecked"/>
             <CheckBox x:Name="Viperfork" Content="Viperfork" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:467" Checked="Viperfork_Checked" Unchecked="Viperfork_Unchecked"/>
             <CheckBox x:Name="Steel_Pillar" Content="Steel Pillar" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:14565" Checked="Steel_Pillar_Checked" Unchecked="Steel_Pillar_Unchecked"/>

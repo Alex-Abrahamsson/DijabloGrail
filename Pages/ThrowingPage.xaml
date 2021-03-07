@@ -12,17 +12,14 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Throwing Weapons"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Language="sv-se" Text="Throwing Weapons"/></TextBlock>
         <ListBox Margin="318,246,682,296" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique"/></TextBlock>
             <CheckBox x:Name="Deathbit" Content="Deathbit" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:337" Checked="Deathbit_Checked" Unchecked="Deathbit_Unchecked"/>
             <CheckBox x:Name="TheScalper" Content="The Scalper" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:411" Checked="TheScalper_Checked" Unchecked="TheScalper_Unchecked"/>
         </ListBox>
         <ListBox Margin="713,246,287,296" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique"/></TextBlock>
             <CheckBox x:Name="Warshrike" Content="Warshrike" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:1029" Checked="Warshrike_Checked" Unchecked="Warshrike_Unchecked"/>
             <CheckBox x:Name="Gimmershred" Content="Gimmershred" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:482" Checked="Gimmershred_Checked" Unchecked="Gimmershred_Unchecked"/>
             <CheckBox x:Name="Lacerator" Content="Lacerator" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:852" Checked="Lacerator_Checked" Unchecked="Lacerator_Unchecked"/>

@@ -12,26 +12,23 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/NewBlack.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Wands"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Language="sv-se" Text="Wands"/></TextBlock>
         <ListBox Margin="113,248,887,248" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600"><Run FontWeight="Bold" FontStyle="Italic" Text="Normal Unique"/></TextBlock>
             <CheckBox x:Name="Torch_of_Iro" Content="Torch of Iro" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:3157" Checked="Torch_of_Iro_Checked" Unchecked="Torch_of_Iro_Unchecked"/>
             <CheckBox x:Name="Maelstrom" Content="Maelstrom" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Normal) 1:466" Checked="Maelstrom_Checked" Unchecked="Maelstrom_Unchecked"/>
             <CheckBox x:Name="Gravenspine" Content="Gravenspine" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:435" Checked="Gravenspine_Checked" Unchecked="Gravenspine_Unchecked"/>
             <CheckBox x:Name="Ume_s_Lament" Content="Ume's Lament" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Normal) 1:586" Checked="Ume_s_Lament_Checked" Unchecked="Ume_s_Lament_Unchecked"/>
         </ListBox>
         <ListBox Margin="510,248,490,248" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Exceptional Unique"/></TextBlock>
             <CheckBox x:Name="Suicide_Branch" Content="Suicide Branch" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:1011" Checked="Suicide_Branch_Checked" Unchecked="Suicide_Branch_Unchecked"/>
             <CheckBox x:Name="Carin_Shard" Content="Carin Shard" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:1589" Checked="Carin_Shard_Checked" Unchecked="Carin_Shard_Unchecked"/>
             <CheckBox x:Name="Arm_of_King_Leoric" Content="Arm of King Leoric" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Nightmare) 1:1742" Checked="Arm_of_King_Leoric_Checked" Unchecked="Arm_of_King_Leoric_Unchecked"/>
             <CheckBox x:Name="Blackhand_Key" Content="Blackhand Key" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:1793" Checked="Blackhand_Key_Checked" Unchecked="Blackhand_Key_Unchecked"/>
         </ListBox>
         <ListBox Margin="905,248,95,248" Width="280" Foreground="#FFC77600" BorderBrush="Black" Background="#99000000" TextBlock.FontFamily="MV Boli">
-            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique" TextDecorations="Underline"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="40" Width="200" FontFamily="MV Boli" FontSize="26"><Run FontWeight="Bold" FontStyle="Italic" Text="Elite Unique"/></TextBlock>
             <CheckBox x:Name="Boneshade" Content="Boneshade" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:1407" Checked="Boneshade_Checked" Unchecked="Boneshade_Unchecked"/>
             <CheckBox x:Name="Death_s_Web" Content="Death's Web" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:43790" Checked="Death_s_Web_Checked" Unchecked="Death_s_Web_Unchecked"/>
         </ListBox>

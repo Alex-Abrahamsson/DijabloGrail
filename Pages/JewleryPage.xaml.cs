@@ -464,14 +464,14 @@ namespace DijabloGrail
 
         private void Hellfire_Torch_Checked(object sender, RoutedEventArgs e)
         {
-            AddPoints(10000);
+            AddPoints(5000);
             Properties.Settings.Default.Hellfire_Torch = true;
             Properties.Settings.Default.Save();
         }
 
         private void Hellfire_Torch_Unchecked(object sender, RoutedEventArgs e)
         {
-            RemovePoints(10000);
+            RemovePoints(5000);
             Properties.Settings.Default.Hellfire_Torch = false;
             Properties.Settings.Default.Save();
         }
