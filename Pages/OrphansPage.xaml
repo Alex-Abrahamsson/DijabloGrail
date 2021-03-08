@@ -42,25 +42,25 @@
             <WrapPanel x:Name="Pic1" 
                 Background="#99000000" Width="750" Height="170">
                 <CheckBox x:Name="Guillaume_s_Face" 
-                    Margin="30,50,0,0"
+                    Margin="10,50,0,0"
                     Content="" ToolTip="Baal (Nightamre) 1:522" Checked="Guillaume_s_Face_Checked" Unchecked="Guillaume_s_Face_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic2" 
                 Background="#99000000" Height="190" Width="750">
                 <CheckBox x:Name="Whitstan_s_Guard"
-                    Margin="30,50,0,0"
+                    Margin="10,50,0,0"
                     Content="" ToolTip="Mephisto (Nightmare) 1:286" Checked="Whitstan_s_Guard_Checked" Unchecked="Whitstan_s_Guard_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic3"
                 Background="#99000000" Height="160" Width="750">
                 <CheckBox x:Name="Magnus__Skin"
-                    Margin="30,30,0,0" 
+                    Margin="10,30,0,0" 
                     Content="" ToolTip="Mephisto (Nightmare) 1:287" Checked="Magnus__Skin_Checked" Unchecked="Magnus__Skin_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Pic4"
                 Background="#99000000" Height="190" Width="750">
                 <CheckBox x:Name="Wilhelm_s_Pride"
-                    Margin="20,50,0,0"
+                    Margin="10,50,0,0"
                     Content="" ToolTip="Baal (Nightmare) 1:519" Checked="Wilhelm_s_Pride_Checked" Unchecked="Wilhelm_s_Pride_Unchecked"/>
             </WrapPanel>
         </WrapPanel>

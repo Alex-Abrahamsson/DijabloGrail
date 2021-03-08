@@ -44,16 +44,16 @@
             <WrapPanel x:Name="Arcannas_Head_Pic" 
                 Background="#99000000" Width="850" Height="191">
                 <CheckBox x:Name="Arcanna_s_head" 
-                    Margin="30,20,0,0"
+                    Margin="10,20,0,0"
                     Content=""
                     ToolTip="Mephisto (Normal) 1:218"
                     Checked="Arcanna_s_head_Checked" 
                     Unchecked="Arcanna_s_head_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Arcannas_Flesh_Pic" 
-                Background="#99000000" Height="191" Width="850">
+                Background="#99000000" Height="170" Width="850">
                 <CheckBox x:Name="Arcanna_s_flesh"
-                    Margin="30,10,0,0"
+                    Margin="10,10,0,0"
                     Content=""
                     ToolTip="Baal (Normal) 1:166"
                     Checked="Arcanna_s_flesh_Checked" 
@@ -62,13 +62,13 @@
             <WrapPanel x:Name="Arcannas_Staff_Pic"
                 Background="#99000000" Height="180" Width="850">
                 <CheckBox x:Name="Arcanna_s_Deathwand"
-                    Margin="30,10,0,0" ToolTip="Mephisto (Normal) 1:207" 
+                    Margin="10,10,0,0" ToolTip="Mephisto (Normal) 1:207" 
                     Content="" Checked="Arcanna_s_Deathwand_Checked" Unchecked="Arcanna_s_Deathwand_Unchecked"/>
             </WrapPanel>
             <WrapPanel x:Name="Arcannas_Amulett_Pic"
                 Background="#99000000" Height="145" Width="850">
                 <CheckBox x:Name="Arcanna_s_Sign"
-                    Margin="20,10,0,0" ToolTip="Duriel (Normal) 1:4060"
+                    Margin="10,10,0,0" ToolTip="Duriel (Normal) 1:4060"
                     Content="" Checked="Arcanna_s_Sign_Checked" Unchecked="Arcanna_s_Sign_Unchecked"/>
             </WrapPanel>
         </WrapPanel>
