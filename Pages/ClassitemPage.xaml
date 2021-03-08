@@ -1,0 +1,71 @@
+﻿<Page x:Class="DijabloGrail.Pages.ClassitemPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="ClassitemPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/NewBlack.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="42" Foreground="#FFC77600" FontWeight="Bold"><Run Text="Class"/><Run Language="sv-se" Text=" "/><Run Text="Specific Items"/></TextBlock>
+        <Button x:Name="MenuBtn" Content="Menu" HorizontalAlignment="Left" Margin="1140,600,0,0" VerticalAlignment="Top" Width="100" Click="MenuBtn_Click" Height="40" FontFamily="Monotype Corsiva" FontSize="28" FontWeight="Bold" TextBlock.FontFamily="MV Boli">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+        <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="90,76,940,360" Width="250">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="114" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600" Margin="30,0,0,0"><Run Language="sv-se" Text="Amazon"/></TextBlock>
+            <CheckBox x:Name="Stoneraven" Content="Stoneraven" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Lycander_s_Flank" Content="Lycander's Flank" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Lycander_s_Aim" Content="Lycander's Aim" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Titan_s_Revenge" Content="Titan's Revenge" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Thunderstroke" Content="Thunderstroke" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Blood_Raven_s_Charge" Content="Blood Raven's Charge" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+        </ListBox>
+        <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="390,110,640,360" Width="250">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="121" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Text="As"/><Run Language="sv-se" Text="s"/><Run Text="assin"/></TextBlock>
+            <CheckBox x:Name="Shadow_Killer" Content="Shadow Killer" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Bartuc_s_Cut_Throat" Content="Bartuc's Cut-Throat" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Jade_Talon" Content="Jade Talon" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Firelizard_s_Talons" Content="Firelizard's Talons" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+        </ListBox>
+        <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="990,76,40,360" Width="250">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="114" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600" Margin="30,0,0,0"><Run Language="sv-se" Text="Barbarian"/></TextBlock>
+            <CheckBox x:Name="Arreat_s_Face" Content="Arreat's Face" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Wolfhowl" Content="Wolfhowl" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Demonhorn_s_Edge" Content="Demonhorn's Edge" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Halaberd_s_Reign" Content="Halaberd's Reign" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+        </ListBox>
+        <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="235,440,795,80" Width="250" Height="200">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="176" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Necromancer"/></TextBlock>
+            <CheckBox x:Name="Homunculus" Content="Homunculus" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Darkforce_Spawn" Content="Darkforce Spawn" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Boneflame" Content="Boneflame" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+        </ListBox>
+        <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="535,440,495,80" Width="250" Height="200">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="121" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Sorceress"/></TextBlock>
+            <CheckBox x:Name="The_Oculus" Content="The Oculus" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Eschuta_s_Temper" Content="Eschuta's Temper" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Death_s_Fathom" Content="Death's Fathom" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+        </ListBox>
+        <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="696,110,334,360" Width="250" Height="250">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="88" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Druid"/></TextBlock>
+            <CheckBox x:Name="Jalal_s_Mane" Content="Jalal's Mane" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Cerebus__Bite" Content="Cerebus' Bite" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Ravenlore" Content="Ravenlore" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Spirit_Keeper" Content="Spirit Keeper" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+        </ListBox>
+        <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="841,440,189,80" Width="250" Height="200">
+            <TextBlock TextWrapping="Wrap" Height="40" Width="104" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Paladin"/></TextBlock>
+            <CheckBox x:Name="Alma_Negra" Content="Alma Negra" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Herald_Of_Zakarum" Content="Herald Of Zakarum" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Dragonscale" Content="Dragonscale" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+        </ListBox>
+
+    </Grid>
+</Page>

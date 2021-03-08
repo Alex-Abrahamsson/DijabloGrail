@@ -467,5 +467,11 @@ namespace DijabloGrail
             StavePage stavePage = new StavePage();
             this.NavigationService.Navigate(stavePage);
         }
+
+        private void ClassBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ClassitemPage classitemPage = new ClassitemPage();
+            this.NavigationService.Navigate(classitemPage);
+        }
     }
 }
