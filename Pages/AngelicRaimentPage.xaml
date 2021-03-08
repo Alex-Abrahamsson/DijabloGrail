@@ -19,10 +19,7 @@
                    FontFamily="MV Boli"
                    FontSize="42"
                    Foreground="#FF09C700"
-                   FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" 
+                   FontWeight="Bold"><Run Language="sv-se" 
                 Text="Angelic Raiment"/></TextBlock>
         <Button x:Name="MenuBtn"
                 Content="Menu" 

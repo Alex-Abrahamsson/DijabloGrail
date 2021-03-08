@@ -19,10 +19,7 @@
             FontFamily="MV Boli"
             FontSize="40"
             Foreground="#FF09C700"
-            FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Death's Disguise"/></TextBlock>
+            FontWeight="Bold"><Run Language="sv-se" Text="Death's Disguise"/></TextBlock>
         <WrapPanel Margin="10,42,422,34">
             <WrapPanel x:Name="Pic1" 
                 Background="#99000000" Width="820" Height="220">

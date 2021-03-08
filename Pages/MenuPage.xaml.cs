@@ -27,9 +27,9 @@ namespace DijabloGrail
         {
             if (grailScore < 1)
             {
-                ScoreBox.Text = "     Dijablo <3  ";
+                ScoreBox.Text = "      Dijablo <3  ";
             }
-            else ScoreBox.Text = "    Score: " + grailScore;
+            else ScoreBox.Text = "      Score: " + grailScore;
         }
 
         public void UpdateScore()

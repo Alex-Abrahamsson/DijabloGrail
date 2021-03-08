@@ -19,10 +19,7 @@
             FontFamily="MV Boli"
             FontSize="40"
             Foreground="#FF09C700"
-            FontWeight="Bold">
-            <TextBlock.TextDecorations>
-                <TextDecoration/>
-            </TextBlock.TextDecorations><Run Language="sv-se" Text="Aldur's Watchtower"/></TextBlock>
+            FontWeight="Bold"><Run Language="sv-se" Text="Aldur's Watchtower"/></TextBlock>
         <Button x:Name="MenuBtn"
             Content="Menu" 
             HorizontalAlignment="Left"
