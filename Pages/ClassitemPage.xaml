@@ -20,51 +20,51 @@
         </Button>
         <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="90,76,940,360" Width="250">
             <TextBlock TextWrapping="Wrap" Height="40" Width="114" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600" Margin="30,0,0,0"><Run Language="sv-se" Text="Amazon"/></TextBlock>
-            <CheckBox x:Name="Stoneraven" Content="Stoneraven" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Lycander_s_Flank" Content="Lycander's Flank" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Lycander_s_Aim" Content="Lycander's Aim" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Titan_s_Revenge" Content="Titan's Revenge" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Thunderstroke" Content="Thunderstroke" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Blood_Raven_s_Charge" Content="Blood Raven's Charge" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Stoneraven" Content="Stoneraven" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:1052" Checked="Stoneraven_Checked" Unchecked="Stoneraven_Unchecked"/>
+            <CheckBox x:Name="Lycander_s_Flank" Content="Lycander's Flank" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:1113" Checked="Lycander_s_Flank_Checked" Unchecked="Lycander_s_Flank_Unchecked"/>
+            <CheckBox x:Name="Lycander_s_Aim" Content="Lycander's Aim" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Nightmare) 1:1092" Checked="Lycander_s_Aim_Checked" Unchecked="Lycander_s_Aim_Unchecked"/>
+            <CheckBox x:Name="Titan_s_Revenge" Content="Titan's Revenge" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Normal) 1:667" Checked="Titan_s_Revenge_Checked" Unchecked="Titan_s_Revenge_Unchecked"/>
+            <CheckBox x:Name="Thunderstroke" Content="Thunderstroke" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:809" Checked="Thunderstroke_Checked" Unchecked="Thunderstroke_Unchecked"/>
+            <CheckBox x:Name="Blood_Raven_s_Charge" Content="Blood Raven's Charge" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:1164" Checked="Blood_Raven_s_Charge_Checked" Unchecked="Blood_Raven_s_Charge_Unchecked"/>
         </ListBox>
         <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="390,110,640,360" Width="250">
             <TextBlock TextWrapping="Wrap" Height="40" Width="121" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Text="As"/><Run Language="sv-se" Text="s"/><Run Text="assin"/></TextBlock>
-            <CheckBox x:Name="Shadow_Killer" Content="Shadow Killer" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Bartuc_s_Cut_Throat" Content="Bartuc's Cut-Throat" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Jade_Talon" Content="Jade Talon" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Firelizard_s_Talons" Content="Firelizard's Talons" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Shadow_Killer" Content="Shadow Killer" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:430" Checked="Shadow_Killer_Checked" Unchecked="Shadow_Killer_Unchecked"/>
+            <CheckBox x:Name="Bartuc_s_Cut_Throat" Content="Bartuc's Cut-Throat" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:556" Checked="Bartuc_s_Cut_Throat_Checked" Unchecked="Bartuc_s_Cut_Throat_Unchecked"/>
+            <CheckBox x:Name="Jade_Talon" Content="Jade Talon" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:526" Checked="Jade_Talon_Checked" Unchecked="Jade_Talon_Unchecked"/>
+            <CheckBox x:Name="Firelizard_s_Talons" Content="Firelizard's Talons" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:951" Checked="Firelizard_s_Talons_Checked" Unchecked="Firelizard_s_Talons_Unchecked"/>
         </ListBox>
         <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="990,76,40,360" Width="250">
             <TextBlock TextWrapping="Wrap" Height="40" Width="114" FontFamily="MV Boli" FontSize="26" Foreground="#FFC77600" Margin="30,0,0,0"><Run Language="sv-se" Text="Barbarian"/></TextBlock>
-            <CheckBox x:Name="Arreat_s_Face" Content="Arreat's Face" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Wolfhowl" Content="Wolfhowl" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Demonhorn_s_Edge" Content="Demonhorn's Edge" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Halaberd_s_Reign" Content="Halaberd's Reign" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Arreat_s_Face" Content="Arreat's Face" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:1688" Checked="Arreat_s_Face_Checked" Unchecked="Arreat_s_Face_Unchecked"/>
+            <CheckBox x:Name="Wolfhowl" Content="Wolfhowl" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:1258" Checked="Wolfhowl_Checked" Unchecked="Wolfhowl_Unchecked"/>
+            <CheckBox x:Name="Demonhorn_s_Edge" Content="Demonhorn's Edge" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:1417" Checked="Demonhorn_s_Edge_Checked" Unchecked="Demonhorn_s_Edge_Unchecked"/>
+            <CheckBox x:Name="Halaberd_s_Reign" Content="Halaberd's Reign" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:1906" Checked="Halaberd_s_Reign_Checked" Unchecked="Halaberd_s_Reign_Unchecked"/>
         </ListBox>
         <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="235,440,795,80" Width="250" Height="200">
             <TextBlock TextWrapping="Wrap" Height="40" Width="176" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Necromancer"/></TextBlock>
-            <CheckBox x:Name="Homunculus" Content="Homunculus" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Darkforce_Spawn" Content="Darkforce Spawn" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Boneflame" Content="Boneflame" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Homunculus" Content="Homunculus" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:1688" Checked="Homunculus_Checked" Unchecked="Homunculus_Unchecked"/>
+            <CheckBox x:Name="Darkforce_Spawn" Content="Darkforce Spawn" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:32682" Checked="Darkforce_Spawn_Checked" Unchecked="Darkforce_Spawn_Unchecked"/>
+            <CheckBox x:Name="Boneflame" Content="Boneflame" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:2095" Checked="Boneflame_Checked" Unchecked="Boneflame_Unchecked"/>
         </ListBox>
         <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="535,440,495,80" Width="250" Height="200">
             <TextBlock TextWrapping="Wrap" Height="40" Width="121" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Sorceress"/></TextBlock>
-            <CheckBox x:Name="The_Oculus" Content="The Oculus" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Eschuta_s_Temper" Content="Eschuta's Temper" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Death_s_Fathom" Content="Death's Fathom" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="The_Oculus" Content="The Oculus" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:1113" Checked="The_Oculus_Checked" Unchecked="The_Oculus_Unchecked"/>
+            <CheckBox x:Name="Eschuta_s_Temper" Content="Eschuta's Temper" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:825" Checked="Eschuta_s_Temper_Checked" Unchecked="Eschuta_s_Temper_Unchecked"/>
+            <CheckBox x:Name="Death_s_Fathom" Content="Death's Fathom" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:26740" Checked="Death_s_Fathom_Checked" Unchecked="Death_s_Fathom_Unchecked"/>
         </ListBox>
         <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="696,110,334,360" Width="250" Height="250">
             <TextBlock TextWrapping="Wrap" Height="40" Width="88" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Druid"/></TextBlock>
-            <CheckBox x:Name="Jalal_s_Mane" Content="Jalal's Mane" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Cerebus__Bite" Content="Cerebus' Bite" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Ravenlore" Content="Ravenlore" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Spirit_Keeper" Content="Spirit Keeper" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Jalal_s_Mane" Content="Jalal's Mane" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:1053" Checked="Jalal_s_Mane_Checked" Unchecked="Jalal_s_Mane_Unchecked"/>
+            <CheckBox x:Name="Cerebus__Bite" Content="Cerebus' Bite" FontSize="16" Foreground="#FFC77600" ToolTip="Mephisto (Hell) 1:1912" Checked="Cerebus__Bite_Checked" Unchecked="Cerebus__Bite_Unchecked"/>
+            <CheckBox x:Name="Ravenlore" Content="Ravenlore" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:3705" Checked="Ravenlore_Checked" Unchecked="Ravenlore_Unchecked"/>
+            <CheckBox x:Name="Spirit_Keeper" Content="Spirit Keeper" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:2602" Checked="Spirit_Keeper_Checked" Unchecked="Spirit_Keeper_Unchecked"/>
         </ListBox>
         <ListBox Foreground="#FFC77600" BorderBrush="Black" Background="#B2000000" TextBlock.FontFamily="MV Boli" Margin="841,440,189,80" Width="250" Height="200">
             <TextBlock TextWrapping="Wrap" Height="40" Width="104" FontFamily="MV Boli" FontSize="26" Margin="30,0,0,0"><Run Language="sv-se" Text="Paladin"/></TextBlock>
-            <CheckBox x:Name="Alma_Negra" Content="Alma Negra" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Herald_Of_Zakarum" Content="Herald Of Zakarum" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
-            <CheckBox x:Name="Dragonscale" Content="Dragonscale" FontSize="16" Foreground="#FFC77600" ToolTip="Blood Raven (Normal) 1:1050"/>
+            <CheckBox x:Name="Alma_Negra" Content="Alma Negra" FontSize="16" Foreground="#FFC77600" ToolTip="Diablo (Hell) 1:1639" Checked="Alma_Negra_Checked" Unchecked="Alma_Negra_Unchecked"/>
+            <CheckBox x:Name="Herald_Of_Zakarum" Content="Herald Of Zakarum" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Nightmare) 1:2419" Checked="Herald_Of_Zakarum_Checked" Unchecked="Herald_Of_Zakarum_Unchecked"/>
+            <CheckBox x:Name="Dragonscale" Content="Dragonscale" FontSize="16" Foreground="#FFC77600" ToolTip="Baal (Hell) 1:3705" Checked="Dragonscale_Checked" Unchecked="Dragonscale_Unchecked"/>
         </ListBox>
 
     </Grid>

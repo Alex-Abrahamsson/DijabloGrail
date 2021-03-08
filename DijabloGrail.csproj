@@ -45,6 +45,7 @@
     <None Remove="Images\Natalys_Odium.png" />
     <None Remove="Images\NewBlack.png" />
     <None Remove="Images\Orphans_Call.png" />
+    <None Remove="Images\RunePage.png" />
     <None Remove="Images\Sanders_Folly.png" />
     <None Remove="Images\Sazabis_Grand_Tribute.png" />
     <None Remove="Images\Sigons_Complete_steel.png" />
@@ -108,6 +109,7 @@
     <Resource Include="Images\Natalys_Odium.png" />
     <Resource Include="Images\NewBlack.png" />
     <Resource Include="Images\Orphans_Call.png" />
+    <Resource Include="Images\RunePage.png" />
     <Resource Include="Images\Sanders_Folly.png" />
     <Resource Include="Images\Sazabis_Grand_Tribute.png" />
     <Resource Include="Images\Sigons_Complete_steel.png" />

@@ -21,7 +21,7 @@ namespace DijabloGrail
     public partial class MenuPage : Page
     {
 
-        public double[] allScore = new double[52];
+        public double[] allScore = new double[54];
         public double grailScore;
         public void SetScore()
         {
@@ -111,6 +111,8 @@ namespace DijabloGrail
             allScore[49] = Properties.Settings.Default.TalRashasScore;
             allScore[50] = Properties.Settings.Default.TrangoulsScore;
             allScore[51] = Properties.Settings.Default.ArticScore;
+            allScore[52] = Properties.Settings.Default.ClassItemScore;
+            allScore[53] = Properties.Settings.Default.RuneScore;
         }
 
         private void HelmsBtn_Click(object sender, RoutedEventArgs e)
@@ -436,6 +438,7 @@ namespace DijabloGrail
                     writer.Close();
                 }
             }
+            MessageBox.Show("Your score has been saved at a local file called 'YourSeasonScore.json' And will be located in you install directory.");
         }
 
         private void ThrowWeaponBtn_Click(object sender, RoutedEventArgs e)
@@ -472,6 +475,12 @@ namespace DijabloGrail
         {
             ClassitemPage classitemPage = new ClassitemPage();
             this.NavigationService.Navigate(classitemPage);
+        }
+
+        private void RunesBtn_Click(object sender, RoutedEventArgs e)
+        {
+            RunePage runePage = new RunePage();
+            this.NavigationService.Navigate(runePage);
         }
     }
 }
