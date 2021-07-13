@@ -21,10 +21,13 @@ namespace DijabloGrail
     {
         MenuPage menuPage = new MenuPage();
 
-
         public double grailScore;
         public MainWindow()
-        {
+        {  
+            if(Properties.Settings.Default.userName == "null")
+            {
+                MessageBox.Show("Enter Username Here");
+            }
 
             InitializeComponent();
             this.Title = "Diablo Holy Grail Game!";
@@ -34,4 +37,5 @@ namespace DijabloGrail
         }
 
     }
+
 }
