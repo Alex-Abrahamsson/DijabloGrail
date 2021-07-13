@@ -23,12 +23,7 @@ namespace DijabloGrail
 
         public double grailScore;
         public MainWindow()
-        {  
-            if(Properties.Settings.Default.userName == "null")
-            {
-                MessageBox.Show("Enter Username Here");
-            }
-
+        {
             InitializeComponent();
             this.Title = "Diablo Holy Grail Game!";
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;

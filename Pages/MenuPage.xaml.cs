@@ -417,7 +417,7 @@ namespace DijabloGrail
             this.NavigationService.Navigate(artic_Gear_Page);
         }
 
-
+        //Highscore button opens highscore page
         //================================================= Highscore Button =========================================================================
         #region
         private void SaveSeasonScoreBtn_Click(object sender, RoutedEventArgs e)
@@ -499,6 +499,9 @@ namespace DijabloGrail
             this.NavigationService.Navigate(runePage);
         }
 
+
+        //Reset button should ask if you are sure, then open a window that prompts for username input, then  sends mail with totalscore and username
+        //Highscore button opens highscore page
         private void ResetBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show("This will reset all of your score!", "Are you sure?", System.Windows.MessageBoxButton.YesNo);
