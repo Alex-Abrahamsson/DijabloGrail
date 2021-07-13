@@ -14,6 +14,8 @@ using System.Media;
 using DijabloGrail.Pages;
 using Newtonsoft.Json;
 using System.IO;
+using System.Net.Mail;
+using System.Net;
 
 namespace DijabloGrail
 {
@@ -27,7 +29,7 @@ namespace DijabloGrail
         {
             if (grailScore < 1)
             {
-                ScoreBox.Text = "      Dibbe2 <3  ";
+                ScoreBox.Text = "      Dijablo <3  ";
             }
             else ScoreBox.Text = "      Score: " + grailScore;
         }
@@ -176,6 +178,7 @@ namespace DijabloGrail
             MessageBox.Show(info, "Information", MessageBoxButton.OK);
         }
         //---------------------------------INFO BUTTON-------------------------------------------------------------
+
 
 
         private void BowsBtn_Click(object sender, RoutedEventArgs e)
@@ -414,32 +417,45 @@ namespace DijabloGrail
             this.NavigationService.Navigate(artic_Gear_Page);
         }
 
+
+        //================================================= Highscore Button =========================================================================
+        #region
         private void SaveSeasonScoreBtn_Click(object sender, RoutedEventArgs e)
         {
+            string emailInfo = "----------------------------------------------------------------------\n" +
+            "Your season score has been sent to the app creator! \n" +
+            " \n" +
+            "Your score will be inserted into the highscore list. \n" +
+            "-----------------------------------------------------------------------";
+
             double seasonScore = 0;
             foreach (var item in allScore)
             {
                 seasonScore += item;
             }
-            string seasonScorestring = $"Your saved season score is: {Convert.ToString(seasonScore)}";
+            string seasonScorestring = $" {Convert.ToString(seasonScore)}";
+
+            MessageBox.Show(emailInfo);
 
 
-            TextWriter writer = null;
-            try
+            using (MailMessage mail = new MailMessage())
             {
-                string jsonSanve = JsonConvert.SerializeObject(seasonScorestring);
-                writer = new StreamWriter("YourSeasonScore.json");
-                writer.Write(jsonSanve);
-            }
-            finally
-            {
-                if (writer != null)
+                mail.From = new MailAddress("Alex.Abrahamsson@gmail.com");
+                mail.To.Add("Alex.Abrahamsson@Gmail.com");
+                mail.Subject = "Season Score";
+                mail.Body = "<h1>Hello from dijablo grail</h1><p>Here is my season score" + seasonScorestring + "</p>";
+                mail.IsBodyHtml = true;
+
+                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                 {
-                    writer.Close();
+                    smtp.Credentials = new NetworkCredential("DijabloGrail@gmail.com", "KungDiablo");
+                    smtp.EnableSsl = true;
+                    smtp.Send(mail);
                 }
             }
-            MessageBox.Show("Your score has been saved at a local file called 'YourSeasonScore.json' And will be located in you install directory.");
         }
+        #endregion
+        //============================================================================================================================================
 
         private void ThrowWeaponBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -481,6 +497,13 @@ namespace DijabloGrail
         {
             RunePage runePage = new RunePage();
             this.NavigationService.Navigate(runePage);
+        }
+
+        private void ResetBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show("This will reset all of your score!", "Are you sure?", System.Windows.MessageBoxButton.YesNo);
+            if (messageBoxResult == MessageBoxResult.Yes)
+                Properties.Settings.Default.Reset();
         }
     }
 }

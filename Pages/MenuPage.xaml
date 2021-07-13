@@ -22,7 +22,7 @@
                 <ImageBrush ImageSource="/Images/MenuBtnSmall.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="SaveSeasonScoreBtn" Content="Save season score" HorizontalAlignment="Left" Margin="1052,616,0,0" VerticalAlignment="Top" FontFamily="Constantia" FontSize="18" Width="200" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="SaveSeasonScoreBtn_Click">
+        <Button x:Name="SaveSeasonScoreBtn" Content="Highscore" HorizontalAlignment="Right" Margin="0,0,20,60" VerticalAlignment="Bottom" FontFamily="Constantia" FontSize="18" Width="150" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="SaveSeasonScoreBtn_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
@@ -315,6 +315,11 @@
                 </Button.Background>
             </Button>
         </WrapPanel>
+        <Button x:Name="ResetBtn" Content="Reset" HorizontalAlignment="Right" Margin="0,10,20,0" VerticalAlignment="Top" FontFamily="Constantia" FontSize="24" Width="100" Height="40" FontWeight="Bold" Click="ResetBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtnSmall.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>
