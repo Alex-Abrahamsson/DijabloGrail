@@ -144,6 +144,8 @@ namespace DijabloGrail
         {
             MenuPage menuPage = new MenuPage();
             this.NavigationService.Navigate(menuPage);
+
+            //this.NavigationService.GoBack();         //Better way to do it for performance
         }
 
         private void BigginsBonnet_Checked(object sender, RoutedEventArgs e)

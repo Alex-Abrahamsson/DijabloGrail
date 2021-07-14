@@ -22,7 +22,7 @@
                 <ImageBrush ImageSource="/Images/MenuBtnSmall.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="SaveSeasonScoreBtn" Content="Highscore" HorizontalAlignment="Right" Margin="0,0,20,60" VerticalAlignment="Bottom" FontFamily="Constantia" FontSize="18" Width="150" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="SaveSeasonScoreBtn_Click">
+        <Button x:Name="HighscoreBtn" Content="Highscore" HorizontalAlignment="Right" Margin="0,0,20,60" VerticalAlignment="Bottom" FontFamily="Constantia" FontSize="18" Width="150" FontWeight="Bold" FontStyle="Normal" Height="40" BorderBrush="#00707070" Click="HighscoreBtn_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/MenuBtn.png"/>
             </Button.Background>
@@ -320,6 +320,12 @@
                 <ImageBrush ImageSource="/Images/MenuBtnSmall.png"/>
             </Button.Background>
         </Button>
+
+        <TextBlock Height="35" Width="380"
+                   HorizontalAlignment="Left" VerticalAlignment="Top"
+                   Margin="110,10,0,0"
+                   FontSize="32" Text="Welcome Ballexander" TextAlignment="Center" Foreground="#FFC77600" FontWeight="Bold" FontFamily="Constantia"
+                   x:Name="UsernameDisplayTxt"></TextBlock>
 
     </Grid>
 </Page>

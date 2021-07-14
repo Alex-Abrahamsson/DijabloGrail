@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DijabloGrail.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Media;
@@ -20,6 +21,7 @@ namespace DijabloGrail
     public partial class MainWindow : Window
     {
         MenuPage menuPage = new MenuPage();
+        UserNameInputPage uniPage = new UserNameInputPage();
 
         public double grailScore;
         public MainWindow()
@@ -27,8 +29,17 @@ namespace DijabloGrail
             InitializeComponent();
             this.Title = "Diablo Holy Grail Game!";
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
-              
-            mainPage.NavigationService.Navigate(menuPage);
+
+            if(Properties.Settings.Default.userName == "null")
+            {
+                mainPage.NavigationService.Navigate(uniPage);
+            }
+            else if(Properties.Settings.Default.userName != "null")
+            {
+                mainPage.NavigationService.Navigate(menuPage);
+            }
+
+            
         }
 
     }

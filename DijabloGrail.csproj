@@ -29,6 +29,7 @@
     <None Remove="Images\Civerb%27s_Vestments.png" />
     <None Remove="Images\Cleglaws_Brace.png" />
     <None Remove="Images\CowKings_Leathers.png" />
+    <None Remove="Images\D2R.png" />
     <None Remove="Images\Deaths_Disguise.png" />
     <None Remove="Images\DijabloGrail_Icon.ico" />
     <None Remove="Images\Griswolds_Legacy.png" />
@@ -73,6 +74,10 @@
     <None Remove="Properties\Act 2 - Town2.wav" />
     <None Remove="Properties\Act 5 - Xtown.wav" />
     <None Remove="Tristram.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\D2R.png" />
   </ItemGroup>
 
   <ItemGroup>

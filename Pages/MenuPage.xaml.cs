@@ -22,6 +22,7 @@ namespace DijabloGrail
 
     public partial class MenuPage : Page
     {
+        
 
         public double[] allScore = new double[54];
         public double grailScore;
@@ -52,9 +53,11 @@ namespace DijabloGrail
             //---------------------------------MAIN CODE-----------------------------
             InitializeComponent();
             SetAllScoreVariables();
-
+            
             CalculateScore();
             SetScore();
+            UsernameDisplayTxt.Text = "Welcome " + Properties.Settings.Default.userName;
+
             //--------------------------------MAIN CODE END--------------------------
         }
 
@@ -417,46 +420,6 @@ namespace DijabloGrail
             this.NavigationService.Navigate(artic_Gear_Page);
         }
 
-        //Highscore button opens highscore page
-        //================================================= Highscore Button =========================================================================
-        #region
-        private void SaveSeasonScoreBtn_Click(object sender, RoutedEventArgs e)
-        {
-            string emailInfo = "----------------------------------------------------------------------\n" +
-            "Your season score has been sent to the app creator! \n" +
-            " \n" +
-            "Your score will be inserted into the highscore list. \n" +
-            "-----------------------------------------------------------------------";
-
-            double seasonScore = 0;
-            foreach (var item in allScore)
-            {
-                seasonScore += item;
-            }
-            string seasonScorestring = $" {Convert.ToString(seasonScore)}";
-
-            MessageBox.Show(emailInfo);
-
-
-            using (MailMessage mail = new MailMessage())
-            {
-                mail.From = new MailAddress("Alex.Abrahamsson@gmail.com");
-                mail.To.Add("Alex.Abrahamsson@Gmail.com");
-                mail.Subject = "Season Score";
-                mail.Body = "<h1>Hello from dijablo grail</h1><p>Here is my season score" + seasonScorestring + "</p>";
-                mail.IsBodyHtml = true;
-
-                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
-                {
-                    smtp.Credentials = new NetworkCredential("DijabloGrail@gmail.com", "KungDiablo");
-                    smtp.EnableSsl = true;
-                    smtp.Send(mail);
-                }
-            }
-        }
-        #endregion
-        //============================================================================================================================================
-
         private void ThrowWeaponBtn_Click(object sender, RoutedEventArgs e)
         {
             ThrowingPage throwingPage = new ThrowingPage();
@@ -504,9 +467,60 @@ namespace DijabloGrail
         //Highscore button opens highscore page
         private void ResetBtn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show("This will reset all of your score!", "Are you sure?", System.Windows.MessageBoxButton.YesNo);
+            MessageBoxResult messageBoxResult = MessageBox.Show("This will reset all of your score!", "Are you sure?", MessageBoxButton.YesNo);
             if (messageBoxResult == MessageBoxResult.Yes)
+            {
+                string emailInfo = "----------------------------------------------------------------------\n" +
+                                    "Your season score has been sent to the app creator! \n" +
+                                    " \n" +
+                                    "Your score will be inserted into the highscore list. \n" +
+                                    "-----------------------------------------------------------------------";
+
+                double seasonScore = 0;
+                foreach (var item in allScore)
+                {
+                    seasonScore += item;
+                }
+                string seasonScorestring = $" {Convert.ToString(seasonScore)}";
+
+                MessageBox.Show(emailInfo);
+
+
+                using (MailMessage mail = new MailMessage())
+                {
+                    mail.From = new MailAddress("Alex.Abrahamsson@gmail.com");
+                    mail.To.Add("Alex.Abrahamsson@Gmail.com");
+                    mail.Subject = "Season Score";
+                    mail.Body = "<h1>Hello from User: " + Properties.Settings.Default.userName + " </h1><p>Here is my season score: " + seasonScorestring + "</p>";
+                    mail.IsBodyHtml = true;
+
+                    using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
+                    {
+                        smtp.Credentials = new NetworkCredential("DijabloGrail@gmail.com", "KungDiablo");
+                        smtp.EnableSsl = true;
+                        smtp.Send(mail);
+                    }
+                }
+                string tempUserName = Properties.Settings.Default.userName; //Save the username before reset
                 Properties.Settings.Default.Reset();
+                Properties.Settings.Default.userName = tempUserName;//Restore username after reset
+
+                MessageBox.Show("-----------Mail sent successfully!----------- \n \n     The application will shutdown.");
+                Application.Current.Shutdown();
+
+            }
         }
+
+        //Highscore button opens highscore page
+        //================================================= Highscore Button =========================================================================
+        #region
+        private void HighscoreBtn_Click(object sender, RoutedEventArgs e)
+        {
+            HighscorePage highScorePage = new HighscorePage();
+            this.NavigationService.Navigate(highScorePage);
+        }
+        #endregion
+        //============================================================================================================================================
+
     }
 }

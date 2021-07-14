@@ -1,0 +1,38 @@
+﻿<Page x:Class="DijabloGrail.Pages.UserNameInputPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DijabloGrail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="UserNameInputPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/D2R.png"/>
+        </Grid.Background>
+        <Label Height="80" Width="350"
+               HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="100,180,0,0"
+               Content="Enter Username"
+               Foreground="#FFFF4929" FontSize="48" FontFamily="Constantia"></Label>
+        <TextBox x:Name="UserInputTxt"
+                 Height="50" Width="300"
+                 HorizontalAlignment="Left" VerticalAlignment="Top"
+                 Margin="125,260,0,0"
+                 FontSize="32" FontFamily="Constantia" Background="Transparent" Foreground="#FFFF4929"
+                 TextAlignment="Center" BorderBrush="#FFFF4929" CaretBrush="#FFFF4929" SelectionBrush="#FFFF4929" TextChanged="UserInputTxt_TextChanged"/>
+        <Button x:Name="SubmitBtn"
+                Height="40" Width="150"
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                Margin="200,330,0,0"
+                FontSize="32" FontFamily="Constantia" FontWeight="Bold"
+                Content="Submit" Click="SubmitBtn_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/MenuBtn.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>
