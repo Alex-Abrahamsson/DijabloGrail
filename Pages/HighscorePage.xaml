@@ -49,7 +49,7 @@
         </ListView>
 
         <ListView Height="230" Width="300" Background="#B2000000" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,80,110" BorderBrush="#000">
-            <ListViewItem Foreground="#FFC77600" FontSize="28" FontFamily="Constantia" HorizontalAlignment="Center">Season 1 (D2R)</ListViewItem>
+            <ListViewItem Foreground="#FFC77600" FontSize="28" FontFamily="Constantia" HorizontalAlignment="Center">Season 2 (D2R)</ListViewItem>
             <ListViewItem Foreground="#FFC77600" FontSize="22" FontFamily="Constantia" HorizontalAlignment="Center">- User | Points -</ListViewItem>
             <ListViewItem Foreground="#FFC77600" FontSize="22" FontFamily="Constantia" >1:</ListViewItem>
             <ListViewItem Foreground="#FFC77600" FontSize="22" FontFamily="Constantia" >2:</ListViewItem>

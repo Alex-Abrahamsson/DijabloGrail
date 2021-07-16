@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:DijabloGrail"
         mc:Ignorable="d"
         Title="MainWindow" Height="720" Width="1280" ResizeMode="NoResize" Icon="/Images/DijabloGrail_Icon.ico">
-    
     <Grid>
+        
         <Frame x:Name="mainPage" Content="" NavigationUIVisibility="Hidden"/>
 
     </Grid>
